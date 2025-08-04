@@ -1,11 +1,16 @@
-#EssentialsX userdata, it stores users public IP for whatever reason
+#Ignore userdata, EssentialsX stores users public IP for whatever reason
 plugins/Essentials/userdata/
+plugins/PlayerKits2/players/
+plugins/Codex/players/
+
 
 #whatever this is
 *.tiny
+*.tmp
 
 #database
 *.db
+*.sqlite
 
 # Compiled class file
 *.class

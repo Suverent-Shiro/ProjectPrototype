@@ -238,4 +238,4 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
 ## Project: Prototype > Project Prototype
 Poprawny zapis nazwy "Project: Prototype".
 
-Prefix w Minecraftcie. `&7[&3&lProject: &8Prototype&7]`
+Prefix w Minecraftcie. `&f[&3&lProject: &7Prototype&f]`
