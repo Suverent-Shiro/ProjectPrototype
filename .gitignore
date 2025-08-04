@@ -1,3 +1,9 @@
+#EssentialsX userdata, it stores users public IP for whatever reason
+plugins/Essentials/userdata/
+
+#whatever this is
+*.tiny
+
 #database
 *.db
 
