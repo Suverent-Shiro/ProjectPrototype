@@ -8,6 +8,9 @@ plugins/AutomaticBroadcast/broadcast-toggles.yml
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
 
+#bstats remove
+plugins/bStats
+
 #whatever this is
 *.tiny
 *.tmp
