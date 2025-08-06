@@ -34,10 +34,10 @@ unknown-command: "&c&l[!] &cUnknown Command."
 no-permission: "&c&l[!] &cYou do not have enough permission to do this."
 
 # The message displayed when the configuration of the plugin is reloaded.
-plugin-reload: "&f[&3&lProject: &7Prototype&f] &bPrzeładowano."
+plugin-reload: "&7[&#37c1e4&lFreedom&6SMP&7] &bPrzeładowano."
 
 # The message sent to the sender of the "/automaticbroadcast toggle" (on) command.
-toggle-on-message: "&f[&3&lProject: &7Prototype&f] &aWłączono podpowiedzi."
+toggle-on-message: "&7[&#37c1e4&lFreedom&6SMP&7] &aWłączono podpowiedzi."
 
 # The message sent to the sender of the "/automaticbroadcast toggle" (off) command.
-toggle-off-message: "&f[&3&lProject: &7Prototype&f] &cWyłączono podpowiedzi."
+toggle-off-message: "&7[&#37c1e4&lFreedom&6SMP&7] &cWyłączono podpowiedzi."

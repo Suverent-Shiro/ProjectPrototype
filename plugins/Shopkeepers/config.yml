@@ -1,8 +1,9 @@
-config-version: 9
+config-version: 6
 debug: false
 debug-options: []
 enable-metrics: true
 language: en-default
+file-encoding: UTF-8
 save-instantly: true
 convert-player-items: false
 convert-all-player-items: true
@@ -182,11 +183,11 @@ simulate-wandering-trader-trading-sounds: true
 simulate-wandering-trader-ambient-sounds: false
 simulate-trading-sounds-only-for-the-trading-player: true
 trade-succeeded-sound:
-  sound: minecraft:ui.button.click
+  sound: UI_BUTTON_CLICK
   pitch: 2.0
   volume: 0.3
 trade-failed-sound:
-  sound: minecraft:block.barrel.close
+  sound: BLOCK_BARREL_CLOSE
   pitch: 2.0
   volume: 0.5
 tax-rate: 0
@@ -195,10 +196,11 @@ notify-players-about-trades: false
 trade-notification-sound: ''
 notify-shop-owners-about-trades: true
 shop-owner-trade-notification-sound:
-  sound: minecraft:entity.experience_orb.pickup
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
   volume: 0.25
 trade-log-merge-duration-ticks: 300
 trade-log-next-merge-timeout-ticks: 100
+log-trades-to-csv: false
 log-item-metadata: false
 currency-item: EMERALD
 high-currency-item: EMERALD_BLOCK
@@ -206,9 +208,3 @@ high-currency-value: 9
 high-currency-min-cost: 20
 add-shop-creation-item-tag: false
 identify-shop-creation-item-by-tag: false
-trade-log-storage: DISABLED
-check-spawn-location-interaction-result: false
-slime-max-size: 5
-magma-cube-max-size: 5
-enable-glowing-sign-text: true
-enable-all-equipment-editor-slots: false

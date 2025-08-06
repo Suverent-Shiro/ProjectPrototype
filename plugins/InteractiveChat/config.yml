@@ -1,15 +1,11 @@
 # Do not change this value
-ConfigVersion: 4.3.2.0
+ConfigVersion: 4.2.9.0
 
 Options:
   Updater: true
   ShowCancelledNotice: true
   ExtraProxiedPacketProcessingDelay: 0
   PluginMessagePacketVerbose: false
-  # Changing this option requires a restart, must be larger than 4 (Default is 8)
-  AsyncChatThreadPoolExecutorCoreSize: 8
-  # Changing this option requires a restart, must be larger than AsyncChatThreadPoolExecutorCoreSize (Default is 16)
-  AsyncChatThreadPoolExecutorMaxSize: 16
 
 Messages:
   NoPermission: '&cYou do not have permission to use that command!'
@@ -49,16 +45,16 @@ Settings:
   Bungeecord: false
   UseAccurateSenderParser: true
   TagEveryIdentifiableMessage: false
-  # These option is only effective on Minecraft 1.19.1+
+  # This option is only effective on Minecraft 1.19.1+
   ForceUnsignedChatPackets: true
   # This option is only effective on Minecraft 1.19.1+
-  # If this is true then ForceUnsignedChatPackets & ForceUnsignedChatCommandPackets should also be true
+  # If this is true then ForceUnsignedChatPackets should also be true
   HideServerUnsignedStatus: true
   # In which packets should InteractiveChat listen to and modify
   PacketsToListen:
     Chat: true
     Title: false
-  # Should click and hover events be removed in chat previews on 1.19-1.19.2
+  # Should click and hover events be removed in chat previews on 1.19+
   ChatPreviewRemoveClickAndHover: false
   # Whether to parse PlaceholderAPI placeholders on the main thread
   ParsePAPIOnMainThread: false
@@ -101,7 +97,7 @@ Settings:
       - '&7This is likely to be an item that'
       - '&7does not exist in this version of Minecraft'
   # Visit this page for all the languages that Minecraft offers
-  # https://loohpjames.com/minecraft/languages/
+  # https://minecraft.fandom.com/wiki/Language
   Language: en_us
   # Use individual permissions for custom placeholders
   # For example the first custom placeholder will have the permission
@@ -163,10 +159,6 @@ Settings:
       ReplaceText: '&c{Placeholder}&r'
   Hooks:
     EcoSetLoreOnMainThread: false
-    ExcellentEnchantsStripEnchantments: false
-  ForceUnsignedChatCommandPackets: true
-  # Enable this if your players are getting kicked for spamming when they are not spamming
-  SkipDetectSpamRateWhenDispatchingUnsignedPackets: false
 
 Commands:
   # Whether to make commands displayed in chat clickable

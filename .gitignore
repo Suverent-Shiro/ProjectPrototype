@@ -1,20 +1,5 @@
-#Ignore userdata, EssentialsX stores users public IP for whatever reason
-plugins/Essentials/userdata/
-plugins/PlayerKits2/players/
-plugins/Codex/players/
-
-#Other plugin files that store userdate
-plugins/AutomaticBroadcast/broadcast-toggles.yml
-plugins/Essentials/usermap.bin
-plugins/Essentials/uuids.bin
-
-#whatever this is
-*.tiny
-*.tmp
-
 #database
 *.db
-*.sqlite
 
 # Compiled class file
 *.class
