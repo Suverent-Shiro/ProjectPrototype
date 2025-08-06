@@ -1,0 +1,5 @@
+&6Witaj, {PLAYER}&6 na &7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"&6!
+
+&cJest to koncept serwera Minecraft. Obecnie służy jako platforma testowa dla &3&lProject: &7Prototype &64
+
+&3&lProject: &7Prototype &cDevelopment
