@@ -23,7 +23,7 @@ settings:
   mode: NORMAL
   scoreboard-interval-update: 20
   scoreboard:
-    title: '&3&lProject: &7Prototype &cdev-3.1'
+    title: '&3&lProject: &7Prototype &c3.1'
     lines:
       - '&8&m+--------------------------+'
       - '&6☀ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
@@ -37,7 +37,7 @@ settings:
       - '    &4❙ 🗡 &fZabójstwa: &4%objective_score_{kills}%'  
       - '    &4❙ ❤ &fZdrowie: &4%health%'
       - '&8&m+--------------------------+'
-      - '&8Build 3.1-dev1 / 04.08.2025'
+      - '&8Build 3.1 / 06.08.2025'
 
   #Option to disable some scoreboards from worlds
   world-blacklist:
@@ -54,11 +54,11 @@ tab-list:
   enabled: true
   update-interval: 20
   header:
-    - "&fNazwa serwera &3&lProject: &7Prototype &cdev-3.1"
+    - "&fNazwa serwera &3&lProject: &7Prototype &cdev"
   footer:
     - "&b❙ 📆 &fData: &b%localtime_timezone_Europe/Warsaw%"
     - "&e❙ 👋 &fGracze online: &e%online%    "
-    - "&7Build 3.1-dev1 / 04.08.2025"
+    - "&7Build 3.1 / 06.08.2025"
 #
 # Scoreboard per world configuration
 #
