@@ -1,7 +1,7 @@
 Lang:
   
   # Plugin language
-  lang: en_us
+  lang: pl_pl
   
   # Send messages to clients in their own language, if available
   client-lang: true
