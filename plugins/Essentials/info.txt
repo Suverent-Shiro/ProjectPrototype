@@ -1,9 +1,9 @@
  
-&7The Suverent Organization's &#37c1e4&lFreedom&a&lSMP &f[&3&lProject: &7&lPrototype &c3.0&f]
-&8&m-------------------------------------------
-&3&lProject: &7&lPrototype &fjest projektem &7Organizacji Suverenckiej&f. Pluginy i wszystkie materiały wykożystane w szablonie są własnością ich autorów.
-&8&m-------------------------------------------
-&6Silnik: &5Purpur-2095 [MC-1.20.2]
-&aWersja Minecraft: &f1.20.2
-&8&m-------------------------------------------
-&6⚡ &3&lProject: &7&lPrototype &c3.0 &f- Zmodyfikowana wersja dla serwera &#37c1e4&lFreedom&a&lSMP
+&8Build: 3.1 / 06.08.2025
+&8&m--------------------------------------------------
+Wszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
+&8&m--------------------------------------------------
+&6Silnik: &5Purpur-2329 [MC-1.21.1]
+&aWersja Minecraft: &f1.21.1
+&8&m--------------------------------------------------
+&6⚡ &3&lProject: &7&lPrototype &c3.1
