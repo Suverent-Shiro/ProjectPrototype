@@ -26,7 +26,7 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
   - [Vault](https://www.spigotmc.org/resources/vault.34315/) 1.7.3-b131 \ cereal, Sleaker and mung3r
   - [Spark](https://www.spigotmc.org/resources/spark.57242/) 1.10.139 \ Luck
   - [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/) 2.23.10 \ nisovin and blablubbabc
-  - [SternalBoard](https://www.spigotmc.org/resources/simplescore-animated-scoreboard.23243/) 2.3.2 \ xism4, Jonakls
+  - [SternalBoard](https://www.spigotmc.org/resources/sternalboard-simple-animated-scoreboard.89245/) 2.3.2 \ xism4, Jonakls
   - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) 5.3.0 \ dmulloy2 and comphenix
   - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) 2.11.6 \ HelpCat
   - [Orebfuscator](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/) 5.5.4 \ Ingrim4, NgLoader, lishid, SydMontague, ProgrammerDan and Aleksey-Terzi
