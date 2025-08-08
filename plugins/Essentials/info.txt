@@ -1,5 +1,5 @@
  
-&8Build: 4.0-dev1 / 06.08.2025
+&8Build: 4.0-dev2 / 08.08.2025
 &8&m--------------------------------------------------
 Wszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
 &8&m--------------------------------------------------

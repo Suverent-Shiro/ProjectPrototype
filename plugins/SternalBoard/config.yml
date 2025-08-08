@@ -37,7 +37,7 @@ settings:
       - '    &4❙ 🗡 &fZabójstwa: &4%objective_score_{kills}%'  
       - '    &4❙ ❤ &fZdrowie: &4%health%'
       - '&8&m+--------------------------+'
-      - '&8Build: 4.0-dev1 / 06.08.2025'
+      - '&8Build: 4.0-dev2 / 08.08.2025'
 
   #Option to disable some scoreboards from worlds
   world-blacklist:
@@ -58,7 +58,7 @@ tab-list:
   footer:
     - "&b❙ 📆 &fData: &b%localtime_timezone_Europe/Warsaw%"
     - "&e❙ 👋 &fGracze online: &e%bungee_total%"
-    - "&8Build: 4.0-dev1 / 06.08.2025"
+    - "&8Build: 4.0-dev2 / 08.08.2025"
 
 #
 # Scoreboard per world configuration

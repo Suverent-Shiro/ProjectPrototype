@@ -1,3 +1,6 @@
+#Ignore disabled plugins
+*.disabled
+
 #Ignore userdata, EssentialsX stores users public IP for whatever reason
 plugins/Essentials/userdata/
 plugins/PlayerKits2/players/

@@ -27,14 +27,14 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+, you can use hex color codes here as well (for example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Players with 'essentials.nick.hideprefix' will not be prefixed with the character(s).
 nickname-prefix: '~'
 
 # The maximum length allowed in nicknames. The nickname prefix is not included in this.
-max-nick-length: 15
+max-nick-length: 16
 
 # The regex pattern used to determine if a requested nickname should be allowed for use.
 # If the requested nickname does not match this pattern, the nickname will be rejected.
@@ -146,7 +146,7 @@ item-spawn-blacklist:
 permission-based-item-spawn: false
 
 # The maximum number of entities that can be spawned per use of the /spawnmob command.
-spawnmob-limit: 10
+spawnmob-limit: 100
 
 # Should Essentials notify smitten players when /lightning is used?
 warn-on-smite: true
@@ -574,8 +574,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "none"
-custom-quit-message: "none"
+custom-join-message: "&a&l+ &r{PLAYER}"
+custom-quit-message: "&c&l- &r{PLAYER}"
 
 # You can set a custom join message for players who join with an updated username here.
 # This message will only be used if a player has joined before and has since changed their username.
@@ -976,7 +976,7 @@ chat:
   # Note: The {DISPLAYNAME} placeholder includes {PREFIX} and {SUFFIX} by default.
   # Using these together may result in double prefixes/suffixes in chat.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  #format: '{DISPLAYNAME}  &f&l» &r{MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -991,7 +991,9 @@ chat:
   # Note: Group names are case-sensitive, so you must match them up with your permissions plugin.
   # Note: If a LuckPerms group display name (alias) is set, you must use it instead of the original group name.
   group-formats:
-    #default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
+    default: '{DISPLAYNAME}  &f&l» &7{MESSAGE}'
+    vip: '{DISPLAYNAME}  &f&l» &e{MESSAGE}'
+    admin: '{DISPLAYNAME}  &f&l» &c{MESSAGE}'
     #admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
     # You can also specify a format for each type of chat for each group.
@@ -1230,18 +1232,18 @@ newbies:
   # {DISPLAYNAME} will be replaced with the player name.
   # Set to '' to disable.
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&r{DISPLAYNAME} &5dołącza na serwer po raz pierwszy!'
 
   # When players spawn for the first time, which spawnpoint should be used?
   # Set to 'none' to use the spawnpoint of the world.
   # Different spawn names can be set using '/setspawn <group>'.
-  spawnpoint: newbies
+  spawnpoint: none
 
   # Should players receive items on their first join?
   # This kit will be given regardless of cost and permissions and won't trigger any kit delay (cooldown).
   # Set to '' to disable.
   #kit: ''
-  kit: tools
+  kit: ''
 
 # What priority should Essentials use for handling respawns?
 # Set this to 'none' if you want vanilla respawning behavior.
@@ -1265,7 +1267,7 @@ respawn-at-home: false
 respawn-at-home-bed: true
 
 # When players die, should Essentials respect their respawn anchors?
-respawn-at-anchor: false
+respawn-at-anchor: true
 
 # If configured, players will spawn at a random location instead of their spawnpoint.
 # This will override the newbies spawnpoint set above.

@@ -46,9 +46,9 @@ broadcasts:
       - exempted-player1
       - exempted-player2
     # The command(s) executed by the console along with the broadcast.
-    console-commands:
-      - "give @a dirt"
-      - "msg @a Thank you for installing my Plugin :)"
+#    console-commands:
+#      - "give @a dirt"
+#      - "msg @a Thank you for installing my Plugin :)"
 
   discord:
     messages:
