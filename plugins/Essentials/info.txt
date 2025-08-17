@@ -1,5 +1,5 @@
- 
-&8Build: 4.0-dev2 / 08.08.2025
+&8Build: 4.0-devFreedom / 17.08.2025
+&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7" &cConcept project
 &8&m--------------------------------------------------
 Wszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
 &8&m--------------------------------------------------

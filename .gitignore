@@ -1,5 +1,6 @@
 #Ignore disabled plugins
 *.disabled
+*.old
 
 #Ignore userdata, EssentialsX stores users public IP for whatever reason
 plugins/Essentials/userdata/
@@ -17,6 +18,7 @@ plugins/bStats
 #whatever this is
 *.tiny
 *.tmp
+*.bin
 
 #database
 *.db

@@ -7,11 +7,11 @@
 #                      |___|
 
 # The time between each message (seconds).
-time-between-messages: 200
+time-between-messages: 900
 
 # Should the messages be sent in order or randomly?
 # (The same message will never appear twice in a row)
-random: false
+random: true
 
 # Should the automaticbroadcast.exempt permission be enabled?
 # (Players with this permission will not receive the broadcasts if this option is enabled)
@@ -34,13 +34,10 @@ unknown-command: "&c&l[!] &cUnknown Command."
 no-permission: "&c&l[!] &cYou do not have enough permission to do this."
 
 # The message displayed when the configuration of the plugin is reloaded.
-plugin-reload: "&3&lAuto&b&lmatic&8&lBroad&7&lcast &7&l>> &bPlugin Reloaded."
+plugin-reload: "&7[&#37c1e4&lFreedom&6SMP&7] &bPrzeładowano."
 
 # The message sent to the sender of the "/automaticbroadcast toggle" (on) command.
-toggle-on-message: "&3&lAuto&b&lmatic&8&lBroad&7&lcast &7&l>> &bBroadcasts &aenabled&b."
+toggle-on-message: "&7[&#37c1e4&lFreedom&6SMP&7] &aWłączono podpowiedzi."
 
 # The message sent to the sender of the "/automaticbroadcast toggle" (off) command.
-toggle-off-message: "&3&lAuto&b&lmatic&8&lBroad&7&lcast &7&l>> &bBroadcasts &cdisabled&b."
-
-# Prints debug messages on the console (will spam console, only use for debugging).
-debug: false
+toggle-off-message: "&7[&#37c1e4&lFreedom&6SMP&7] &cWyłączono podpowiedzi."
