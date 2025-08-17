@@ -103,12 +103,12 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
 </details>
 
 <details>
-  <summary><b>Najnowsza testowa wersja Project: Prototype / 4.0-dev1</b></summary>
+  <summary><b>Najnowsza testowa wersja Project: Prototype / 4.0-devFreedom</b></summary>
 
 ### <ins>To jest testowa wersja! Jest ona najbardziej niestabilna ze wszystkich! Używaj na własną odpowiedzialność!</ins>
-- Kompatyblina wersja Minecraft: **N/A**
+- Kompatyblina wersja Minecraft: **1.21.8**
 - Rekomendowany silnik: **N/A**
-- Zawarte pluginy w wersji **4.0-dev1**
+- Zawarte pluginy w wersji **4.0-devFreedom**
   - Brak dostępnej listy pluginów...
 
 
@@ -119,18 +119,20 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
 
 <!----------------------------------------------------------------------------->
 ## Serwery Minecraft korzystające z konfiguracji Project: Prototype
-- **The Suverent Organization's FreedomSMP** - Zasilane za pomocą **Project: Prototype 3.0 - Modified**
+- **Serwer Minecraft Kawiarni Wolności** - Zasilane za pomocą **Project: Prototype 3.0 - FreedomSMP Modified**
+  - Oficjalny serwer Minecraft dla serwera Discord Kawiarnia Wolności został stworzony z okrojonej konfiguracji dla serwera FreedomSMP.
+  - Serwer Minecraft Kawiarni Wolności to były serwer Minecraft @Suverent_Shiro stworzony dla serwera Discord Kawiarnia Wolności.
+- **The Suverent Organization's FreedomSMP** - Zasilane za pomocą **Project: Prototype 3.0 - FreedomSMP Modified**
   - FreedomSMP korzystało ze zmodyfikowanej konfiguracji Project: Prototype 3.0 zaprojektowanej specjalnie pod FreedomSMP.
   - The Suverent Organization's FreedomSMP to były serwer Minecraft @Suverent_Shiro. *Działał od 06.2024 do 01.2025*
   - Dnia 03.08.2025 konfiguracja FreedomSMP, została opublikowana na Github, co czyni FreedomSMP jedynie publicznie dostępnym szablonem Project: Prototype [Link](https://github.com/Suverent-Shiro/SUV_FreedomSMP) 
-- "*FreedomSMP: Reborn*" - *Git*
-  - "*FreedomSMP: Reborn*" służy jako platforma testowa do Project: Prototype, pochodząca ze zmodyfikowanej wersji szablonu dla FreedomSMP
+- "*FreedomSMP: Reborn*" - 4.0-devFreedom
+  - "*FreedomSMP: Reborn*" służy jako platforma testowa do nadchodzącego wydania 4.0 / Także ta platforma jest dedykowana pod projekt serwera "FreedomSMP: Reborn"
 
 
 
+*Nazwy w "cudzysłowie" to nazwy kodowe projektów lub konceptów projektów serwerów Minecraft*
 
-*Nazwy w "cudzysłowie" to nazwy kodowe projektów, lub konceptów projektów serwerów Minecraft*
-*Wersja "Git" oznacza najnowszą gałąź z git*
 <!----------------------------------------------------------------------------->
 ## Lista pluginów zawarte w Project: Prototype
 - Obecnie używane pluginy
