@@ -1,3 +1,6 @@
+#Old plugin folder
+plugins_old
+
 #Ignore disabled plugins
 *.disabled
 *.old
