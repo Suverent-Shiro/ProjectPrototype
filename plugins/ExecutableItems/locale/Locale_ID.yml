@@ -1,0 +1,34 @@
+errorUPDActivator: '&8[&4Executable&7Items&8]&c Kamu telah mencapai batas penggunaan
+  harian untuk &e%activator%&c! Maksimum per hari: &7(&e%max_use_per_day_activator%&7)&4'
+cancelCraft: '&8[&4Executable&7Items&8] &cKamu tidak bisa membuat item ini dengan
+  crafting!'
+requiredItemsQuantity: ' &cx &6'
+timeLeft: '&8[&4Executable&7Items&8] &cTunggu &e%time% &csebelum menggunakan &6%activator%&c!'
+waitProjectile: '&cKamu harus menunggu proyektil mengenai sesuatu!'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cKamu tidak bisa memiliki lebih dari
+  %limit% ExecutableItems!'
+invalidOwner: '&8[&4Executable&7Items&8] &cItem ini hanya dapat digunakan oleh pemiliknya!'
+requiredEIFirstPart: '&4ExecutableItem yang dibutuhkan: '
+requiredEISeparator: '&c | '
+disableWorld: '&8[&4Executable&7Items&8] &cKamu tidak bisa menggunakan &e%item%&c
+  di dunia ini!'
+requiredEIQuantity: ' &cx &6'
+noEntityHit: '&8[&4Executable&7Items&8] &cTidak ada entitas yang terkena'
+requiredItemsFirstPart: '&4Item yang dibutuhkan: '
+receiveItem: '&8[&aExecutable&7Items&8] &aKamu menerima &a%quantity%x &e%item%'
+noHit: '&8[&4Executable&7Items&8] &cTidak ada pemain yang terkena'
+giveMessage: '&8[&aExecutable&7Items&8] &aKamu telah memberikan kepada &e&n%player%&r
+  &a%quantity%x &e%item%'
+fullInventory: '&8[&4Executable&7Items&8] &cInventarismu penuh, &e%item% &cterjatuh.'
+use: '&7&oSisa penggunaan: '
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &adi inventaris pemain
+  &e%player% &atelah berhasil direset!'
+requiredItemsSeparator: '&c | '
+requirePermission: '&8[&4Executable&7Items&8] &cKamu tidak memiliki izin untuk menggunakan
+  &e%item%&c!'
+requiredLevel: '&8[&4Executable&7Items&8] &cKamu harus minimal &6level &6&l%level%&c
+  untuk menggunakan item ini!'
+errorUPDItem: '&7[&4Executable&7Items] &cKamu telah mencapai batas penggunaan harian
+  untuk &e%item%&c. Maksimum per hari: &7(&e%max_use_per_day_item%&7)'
+customCommandDamageKillMessage: '%player% menghancurkan %target% dengan %item%'
+noOwner: '&cTidak ada pemilik'

@@ -1,0 +1,221 @@
+last-created-npc-id: 4
+npc:
+  '2':
+    metadata:
+      cached-skin-uuid: e16ef476-d0cc-4ead-866a-1226480a0a2f
+      cached-skin-uuid-name: samiqlubigofry
+      nameplate-visible: 'true'
+    name: §cSamiQLubiGofry
+    uuid: 39483744-dd8a-4e23-8e20-f4378e70ebd9
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: K4pGxpcmEhAiDZh8J6acFphtIvlRu42OLTTE7iJFtKoqTk+aEUF+KFlloCLJxqzBW1jz64+TQDPIQAhALcTOg09dRj39LeEyLVGJVGYYkBm9sVuHeKLaOYzRish4KoiF4kVhE9LNui5nGBv6jBRw4NNVNhbwmU4sF6yNzq6H874kaokYnFGxjX+XOHRvan9SCzmT8KG54bI7TsKLoJ2d7n+Ti2LW/qXNcFmI2wgZVzx0Bl/YtIerPPu222SskBgXlUwy4cBy/7FHADquulTBLtf3+oPtbW5Pwf5EAjbF8RvkwEaT2SqM3Nu7/ICeHJwHpmmiBv2A03ELnG1kHmTvqlUAmg3d/Qb5zMGjnXm1ywy9TMKpBKdodGePQC3TPzZ/weJpAIc27+P85Q855QdH7uDbOZ9IGSMuXnTr418BRnatpgienewvRUCWgjYJyKs4K24nVDRiE5rLw3DSxHdULkJU8PzotDLE5vJe4GoeWy6LW5EMh8rm5epULMBGRA/NVPVPuqDtAvprrwyBlFbFSHUBzf/jjfX4X13bTufZYASt6BYAvnYUQ4PKuwLPZq0EW5ECpWFpQzOuYvZrW5SlrHumANkmYBOdcyOA3X5owfcClFh50s9TBsTk7RFOuSC1aLC2e7W1qIPR5AqDFEZG/onhPOmqw1i51HxfmTWhblQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzg3NDgxNzA2NCwKICAicHJvZmlsZUlkIiA6ICJlMTZlZjQ3NmQwY2M0ZWFkODY2YTEyMjY0ODBhMGEyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1pUUx1YmlHb2ZyeSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NGZlNWJmNzkyYjlkYWJiN2EwN2VmYTU4N2M2NTgzNDdhMjliYTkyZjE3MzA5NTU4MmY0ZDJmNzRhOTYxYWY0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      type: PLAYER
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      location:
+        bodyYaw: 51.626434
+        worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+        x: 2547.5
+        y: 64.0
+        z: 1624.5
+        yaw: 51.6264
+        pitch: -6.0122
+    traitnames: scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,inventory,type,attributetrait,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      cached-skin-uuid: be5284b5-4a7d-450a-bd84-06dbe2efe498
+      cached-skin-uuid-name: invisible12321
+      nameplate-visible: hover
+      minecraft-ai: false
+    name: Adam
+    uuid: 80b1dddc-9057-47e3-87d2-bc68e67c2651
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      text:
+        send-text-to-chat: false
+        text:
+          '0': Hi, I'm <npc>!
+      shop:
+        storage: {}
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      hologramtrait: {}
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: AhK4QVL0i/3YCg6P156CbI93MPR1MPb70ydn7y13JhmknIvYV5YhkgNLJMCz3//mJR+OvTG5e/UlbR5dhzZiLszSYbv//XIvI/vgmXXuNCgjAY5fdvfkDF0QJAglITSAgM4QdZzKN1RrqFhhIPpVPVIAkYj7aRWRi6LnMsPzT0HtaESARhr4O6vWYD4nolflKz3qIen6ew6fAQvRCg3wz5HAoBLpOix2Ki+NupdUOTQiZe0kXwLMwb/AMuIS/8H10d7S2jYjSJ0rZ7CsgEBy+bP1FbcMpkXkewf7so9vZ+fqHSqz7Lb7v8ugx0T9kxZLWA7iDA66M1lA3n3w1PU42fiok692ztiP6J3kary5vsD9UcWT/TUI22CCRey/ZeUyLUaSFKLUTbpFSxgj+VJd7QRtHe7qgV7iMZC+juxmgETxsu2N2wwLBuaRFcfB+NgCvvXyhKwbdr4BRfrMqpLf9nbqvffjes5bhJj7TUwW7cDcoLSq/RtmR3owJEZK0dlZzOX0LbaCu1zqrAAoNFTMWo8OgT76aF6apLZy16u4fLROmV6yKp59shWJ9btTidN5NMsh4B9In8XRf6MXNTra9bDerslavlvf1lnyS/8iQUrjhIaTQC87AesCWW+VskPB2oCCB5JMG/LFzUZzqsryQJqlf8Qi9a6l4pTdqhd67Ok=
+        skinName: Invisible12321
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzg3NDgyNzQ1MCwKICAicHJvZmlsZUlkIiA6ICJiZTUyODRiNTRhN2Q0NTBhYmQ4NDA2ZGJlMmVmZTQ5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbnZpc2libGUxMjMyMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjYzMmU2NGRjNWM4NmI2OTJiOGJlNTFmMmQ0Y2EzMmVjYjM4ZjQwNTM5NTM0MWViMWZmYWNiZGZhNzk2OTA0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      type: PLAYER
+      owner:
+        uuid: e16ef476-d0cc-4ead-866a-1226480a0a2f
+      location:
+        bodyYaw: 9.057083
+        worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+        x: 2543.5363
+        y: 64.0
+        z: 1611.7
+        yaw: 9.0571
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: shop Blocks
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            gn: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,shop,commandtrait,skintrait,lookclose,equipment,attributetrait,inventory,type,hologramtrait,location,text,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '3':
+    metadata:
+      cached-skin-uuid: e16ef476-d0cc-4ead-866a-1226480a0a2f
+      cached-skin-uuid-name: samiqlubigofry
+      nameplate-visible: 'true'
+    name: SamiQLubiGofry
+    uuid: 9bc17f40-7532-4509-8cb7-d1581d848e20
+    traits:
+      type: PLAYER
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      location:
+        bodyYaw: -44.577103
+        worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+        x: 2526.5
+        y: 64.0
+        z: 1626.5
+        yaw: -44.5771
+        pitch: 0.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: OzPrb21Tdmcc2Doal96k4hy2F40VhHsrxSTN32mtkkWZPvZFfWCFCPZNHjTe4HHiCx/PJ1tgNi+kdFN4+m5ZoGj5GEhQCvQb4RH5vMfUQ2gizxw6eca6cw2V0BDPu4jnhA7HQXjyb6AHzdwFfO6sdzSdVy22o5eoNtfPjFbEfwJsalFK3+e3MLw3AIcko2VJaHohUILBHePLX9u9emh/DfhAFg+bF5sHemcR2izOP5GkkrWfcmwbZApQNeryPj71C7EHDMeHkB25Iax3yEdqJy4s+tOqzCdmaLE2zCz8EL5jX58uF13rko6K9haHFuy1WuXGmlyogWFXZvfTN0vhO22VXdNkv6e6U6VUzmq+VyFCBYs6iy1khcDl6IYSNVg0ADxJ+oYVAXlDkWZBIpVE6P1Xq1wmEZi/fKoJQZPg/TBL/NHHCzWHpD51rSDQgW+qbQgm/cgIFPEPTFxm7OMBcjKz1T3CcY1yjjsI9nGaGUM9lM2MMJK+hi+DGb8Buql+7xGTqH8obb9Oi+Cj7J21Mt7trWlRQjjlVjUPXDPtTtlMvZb3XfQqg5pCRmoXAnqs5qad88dikWHZdkrAR6byHTF9Q1WcdZFEihSE+dK1pPcVyXQj0u1Tvn++h3aEU20VvHa2Bsa2HikpsTZrG/3sGQf6CHN2MgPskDBMbTv+A5A=
+        skinName: SamiQLubiGofry
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzk0MjIwMDMzMCwKICAicHJvZmlsZUlkIiA6ICJlMTZlZjQ3NmQwY2M0ZWFkODY2YTEyMjY0ODBhMGEyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1pUUx1YmlHb2ZyeSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NGZlNWJmNzkyYjlkYWJiN2EwN2VmYTU4N2M2NTgzNDdhMjliYTkyZjE3MzA5NTU4MmY0ZDJmNzRhOTYxYWY0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,attributetrait,inventory,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '4':
+    metadata:
+      cached-skin-uuid: 4fa3d966-93d3-4e7d-9618-5f6532864a53
+      cached-skin-uuid-name: graf
+      nameplate-visible: 'true'
+    name: Graf
+    uuid: 232c04d4-c26c-4818-a023-053ba1f93613
+    traits:
+      type: PLAYER
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      location:
+        bodyYaw: 3.2808838
+        worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+        x: 2534.6619
+        y: 64.0
+        z: 1622.6104
+        yaw: 3.2809
+        pitch: 0.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: whgVLuyFLo4PemUcQ4pEHdZgB5etM88/o4jQSEDnRzH4MHpy9ABufgC9Zfr0Ofl3ylEzMk3PP6BFZR9zPEpdegeJPTfdFmgrvk7jjMYrvqyjsBScLgzHAZv+qPGDolen+Gg0WSebjJt+sSBflh3LwzXABCMqixUpzQ6BdEy3jLxILYuw0DTRjuT8gYBBNNPfrotKCQVrl6EeGFMaFXkzNVdH2MDYgppidYM5wDgVTEAve74rVveaVST6yxUhj36mCekd5DubWmF6r+axjYkBZmH5MiU/Op+Qk2NvbMjt8Q70lzz/W0RfoO0hWAU26Caep+0/odzK2mo8Ee+pfxHaE20Btf0q8z18vi4wl97BZnidQo96uan4ZNkU2EAc4RItlDhQ+jhB17vVLeuDVcKWwIgNJZsLdBbBANNy5On5KvFqvsHvIpGzW6Ld3atYNDUpje2YXY6lg3nKxbZt1nciwZdQdies27Iscm9Z76fEvJqnwY6Fbi1KLbTZuyHm7pVtP346rnIzr70iwcsiVRPFh79Km6nhoisgifynllu8vkELtYAKmNcOAjrF86ySR6rXM6RVK0ssPlg6YlYFE+kKa8AVVK3neN20VEGU7V/NF+HlMbBWHFcwkXfVt7cosursYNz66YMyxlO/bscKJeozDnJ8tNl7439kXd8pCSSyvE4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzk0MzQzMTI4OCwKICAicHJvZmlsZUlkIiA6ICI0ZmEzZDk2NjkzZDM0ZTdkOTYxODVmNjUzMjg2NGE1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmFmIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZDBiODdmYmJlMDEwMjRlYTdkZjYxMDUxNTdjYmJjNGZjOGE4YjlkMmE5Yjk2NGFlMzdjZWQ4ZjcyOWI2NDQiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+                x: 2541.0
+                y: 64.0
+                z: 1621.0
+                yaw: 0.0
+                pitch: 0.0
+            '1':
+              location:
+                worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+                x: 2534.0
+                y: 64.0
+                z: 1627.0
+                yaw: 0.0
+                pitch: 0.0
+            '2':
+              location:
+                worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
+                x: 2534.0
+                y: 64.0
+                z: 1621.0
+                yaw: 0.0
+                pitch: 0.0
+              triggers:
+                '0':
+                  delay: 90
+                  type: delay
+        provider: linear
+    traitnames: scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,attributetrait,inventory,waypoints,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

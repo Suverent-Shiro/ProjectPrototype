@@ -1,0 +1,32 @@
+errorUPDActivator: '&8[&4Executable&7Items&8]&c Hai raggiunto il numero massimo di
+  utilizzi per &e%activator%&c! Utilizzi massimi per giorno: &7(&e%max_use_per_day_activator%&7)&4'
+cancelCraft: '&8[&4Executable&7Items&8] &cNon puoi craftare con questo ExecutableItem!'
+requiredItemsQuantity: ' &cx &6'
+timeLeft: '&8[&4Executable&7Items&8] &cAttendi &e%time% &cprima di usare &6%activator%&c!'
+waitProjectile: '&cDevi aspettare che il proiettile colpisca qualcosa!'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cNon puoi avere più di %limit% ExecutableItems!'
+invalidOwner: '&8[&4Executable&7Items&8] &cQuesto oggetto può essere usato solo dal
+  proprietario!'
+requiredEIFirstPart: '&4ExecutableItem richiesto/i: '
+requiredEISeparator: '&c | '
+disableWorld: '&8[&4Executable&7Items&8] &cNon puoi usare &e%item%&c in questo mondo!'
+requiredEIQuantity: ' &cx &6'
+noEntityHit: '&8[&4Executable&7Items&8] &cNessuna entità è stata colpita'
+requiredItemsFirstPart: '&4Oggetto/i richiesto/i: '
+receiveItem: '&8[&aExecutable&7Items&8] &aHai ricevuto &a%quantity%x &e%item%'
+noHit: '&8[&4Executable&7Items&8] &cNessun giocatore è stato colpito'
+giveMessage: '&8[&aExecutable&7Items&8] &aHai dato a &e&n%player%&r &a%quantity%x
+  &e%item%'
+fullInventory: '&8[&4Executable&7Items&8] &cIl tuo inventario è pieno, &e%item% &cè
+  stato droppato.'
+use: '&7&oUtilizzi rimanenti: '
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem/i &e%id% &anel inventario del/dei
+  giocatore/i &e%player% &asono stati correttamente ripristinati!'
+requiredItemsSeparator: '&c | '
+requirePermission: '&8[&4Executable&7Items&8] &cNon hai il permesso per usare &e%item%&c!'
+requiredLevel: '&8[&4Executable&7Items&8] &cDevi essere almeno al &6livello &6&l%level%&c
+  per usare questo oggetto!'
+errorUPDItem: '&7[&4Executable&7Items] &cHai raggiunto il numero massimo di utilizzi
+  per &e%item%&c. Utilizzi massimi per giorno: &7(&e%max_use_per_day_item%&7)'
+customCommandDamageKillMessage: '%player% ha distrutto %target% con %item%'
+noOwner: '&cNessun proprietario'

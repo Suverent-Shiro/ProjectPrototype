@@ -1,0 +1,9 @@
+&8Build: 4.0-devFreedom / 14.09.2025
+&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7" &cConcept project
+&8&m--------------------------------------------------
+Wszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
+&8&m--------------------------------------------------
+&6Silnik: &5Purpur-2465 [MC-1.21.6]
+&aWersja Minecraft: &f1.21.6
+&8&m--------------------------------------------------
+&6⚡ &3&lProject: &7&lPrototype &cDevelopment
