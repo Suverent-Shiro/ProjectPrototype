@@ -28,13 +28,13 @@ npc:
         attributes:
           minecraft:waypoint_transmit_range: 0.0
       location:
-        bodyYaw: 51.626434
+        bodyYaw: 53.542923
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
         x: 2547.5
         y: 64.0
         z: 1624.5
-        yaw: 51.6264
-        pitch: -6.0122
+        yaw: 53.5429
+        pitch: -5.8836
     traitnames: scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,inventory,type,attributetrait,chunktickettrait
     navigator:
       speedmodifier: 1.0
@@ -54,8 +54,10 @@ npc:
           '0': CITIZENS_NPC
       text:
         send-text-to-chat: false
+        speech-bubbles: true
+        talk-close: true
         text:
-          '0': Hi, I'm <npc>!
+          '0': Adam co adam no i co adam
       shop:
         storage: {}
       attributetrait:
@@ -79,13 +81,13 @@ npc:
       owner:
         uuid: e16ef476-d0cc-4ead-866a-1226480a0a2f
       location:
-        bodyYaw: 9.057083
+        bodyYaw: 6.7429276
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
         x: 2543.5363
         y: 64.0
         z: 1611.7
-        yaw: 9.0571
-        pitch: 0.0
+        yaw: 6.7429
+        pitch: -4.826
       commandtrait:
         commands:
           '0':
@@ -119,12 +121,12 @@ npc:
         attributes:
           minecraft:waypoint_transmit_range: 0.0
       location:
-        bodyYaw: -44.577103
+        bodyYaw: -72.28412
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
         x: 2526.5
         y: 64.0
         z: 1626.5
-        yaw: -44.5771
+        yaw: -72.2841
         pitch: 0.0
       scoreboardtrait:
         tags:
@@ -160,12 +162,12 @@ npc:
         attributes:
           minecraft:waypoint_transmit_range: 0.0
       location:
-        bodyYaw: 3.2808838
+        bodyYaw: -172.38698
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
-        x: 2534.6619
+        x: 2531.5
         y: 64.0
-        z: 1622.6104
-        yaw: 3.2809
+        z: 1641.2974
+        yaw: 171.5527
         pitch: 0.0
       scoreboardtrait:
         tags:
@@ -188,33 +190,53 @@ npc:
             '0':
               location:
                 worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
-                x: 2541.0
+                x: 2531.0
                 y: 64.0
-                z: 1621.0
-                yaw: 0.0
-                pitch: 0.0
-            '1':
-              location:
-                worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
-                x: 2534.0
-                y: 64.0
-                z: 1627.0
-                yaw: 0.0
-                pitch: 0.0
-            '2':
-              location:
-                worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
-                x: 2534.0
-                y: 64.0
-                z: 1621.0
+                z: 1642.0
                 yaw: 0.0
                 pitch: 0.0
               triggers:
                 '0':
-                  delay: 90
+                  delay: 80
                   type: delay
         provider: linear
-    traitnames: scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,attributetrait,inventory,waypoints,chunktickettrait
+      inventory:
+        '0':
+          type: diamond_sword
+          amount: 1
+          editable_components:
+            display_name: §6§lZemsta piglinosa
+            edited: false
+            lore: '§6§lEgzotyczne §6☆☆☆☆☆<br>§6§o§m-------------------------------------<br>§6🗡
+              §6§lUzbrojenie<br>§6🔰 §6§lKolekcja Blasku słońca<br>§6§o§m-------------------------------------<br>§4🗡
+              ATK: 10 §c[Crit DMG: 18]<br>§b⚡ SPD: Normalny<br>§c☣ Crit Rate: 20%<br><br>§2🏹
+              Niezniszczalność: 5<br>§4🗡 Pogromca nieumarłych: 4<br>§a✦ Szczęście:
+              3<br>§6✧ Szerokie ostrze: 3<br>§x§D§3§7§2§0§B🔥 Aspekt ognia: 2<br>§6§o§m-------------------------------------<br>§7§oMieszkańcy
+              §e§oWioski Spawnu§7§o wieżą że tym<br>§7§omieczem kiedyś władał sam
+              §6§oPiglinos§7§o...<br>§7§oCiekawe ile w tym prawdy...<br>§6§o§m-------------------------------------<br>§4Rage
+              Mode: §fUżyj prawego przycisku myszy <br>§faby uwolnić swój rage mode.<br>§fPrzywołuje
+              piorun poczym otrzymujesz<br>§fefekty szybkości, siły i absorpcji.<br>§bCzas
+              trwania: 15 sekund'
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIZW5jaGFudHN0ABNhdHRyaWJ1dGUtbW9kaWZpZXJzdAAJSXRlbUZsYWdzdAASUHVibGljQnVra2l0VmFsdWVzdXEAfgAGAAAACXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAl3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiWmVtc3RhIHBpZ2xpbm9zYSIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCJ9XX1zcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAGHcEAAAAGHQA2HsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiRWd6b3R5Y3puZSAiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiLimIbimIbimIbimIbimIYiLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQAq3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIsInN0cmlrZXRocm91Z2giOnRydWUsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjp0cnVlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQAz3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi7aC97behICIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiJVemJyb2plbmllIiwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQA3XsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi7aC97bSwICIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiJLb2xla2NqYSBCbGFza3Ugc8WCb8WEY2EiLCJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19dACreyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIiwic3RyaWtldGhyb3VnaCI6dHJ1ZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOnRydWUsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19dADSeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLtoL3tt6EgQVRLOiAxMCAiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJkYXJrX3JlZCJ9LHsidGV4dCI6IltDcml0IERNRzogMThdIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJyZWQifV19dACZeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimqEgU1BEOiBOb3JtYWxueSIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImFxdWEifV19dACZeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimKMgQ3JpdCBSYXRlOiAyMCUiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJyZWQifV19dAACIiJ0AKp7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6Iu2gvO2/uSBOaWV6bmlzemN6YWxub8WbxIc6IDUiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyZWVuIn1dfXQAq3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi7aC97behIFBvZ3JvbWNhIG5pZXVtYXLFgnljaDogNCIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn1dfXQAm3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi4pymIFN6Y3rEmcWbY2llOiAzIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ3JlZW4ifV19dACeeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLinKcgU3plcm9raWUgb3N0cnplOiAzIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCJ9XX10AKF7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6Iu2gve20pSBBc3Bla3Qgb2duaWE6IDIiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiIjRDM3MjBCIn1dfXQAq3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIsInN0cmlrZXRocm91Z2giOnRydWUsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjp0cnVlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQBBHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiTWllc3prYcWEY3kgIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjp0cnVlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJncmF5In0seyJ0ZXh0IjoiV2lvc2tpIFNwYXdudSIsIml0YWxpYyI6dHJ1ZSwiY29sb3IiOiJ5ZWxsb3cifSx7InRleHQiOiIgd2llxbzEhSDFvGUgdHltIiwiaXRhbGljIjp0cnVlLCJjb2xvciI6ImdyYXkifV19dAEBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJtaWVjemVtIGtpZWR5xZsgd8WCYWRhxYIgc2FtICIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6dHJ1ZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IlBpZ2xpbm9zIiwiaXRhbGljIjp0cnVlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiIuLi4iLCJpdGFsaWMiOnRydWUsImNvbG9yIjoiZ3JheSJ9XX10AKJ7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IkNpZWthd2UgaWxlIHcgdHltIHByYXdkeS4uLiIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6dHJ1ZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9XX10AKt7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6Ii0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0iLCJzdHJpa2V0aHJvdWdoIjp0cnVlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6dHJ1ZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCJ9XX10AOB7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlJhZ2UgTW9kZTogIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZGFya19yZWQifSx7InRleHQiOiJVxbx5aiBwcmF3ZWdvIHByenljaXNrdSBteXN6eSAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXQApnsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiYWJ5IHV3b2xuacSHIHN3w7NqIHJhZ2UgbW9kZS4iLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AK57InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlByenl3b8WCdWplIHBpb3J1biBwb2N6eW0gb3RyenltdWplc3oiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AK57InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6ImVmZWt0eSBzenlia2/Fm2NpLCBzacWCeSBpIGFic29ycGNqaS4iLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AJ97InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IkN6YXMgdHJ3YW5pYTogMTUgc2VrdW5kIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiYXF1YSJ9XX14c3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGZmxvYXRzdAAFZmxhZ3N0AAdzdHJpbmdzdAAGY29sb3JzdXEAfgAGAAAABXQAD0N1c3RvbU1vZGVsRGF0YXNyACZqYXZhLnV0aWwuQ29sbGVjdGlvbnMkVW5tb2RpZmlhYmxlTGlzdPwPJTG17I4QAgABTAAEbGlzdHQAEExqYXZhL3V0aWwvTGlzdDt4cgAsamF2YS51dGlsLkNvbGxlY3Rpb25zJFVubW9kaWZpYWJsZUNvbGxlY3Rpb24ZQgCAy173HgIAAUwAAWN0ABZMamF2YS91dGlsL0NvbGxlY3Rpb247eHBzcQB+ABUAAAABdwQAAAABc3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHBBoAAAeHEAfgA9c3EAfgA4c3EAfgAVAAAAAHcEAAAAAHhxAH4AQnNxAH4AOHNxAH4AFQAAAAB3BAAAAAB4cQB+AERzcgARamF2YS51dGlsLkNvbGxTZXJXjqu2OhuoEQMAAUkAA3RhZ3hwAAAABHcEAAAAAHhzcQB+AAN1cQB+AAYAAAAEdAAVbWluZWNyYWZ0OmZpcmVfYXNwZWN0dAARbWluZWNyYWZ0Omxvb3Rpbmd0AA9taW5lY3JhZnQ6c21pdGV0ABRtaW5lY3JhZnQ6dW5icmVha2luZ3VxAH4ABgAAAARzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgA/AAAAAnNxAH4ATgAAAANzcQB+AE4AAAAEc3EAfgBOAAAABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAnQAFm1pbmVjcmFmdDphdHRhY2tfc3BlZWRzcQB+ABUAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGYW1vdW50dAAEc2xvdHQACW9wZXJhdGlvbnQAA2tleXVxAH4ABgAAAAV0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AP8AGZmZmZmZmdAAIbWFpbmhhbmRzcQB+AE4AAAAAdAAubWluZWNyYWZ0OmFjZjk0NWI3LWIxMTUtNDhjYi04ZjFjLWI3MDg0NDU4ZTQ2M3h0ABdtaW5lY3JhZnQ6YXR0YWNrX2RhbWFnZXNxAH4AFQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AW3EAfgBccQB+AF1xAH4AXnVxAH4ABgAAAAVxAH4AYHNxAH4AYUAiAAAAAAAAcQB+AGNxAH4AZHQALm1pbmVjcmFmdDozOWQ2MTgzNi02MDI3LTQ0YmEtOWU3NS04YmMyNzFlY2I4OWF4eABzcQB+ABUAAAADdwQAAAADdAANSElERV9FTkNIQU5UU3QAD0hJREVfQVRUUklCVVRFU3QAEEhJREVfVU5CUkVBS0FCTEV4dABfewogICAgImV4ZWN1dGFibGVpdGVtczplaS1pZCI6ICJleG90aWNfYmxhc2t1c8WCb8WEY2EtemVtc3RhLXBpZ2xpbm9zYSIsCiAgICAic2NvcmU6dXNhZ2UiOiAxCn0=
+      equipment:
+        hand:
+          type: diamond_sword
+          amount: 1
+          editable_components:
+            display_name: §6§lZemsta piglinosa
+            edited: false
+            lore: '§6§lEgzotyczne §6☆☆☆☆☆<br>§6§o§m-------------------------------------<br>§6🗡
+              §6§lUzbrojenie<br>§6🔰 §6§lKolekcja Blasku słońca<br>§6§o§m-------------------------------------<br>§4🗡
+              ATK: 10 §c[Crit DMG: 18]<br>§b⚡ SPD: Normalny<br>§c☣ Crit Rate: 20%<br><br>§2🏹
+              Niezniszczalność: 5<br>§4🗡 Pogromca nieumarłych: 4<br>§a✦ Szczęście:
+              3<br>§6✧ Szerokie ostrze: 3<br>§x§D§3§7§2§0§B🔥 Aspekt ognia: 2<br>§6§o§m-------------------------------------<br>§7§oMieszkańcy
+              §e§oWioski Spawnu§7§o wieżą że tym<br>§7§omieczem kiedyś władał sam
+              §6§oPiglinos§7§o...<br>§7§oCiekawe ile w tym prawdy...<br>§6§o§m-------------------------------------<br>§4Rage
+              Mode: §fUżyj prawego przycisku myszy <br>§faby uwolnić swój rage mode.<br>§fPrzywołuje
+              piorun poczym otrzymujesz<br>§fefekty szybkości, siły i absorpcji.<br>§bCzas
+              trwania: 15 sekund'
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIZW5jaGFudHN0ABNhdHRyaWJ1dGUtbW9kaWZpZXJzdAAJSXRlbUZsYWdzdAASUHVibGljQnVra2l0VmFsdWVzdXEAfgAGAAAACXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAl3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiWmVtc3RhIHBpZ2xpbm9zYSIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCJ9XX1zcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAGHcEAAAAGHQA2HsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiRWd6b3R5Y3puZSAiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiLimIbimIbimIbimIbimIYiLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQAq3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIsInN0cmlrZXRocm91Z2giOnRydWUsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjp0cnVlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQAz3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi7aC97behICIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiJVemJyb2plbmllIiwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQA3XsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi7aC97bSwICIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiJLb2xla2NqYSBCbGFza3Ugc8WCb8WEY2EiLCJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19dACreyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIiwic3RyaWtldGhyb3VnaCI6dHJ1ZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOnRydWUsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19dADSeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLtoL3tt6EgQVRLOiAxMCAiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJkYXJrX3JlZCJ9LHsidGV4dCI6IltDcml0IERNRzogMThdIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJyZWQifV19dACZeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimqEgU1BEOiBOb3JtYWxueSIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImFxdWEifV19dACZeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimKMgQ3JpdCBSYXRlOiAyMCUiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJyZWQifV19dAACIiJ0AKp7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6Iu2gvO2/uSBOaWV6bmlzemN6YWxub8WbxIc6IDUiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyZWVuIn1dfXQAq3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi7aC97behIFBvZ3JvbWNhIG5pZXVtYXLFgnljaDogNCIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn1dfXQAm3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0Ijoi4pymIFN6Y3rEmcWbY2llOiAzIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ3JlZW4ifV19dACeeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLinKcgU3plcm9raWUgb3N0cnplOiAzIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCJ9XX10AKF7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6Iu2gve20pSBBc3Bla3Qgb2duaWE6IDIiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiIjRDM3MjBCIn1dfXQAq3sidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIsInN0cmlrZXRocm91Z2giOnRydWUsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjp0cnVlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXQBBHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiTWllc3prYcWEY3kgIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjp0cnVlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJncmF5In0seyJ0ZXh0IjoiV2lvc2tpIFNwYXdudSIsIml0YWxpYyI6dHJ1ZSwiY29sb3IiOiJ5ZWxsb3cifSx7InRleHQiOiIgd2llxbzEhSDFvGUgdHltIiwiaXRhbGljIjp0cnVlLCJjb2xvciI6ImdyYXkifV19dAEBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJtaWVjemVtIGtpZWR5xZsgd8WCYWRhxYIgc2FtICIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6dHJ1ZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IlBpZ2xpbm9zIiwiaXRhbGljIjp0cnVlLCJjb2xvciI6ImdvbGQifSx7InRleHQiOiIuLi4iLCJpdGFsaWMiOnRydWUsImNvbG9yIjoiZ3JheSJ9XX10AKJ7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IkNpZWthd2UgaWxlIHcgdHltIHByYXdkeS4uLiIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6dHJ1ZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9XX10AKt7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6Ii0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0iLCJzdHJpa2V0aHJvdWdoIjp0cnVlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6dHJ1ZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZ29sZCJ9XX10AOB7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlJhZ2UgTW9kZTogIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiZGFya19yZWQifSx7InRleHQiOiJVxbx5aiBwcmF3ZWdvIHByenljaXNrdSBteXN6eSAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXQApnsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiYWJ5IHV3b2xuacSHIHN3w7NqIHJhZ2UgbW9kZS4iLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AK57InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlByenl3b8WCdWplIHBpb3J1biBwb2N6eW0gb3RyenltdWplc3oiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AK57InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6ImVmZWt0eSBzenlia2/Fm2NpLCBzacWCeSBpIGFic29ycGNqaS4iLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AJ97InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IkN6YXMgdHJ3YW5pYTogMTUgc2VrdW5kIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiYXF1YSJ9XX14c3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGZmxvYXRzdAAFZmxhZ3N0AAdzdHJpbmdzdAAGY29sb3JzdXEAfgAGAAAABXQAD0N1c3RvbU1vZGVsRGF0YXNyACZqYXZhLnV0aWwuQ29sbGVjdGlvbnMkVW5tb2RpZmlhYmxlTGlzdPwPJTG17I4QAgABTAAEbGlzdHQAEExqYXZhL3V0aWwvTGlzdDt4cgAsamF2YS51dGlsLkNvbGxlY3Rpb25zJFVubW9kaWZpYWJsZUNvbGxlY3Rpb24ZQgCAy173HgIAAUwAAWN0ABZMamF2YS91dGlsL0NvbGxlY3Rpb247eHBzcQB+ABUAAAABdwQAAAABc3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHBBoAAAeHEAfgA9c3EAfgA4c3EAfgAVAAAAAHcEAAAAAHhxAH4AQnNxAH4AOHNxAH4AFQAAAAB3BAAAAAB4cQB+AERzcgARamF2YS51dGlsLkNvbGxTZXJXjqu2OhuoEQMAAUkAA3RhZ3hwAAAABHcEAAAAAHhzcQB+AAN1cQB+AAYAAAAEdAAVbWluZWNyYWZ0OmZpcmVfYXNwZWN0dAARbWluZWNyYWZ0Omxvb3Rpbmd0AA9taW5lY3JhZnQ6c21pdGV0ABRtaW5lY3JhZnQ6dW5icmVha2luZ3VxAH4ABgAAAARzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgA/AAAAAnNxAH4ATgAAAANzcQB+AE4AAAAEc3EAfgBOAAAABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAnQAFm1pbmVjcmFmdDphdHRhY2tfc3BlZWRzcQB+ABUAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGYW1vdW50dAAEc2xvdHQACW9wZXJhdGlvbnQAA2tleXVxAH4ABgAAAAV0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AP8AGZmZmZmZmdAAIbWFpbmhhbmRzcQB+AE4AAAAAdAAubWluZWNyYWZ0OmFjZjk0NWI3LWIxMTUtNDhjYi04ZjFjLWI3MDg0NDU4ZTQ2M3h0ABdtaW5lY3JhZnQ6YXR0YWNrX2RhbWFnZXNxAH4AFQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AW3EAfgBccQB+AF1xAH4AXnVxAH4ABgAAAAVxAH4AYHNxAH4AYUAiAAAAAAAAcQB+AGNxAH4AZHQALm1pbmVjcmFmdDozOWQ2MTgzNi02MDI3LTQ0YmEtOWU3NS04YmMyNzFlY2I4OWF4eABzcQB+ABUAAAADdwQAAAADdAANSElERV9FTkNIQU5UU3QAD0hJREVfQVRUUklCVVRFU3QAEEhJREVfVU5CUkVBS0FCTEV4dABfewogICAgImV4ZWN1dGFibGVpdGVtczplaS1pZCI6ICJleG90aWNfYmxhc2t1c8WCb8WEY2EtemVtc3RhLXBpZ2xpbm9zYSIsCiAgICAic2NvcmU6dXNhZ2UiOiAxCn0=
+    traitnames: scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,equipment,location,type,attributetrait,inventory,waypoints,chunktickettrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

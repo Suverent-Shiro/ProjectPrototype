@@ -2,20 +2,19 @@
 header-footer:
   enabled: true
   header:
-    - "<#FFFFFF>&m                                                </#FFFF00>"
+    - "<#37c1e4>&m                                                                                               </#FFFF00>"
     - '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&r&7"'
     - ""
     - "&r&a&l>> &r&a💰 Kredyty &r&f&l» &r&a%vault_eco_balance_formatted% &r&a&l<<"
-    - "&r&a&l>> &r&a⌚ KCzas gryr&f&l» &r&a%vault_eco_balance_formatted% &r&a&l<<"
-    - "&r&a&l>> &r&a💰 Kredyty &r&f&l» &r&a%vault_eco_balance_formatted% &r&a&l<<"
+    - "&r&6&l>> &r&6⌚ Czas gry &f&l» &r&6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m &r&6&l<<"
+    - "&r&c&l>> &r&c⚔ Śmierci i zabójstwa &r&f&l» &r&c%objective_score_{deaths}% &r&f/ &r&c%objective_score_{kills}% &r&c&l<<"
     - ""
   footer:
+    - ''
     - "%animation:time%"
-    - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
-    - ""
-    - "&r&7Visit our webpage %animation:web%"
-    - "<#FFFFFF>&m                                                </#FFFF00>"
+    - '&r&b&l>> &r&b📶 Ping &r&f&l» &r&b%player_colored_ping%&bms &r&b&l<<'
+    - "&r&6⚡ &3&lProject: &7&lPrototype &cDevelopment &r&84.0-devFreedom"
+    - "<#37c1e4>&m                                                                                               </#FFFF00>"
   disable-condition: '%world%=disabledworld'
   per-world:
     world1:
@@ -54,7 +53,7 @@ scoreboard-teams:
 playerlist-objective:
   enabled: true
   value: "%ping%"
-  fancy-value: "&7Ping: %ping%"
+  fancy-value: "&l» &r&b📶 %player_colored_ping%"
   title: "TAB" # Only visible on Bedrock Edition
   render-type: INTEGER
   disable-condition: '%world%=disabledworld'

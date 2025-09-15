@@ -99,8 +99,8 @@ Welcome:
 time:
   change-interval: 3000
   texts:
-    - '&7Time &b%time%'
-    - '&7Date &b%date%'
+    - "&r&e&l>> &r&e⌚ Czas &r&f&l» &r&e%world_time_<world>% &r&f/ &r&e%world_timein12_<world>% &r&e&l<<"
+    - "&r&a&l>> &r&a📆 Data &r&f&l» &r&a%localtime_timezone_Europe/Warsaw% &r&a&l<<"
 barcolors:
   change-interval: 1000
   texts:
