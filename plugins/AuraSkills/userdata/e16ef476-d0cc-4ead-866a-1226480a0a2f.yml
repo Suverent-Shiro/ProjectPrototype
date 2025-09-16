@@ -31,8 +31,8 @@ skills:
     level: 0
     xp: 0.0
   auraskills/agility:
-    level: 2
-    xp: 469.6872600000001
-mana: 22.0
+    level: 3
+    xp: 13.283560000000087
+mana: 24.0
 action_bar:
   idle: true
