@@ -1,6 +1,6 @@
 # Should new players be protected from attacks by other players?
 # Default: true
-new-player-protection: true
+new-player-protection: false
 
 # Should new player protection be removed from a player if they attack someone?
 # Default: true
@@ -12,7 +12,7 @@ protection-time: 60000000
 
 # Should new players also be protected from mob attacks?
 # Default: true
-mob-protection: true
+mob-protection: false
 
 # (This is for the `/togglepvp` command, protection options are above.)
 # What is the default PVP status for players?

@@ -10,9 +10,9 @@ header-footer:
     - "&r&c&l>> &r&c⚔ Śmierci i zabójstwa &r&f&l» &r&c%objective_score_{deaths}% &r&f/ &r&c%objective_score_{kills}% &r&c&l<<"
     - ""
   footer:
-    - ''
     - "%animation:time%"
-    - '&r&b&l>> &r&b📶 Ping &r&f&l» &r&b%player_colored_ping%&bms &r&b&l<<'
+#    - '&r&b&l>> &r&b📶 Ping &r&f&l» &r&b%player_colored_ping%&bms &r&b&l<<'
+    - ''
     - "&r&6⚡ &3&lProject: &7&lPrototype &cDevelopment &r&84.0-devFreedom"
     - "<#37c1e4>&m                                                                                               </#FFFF00>"
   disable-condition: '%world%=disabledworld'

@@ -25,7 +25,7 @@ material: RED_STAINED_GLASS
 # Radius is the distance that a player has to be from a region to display the force field.
 # A higher radius may cause your server to lag.
 # Default: 8
-radius: 8
+radius: 12
 
 # The bypass permission to not show a force field to a player
 # Set it to "" to prevent all players from bypassing
