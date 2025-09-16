@@ -11,21 +11,22 @@
 # Should ViaVersion check for updates?
 check-for-updates: true
 # Send the supported versions with the Status (Ping) response packet
-send-supported-versions: false
+send-supported-versions: true
 # Easier to configure alternative to 'block-protocols'. Uses readable version strings with possible '<' and '>' prefixes.
 # An example to block 1.16.4, everything below 1.16, as well as everything above 1.17.1 would be: ["<1.16", "1.16.4", ">1.17.1"]
 # You can use both this and the block-protocols option at the same time as well.
 block-versions:
 - <1.21.1
+- '>1.21.8'
 # Block specific Minecraft protocol version numbers.
 # List of all Minecraft protocol versions: https://minecraft.wiki/w/Protocol_version, or use a generator: https://via.krusic22.com
 block-protocols: []
 # Change the blocked disconnect message
-block-disconnect-msg: Używasz złej wersji!
+block-disconnect-msg: Używasz złej wersji gry! Połącz się z 1.21.1-1.21.8
 # If you use ProtocolLib, we can't reload without kicking the players.
 # (We don't suggest using reload either, use a plugin manager)
 # You can customize the message we kick people with if you use ProtocolLib here.
-reload-disconnect-msg: Server reload, please rejoin!
+reload-disconnect-msg: Trwa przełoadowanie serwera, proszę dołączyć ponownie...
 # We warn when there's an error converting item/block or component/nbt data over versions, should we suppress these? (Only suggested if spamming)
 suppress-conversion-warnings: false
 # This can be disabled for debugging purposes if text in chat/entities/items shows an error tag.
@@ -42,7 +43,8 @@ suppress-text-component-conversion-warnings: true
 # What is the maximum per second a client can send (Use %pps to display their pps)
 # Use -1 to disable.
 max-pps: 800
-max-pps-kick-msg: You are sending too many packets!
+max-pps-kick-msg: Wysyłasz zbyt dużo pakietów! Jeżeli to się powtarza to upewnij się
+  że posiadasz stabilne połączenie sieciowe. [max-pps]
 #
 # We can also kick them if over a period they send over a threshold a certain amount of times.
 #
@@ -55,7 +57,8 @@ tracking-warning-pps: 120
 # This can never be higher than "tracking-period"?
 tracking-max-warnings: 4
 # The kick message sent if the user hits the max packets per second.
-tracking-max-kick-msg: You are sending too many packets, :(
+tracking-max-kick-msg: Wysyłasz zbyt dużo pakietów! Jeżeli to się powtarza to upewnij
+  się że posiadasz stabilne połączenie sieciowe. [tracking-max]
 #
 #----------------------------------------------------------#
 #                 MULTIPLE VERSIONS OPTIONS                #
