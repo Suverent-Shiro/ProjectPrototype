@@ -8,7 +8,7 @@ Project: Prototype is a Minecraft server template schematic. It contains pre-con
 **Project: Prototype** jest schematem szablonów do serwerów Minecraft. Posiada ono przed-wcześnie zrobioną konfigurację pluginów dla szybszej i łatwiejszej konfiguracji serwerów Minecraft.
 **Project: Prototype** głównie służy w ułatwianiu pracy nad serwerami Minecraft dla @Suverent_Shiro, dlatego zrobione konfiguracje mogą nie odpowiadać każdemu.
 
-▶ Te repozytorium jest prywatne i nie ma obecnie na celu być dostępnym publicznie.
+Te repozytorium jest prywatne i nie ma obecnie na celu być dostępnym publicznie.
 Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp tego repozytorium.
 <!----------------------------------------------------------------------------->
 ## Informacje dotyczące wersji szablonów, pluginów i wersji Minecrafta.
@@ -103,17 +103,9 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
 </details>
 
 <details>
-  <summary><b>Najnowsza testowa wersja Project: Prototype / 4.0-devFreedom</b></summary>
+  <summary><b>Najnowsza wersja BETA Project: Prototype / brak</b></summary>
 
-### <ins>To jest testowa wersja! Jest ona najbardziej niestabilna ze wszystkich! Używaj na własną odpowiedzialność!</ins>
-- Kompatyblina wersja Minecraft: **1.21.8**
-- Rekomendowany silnik: **N/A**
-- Zawarte pluginy w wersji **4.0-devFreedom**
-  - Brak dostępnej listy pluginów...
-
-
-*Nie jestem właścicielem zawartych powyżej pluginów. Są one własnością ich autorów. Pluginy nie są uwzględnione w repozytorium Project: Prototype, znajdują się tutaj tylko ich konfiguracje.*
-
+- Obecnie Project: Prototype 4.0 jest zbyt wcześnie w produkcji aby były dostępne pierwsze wersje BETA.
   
 </details>
 
@@ -126,16 +118,17 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
   - FreedomSMP korzystało ze zmodyfikowanej konfiguracji Project: Prototype 3.0 zaprojektowanej specjalnie pod FreedomSMP.
   - The Suverent Organization's FreedomSMP to były serwer Minecraft @Suverent_Shiro. *Działał od 06.2024 do 01.2025*
   - Dnia 03.08.2025 konfiguracja FreedomSMP, została opublikowana na Github, co czyni FreedomSMP jedynie publicznie dostępnym szablonem Project: Prototype [Link](https://github.com/Suverent-Shiro/SUV_FreedomSMP) 
-- "*FreedomSMP: Reborn*" - 4.0-devFreedom
-  - "*FreedomSMP: Reborn*" służy jako platforma testowa do nadchodzącego wydania 4.0 / Także ta platforma jest dedykowana pod projekt serwera "FreedomSMP: Reborn"
+- "*FreedomSMP: Reborn*" - **Project: Prototype 4.0**
+  - "*FreedomSMP: Reborn*" jest serwerem Minecraft w wczesnej fazie produkcji. Także wraz z tym serwerem powstaje wersja 4.0 Project: Prototype.
 
 
 
 *Nazwy w "cudzysłowie" to nazwy kodowe projektów lub konceptów projektów serwerów Minecraft*
 
 <!----------------------------------------------------------------------------->
-## Lista pluginów zawarte w Project: Prototype
-- Obecnie używane pluginy
+## Łączna lista pluginów zawartych w Project: Prototype
+Ta lista przedstawia wszystkie pluginy zawarte we wszystkich wydaniach Project: Prototype.
+- Obecnie używane pluginy (Najnowsza wersja szablonu / 3.1)
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) \ *?*
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) \ EngineHub
@@ -167,7 +160,7 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
   - BlueSlimeCore \ SirBlobman (*Ten plugin jest zawarty razem z CombatLogX*)
   - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) \ BUTTERFIELD8
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) \ Pandaaa
-- Pluginy które już nie są używane
+- Wcześniej używane pluginy
   - [WolfyUtilities](https://www.spigotmc.org/resources/wolfyutilities-core-api-1-17-1-1-21-1.64124/) \ WolfyScript
   - [Codex](https://www.spigotmc.org/resources/codex-rpg-discoveries-1-16-5-1-21-6.90371/) \ Ajneb97
   - ExcellentCrates \ NightExpress
@@ -186,5 +179,3 @@ Tylko ograniczone osoby powiązane z @Suverent_Shiro, mogą posiadać dostęp te
 <!----------------------------------------------------------------------------->
 ## Project: Prototype > Project Prototype
 Poprawny zapis nazwy "Project: Prototype".
-
-Prefix w Minecraftcie. `&f[&3&lProject: &7Prototype&f]`
