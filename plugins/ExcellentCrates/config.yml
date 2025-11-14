@@ -44,7 +44,7 @@ Crate:
     # Custom hologram templates to display above crate blocks.
     # Allowed Placeholders:
     # - PlaceholderAPI placeholders.
-    # - Crate placeholders: https://nightexpressdev.com/excellentcrates/placeholders
+    # - Crate placeholders: https://nightexpressdev.com/excellentcrates/placeholders/internal
     TemplateList:
       default:
         Text:
@@ -60,6 +60,23 @@ Crate:
     LineGap: 0.3
     # Sets how often (in seconds) crate holograms will update.
     Update_Interval: 5
+    # Controls if crate holograms should pivot to face player when rendered.
+    # It can be FIXED (both vertical and horizontal angles are fixed), VERTICAL (faces player around vertical axis), HORIZONTAL (pivots around horizontal axis), and CENTER (pivots around center point).
+    # [Default is VERTICAL]
+    Billboard: VERTICAL
+    # Alpha value of rendered text. Value ranges from 0 to 255. Values up to 3 are treated as fully opaque (255).
+    # The text rendering is discarded for values between 4 and 26. Defaults to -1, which represents 255 and is completely opaque.
+    # [Default is -1]
+    TextOpacity: -1
+    # Whether the text be visible through blocks.
+    # [Default is false]
+    SeeThrough: false
+    # Whether the text is displayed with shadow.
+    # [Default is true]
+    Shadow: true
+    # The background color, arranged by [A,R,G,B]. Where: A = Alpha (opacity), R = Red, G = Green, B = Blue.
+    # [Default is 64,0,0,0]
+    BackgroundColor: 64,0,0,0
   # Sets crate cooldown format type.
   # Available values: [LITERAL, DIGITAL, SECONDS]
   Cooldown_Format_Type: DIGITAL
@@ -88,6 +105,29 @@ Crate:
     SHIFT_RIGHT: CRATE_MASS_OPEN
     LEFT: CRATE_PREVIEW
     RIGHT: CRATE_OPEN
+  # Sets save interval (in seconds) for crates that were changed using the in-game editor.
+  # [Default is 300 (5 min)]
+  SaveInterval: 300
+  # Sets the Link Tool item layout.
+  LinkTool:
+    Material: minecraft:blaze_rod
+    Display_Name: <gold><b>Link Tool</b></gold>
+    Lore:
+    - <gray>Click a block to link it</gray>
+    - <gray>with the crate!</gray>
+    Hide_Components: true
+  Opening:
+    Confirmation:
+      # Controls whether the Costs GUI will appear even if there is only cost option available.
+      ForSingleCost: false
+  MassOpening:
+    # Controls whether players can do Mass Opening for crates with no cost options defined.
+    AllowForNoCost: false
+    # Controls whether players can do Mass Opening by opening crates while sneaking.
+    SneakToUse: true
+  # Controls whether click actions, when interacting with crate blocks, should be reversed.
+  # By default it uses Left Click to preview crates, and Right Click to open them.
+  Reverse_Click_Actions: false
 Holograms:
   # Controls whether the Holograms feature is available.
   # [*] One of the following plugins is required for holograms to work: packetevents or ProtocolLib
@@ -117,3 +157,6 @@ Rewards:
     mythic:
       Name: <lpurple>Mythic</lpurple>
       Weight: 5.0
+Features:
+  # Whether Mass Opening feature is enabled.
+  MassOpening: true

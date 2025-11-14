@@ -2,8 +2,8 @@ Name: '&bSkrzynia indev'
 Description:
 - Mrgh przegryw
 ItemProvider:
-  Type: VANILLA
-  Tag:
+  Provider: vanilla
+  Data:
     Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Indev Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:mooshroom/variant","minecraft:unbreakable","minecraft:max_damage","minecraft:axolotl/variant","minecraft:map_decorations","minecraft:profile","minecraft:wolf/variant","minecraft:trim","minecraft:parrot/variant","minecraft:base_color","minecraft:enchantments","minecraft:map_id","minecraft:bucket_entity_data","minecraft:potion_duration_scale","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:cat/collar","minecraft:can_place_on","minecraft:banner_patterns","minecraft:intangible_projectile","minecraft:entity_data","minecraft:death_protection","minecraft:dyed_color","minecraft:written_book_content","minecraft:equippable","minecraft:enchantable","minecraft:shulker/color","minecraft:tropical_fish/pattern","minecraft:blocks_attacks","minecraft:tropical_fish/pattern_color","minecraft:max_stack_size","minecraft:note_block_sound","minecraft:provides_banner_patterns","minecraft:container","minecraft:map_post_processing","minecraft:pig/variant","minecraft:lodestone_tracker","minecraft:creative_slot_lock","minecraft:consumable","minecraft:writable_book_content","minecraft:sheep/color","minecraft:can_break","minecraft:rarity","minecraft:ominous_bottle_amplifier","minecraft:recipes","minecraft:salmon/size","minecraft:cow/variant","minecraft:glider","minecraft:custom_data","minecraft:fireworks","minecraft:enchantment_glint_override","minecraft:block_entity_data","minecraft:painting/variant","minecraft:fox/variant","minecraft:potion_contents","minecraft:use_remainder","minecraft:pot_decorations","minecraft:repair_cost","minecraft:wolf/sound_variant","minecraft:food","minecraft:bees","minecraft:tropical_fish/base_color","minecraft:block_state","minecraft:jukebox_playable","minecraft:damage","minecraft:damage_resistant","minecraft:lock","minecraft:cat/variant","minecraft:firework_explosion","minecraft:attribute_modifiers","minecraft:tool","minecraft:wolf/collar","minecraft:weapon","minecraft:map_color","minecraft:break_sound","minecraft:use_cooldown","minecraft:debug_stick_state","minecraft:charged_projectiles","minecraft:llama/variant","minecraft:provides_trim_material","minecraft:chicken/variant","minecraft:instrument","minecraft:frog/variant","minecraft:horse/variant","minecraft:repairable","minecraft:bundle_contents","minecraft:stored_enchantments","minecraft:container_loot","minecraft:rabbit/variant"]}},count:1,id:"minecraft:player_head"}'
     DataVersion: 4435
 ItemStackable: false
@@ -14,12 +14,6 @@ Preview:
 Animation:
   Enabled: true
   Id: csgo
-Opening:
-  Cooldown: 0
-Key:
-  Required: true
-  Ids:
-  - indev_key
 Block:
   Positions:
   - 2526,65,1619,world
@@ -44,24 +38,13 @@ Rewards:
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
-      Win_Limit:
-        Player:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
-        Global:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
       ItemsData:
         '0':
-          Type: VANILLA
-          Tag:
+          Provider: vanilla
+          Data:
             Value: '{components:{"minecraft:attribute_modifiers":[{amount:0.0d,id:"minecraft:000be734-29ae-35b0-a598-15ab7cba7710",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.4d,id:"minecraft:2b9ec2c2-bf9a-3727-b32d-263c40afbf4b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],"minecraft:custom_data":{PublicBukkitValues:{"executableitems:ei-id":"FSMPR_common-item-template-ver3","score:usage":1}},"minecraft:custom_name":{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"3
               Wersja przykładowego przedmiotu klasy pospolitej",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:fire_aspect":1,"minecraft:looting":1,"minecraft:unbreaking":3},"minecraft:lore":[{extra:[{bold:1b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Przedmiot klasy pospolitej ",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"☆ / "},{color:"gray",italic:0b,text:"✦"},{color:"dark_gray",italic:0b,text:" Poziom ulepszenia "},{color:"red",italic:0b,text:"1"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"－",underlined:0b},{color:"gray",italic:0b,strikethrough:0b,text:"[
               "},{color:"gray",italic:0b,text:"🗡 Statystyki przedmiotu ]"},{color:"gray",italic:0b,strikethrough:1b,text:"－－－－－－－－－－－－－－－－－"}],text:""},"",{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"🗡 ATK",underlined:0b},{color:"dark_red",italic:0b,text:" "},{color:"green",italic:0b,text:"1"},{color:"dark_red",italic:0b,text:" "},{color:"gold",italic:0b,text:"/"},{color:"dark_red",italic:0b,text:" "},{color:"red",italic:0b,text:"🗡 "},{color:"red",italic:0b,text:"Crit DMG"},{color:"dark_purple",italic:0b,text:"
@@ -75,30 +58,26 @@ Rewards:
         Tag:
           Value: '{}'
           DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
     3_wersja_przykładowego_przedmiotu_klasy_niepospolitej:
       Type: ITEM
       Weight: 10.0
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
-      Win_Limit:
-        Player:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
-        Global:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
       ItemsData:
         '0':
-          Type: VANILLA
-          Tag:
+          Provider: vanilla
+          Data:
             Value: '{components:{"minecraft:attribute_modifiers":[{amount:1.0d,id:"minecraft:000be734-29ae-35b0-a598-15ab7cba7710",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.4d,id:"minecraft:2b9ec2c2-bf9a-3727-b32d-263c40afbf4b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],"minecraft:custom_data":{PublicBukkitValues:{"executableitems:ei-id":"FSMPR_uncommon-item-template-ver3","score:usage":1}},"minecraft:custom_name":{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"3
               Wersja przykładowego przedmiotu klasy niepospolitej",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:fire_aspect":1,"minecraft:looting":1,"minecraft:unbreaking":3},"minecraft:lore":[{extra:[{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Przedmiot klasy niepospolitej ",underlined:0b},{bold:0b,color:"green",italic:0b,text:"☆☆ / "},{color:"green",italic:0b,text:"✦"},{color:"dark_gray",italic:0b,text:" "},{color:"dark_green",italic:0b,text:"Poziom ulepszenia"},{color:"dark_gray",italic:0b,text:"
               "},{color:"red",italic:0b,text:"1"}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:1b,text:"－",underlined:0b},{color:"green",italic:0b,strikethrough:0b,text:"[ "},{color:"green",italic:0b,text:"🗡 Statystyki przedmiotu ]"},{color:"green",italic:0b,strikethrough:1b,text:"－－－－－－－－－－－－－－－－－－－－"}],text:""},"",{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"🗡 ATK ",underlined:0b},{color:"green",italic:0b,text:"2"},{color:"dark_red",italic:0b,text:"
@@ -112,30 +91,26 @@ Rewards:
         Tag:
           Value: '{}'
           DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
     3_wersja_przykładowego_przedmiotu_klasy_klasyfikowanej:
       Type: ITEM
       Weight: 10.0
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
-      Win_Limit:
-        Player:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
-        Global:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
       ItemsData:
         '0':
-          Type: VANILLA
-          Tag:
+          Provider: vanilla
+          Data:
             Value: '{components:{"minecraft:attribute_modifiers":[{amount:2.0d,id:"minecraft:000be734-29ae-35b0-a598-15ab7cba7710",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.4d,id:"minecraft:2b9ec2c2-bf9a-3727-b32d-263c40afbf4b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],"minecraft:custom_data":{PublicBukkitValues:{"executableitems:ei-id":"FSMPR_classified-item-template-ver3","score:usage":1}},"minecraft:custom_name":{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"3
               Wersja przykładowego przedmiotu klasy klasyfikowanej",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:fire_aspect":1,"minecraft:looting":1,"minecraft:unbreaking":3},"minecraft:lore":[{extra:[{bold:1b,color:"blue",italic:0b,obfuscated:0b,strikethrough:0b,text:"Przedmiot klasy klasyfikowanej ",underlined:0b},{bold:0b,color:"blue",italic:0b,text:"☆☆☆ / "},{color:"blue",italic:0b,text:"✦"},{color:"dark_gray",italic:0b,text:" "},{color:"aqua",italic:0b,text:"Poziom ulepszenia"},{color:"dark_gray",italic:0b,text:"
               "},{color:"blue",italic:0b,text:"1"}],text:""},{extra:[{bold:0b,color:"blue",italic:0b,obfuscated:0b,strikethrough:1b,text:"－",underlined:0b},{color:"blue",italic:0b,strikethrough:0b,text:"[ "},{color:"blue",italic:0b,text:"🗡 Statystyki przedmiotu ]"},{color:"blue",italic:0b,strikethrough:1b,text:"－－－－－－－－－－－－－－－－－－－－－－"}],text:""},"",{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"🗡 ATK ",underlined:0b},{color:"green",italic:0b,text:"3"},{color:"dark_red",italic:0b,text:"
@@ -151,30 +126,26 @@ Rewards:
         Tag:
           Value: '{}'
           DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
     3_wersja_przykładowego_przedmiotu_klasy_elitarnej:
       Type: ITEM
       Weight: 12.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
-      Win_Limit:
-        Player:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
-        Global:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
       ItemsData:
         '0':
-          Type: VANILLA
-          Tag:
+          Provider: vanilla
+          Data:
             Value: '{components:{"minecraft:attribute_modifiers":[{amount:3.0d,id:"minecraft:000be734-29ae-35b0-a598-15ab7cba7710",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:2.4d,id:"minecraft:2b9ec2c2-bf9a-3727-b32d-263c40afbf4b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],"minecraft:custom_data":{PublicBukkitValues:{"executableitems:ei-id":"FSMPR_elite-item-template-ver3","score:usage":1}},"minecraft:custom_name":{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"3
               Wersja przykładowego przedmiotu klasy elitarnej",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:fire_aspect":1,"minecraft:looting":1,"minecraft:unbreaking":3},"minecraft:lore":[{extra:[{bold:1b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Przedmiot klasy elitarnej ",underlined:0b},{bold:0b,color:"dark_purple",italic:0b,text:"☆☆☆☆ / "},{color:"dark_purple",italic:0b,text:"✦"},{color:"dark_gray",italic:0b,text:" "},{color:"light_purple",italic:0b,text:"Poziom ulepszenia"},{color:"dark_gray",italic:0b,text:"
               "},{color:"dark_purple",italic:0b,text:"1"}],text:""},{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:1b,text:"－",underlined:0b},{color:"dark_purple",italic:0b,strikethrough:0b,text:"[ "},{color:"dark_purple",italic:0b,text:"🗡 Statystyki przedmiotu ]"},{color:"dark_purple",italic:0b,strikethrough:1b,text:"－－－－－－－－－－－－－－－－－－－"}],text:""},"",{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"🗡 ATK ",underlined:0b},{color:"green",italic:0b,text:"4"},{color:"dark_red",italic:0b,text:"
@@ -190,30 +161,26 @@ Rewards:
         Tag:
           Value: '{}'
           DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
     3_wersja_przykładowego_przedmiotu_klasy_egzotycznej:
       Type: ITEM
       Weight: 7.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
-      Win_Limit:
-        Player:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
-        Global:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
       ItemsData:
         '0':
-          Type: VANILLA
-          Tag:
+          Provider: vanilla
+          Data:
             Value: '{components:{"minecraft:attribute_modifiers":[{amount:4.0d,id:"minecraft:000be734-29ae-35b0-a598-15ab7cba7710",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-1.8d,id:"minecraft:2b9ec2c2-bf9a-3727-b32d-263c40afbf4b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],"minecraft:custom_data":{PublicBukkitValues:{"executableitems:ei-id":"FSMPR_exotic-item-template-ver3","score:usage":1}},"minecraft:custom_name":{extra:[{bold:1b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"3
               Wersja przykładowego przedmiotu klasy egzotycznej",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:fire_aspect":1,"minecraft:looting":1,"minecraft:unbreaking":3},"minecraft:lore":[{extra:[{bold:1b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"Przedmiot klasy egzotycznej ",underlined:0b},{bold:0b,color:"gold",italic:0b,text:"☆☆☆☆☆ / "},{color:"gold",italic:0b,text:"✦"},{color:"dark_gray",italic:0b,text:" "},{color:"yellow",italic:0b,text:"Poziom ulepszenia"},{color:"dark_gray",italic:0b,text:"
               "},{color:"gold",italic:0b,text:"1"}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:1b,text:"－",underlined:0b},{color:"gold",italic:0b,strikethrough:0b,text:"[ "},{color:"gold",italic:0b,text:"🗡 Statystyki przedmiotu ]"},{color:"gold",italic:0b,strikethrough:1b,text:"－－－－－－－－－－－－－－－－－－－－－－"}],text:""},"",{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"🗡 ATK ",underlined:0b},{color:"green",italic:0b,text:"5"},{color:"dark_red",italic:0b,text:"
@@ -229,30 +196,26 @@ Rewards:
         Tag:
           Value: '{}'
           DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
     _3_wersja_przykładowego_ekskluzywnego_przedmiotu_klasy_egzotycznej:
       Type: ITEM
       Weight: 5.0
       Rarity: mythic
       Broadcast: false
       Placeholder_Apply: false
-      Win_Limit:
-        Player:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
-        Global:
-          Enabled: false
-          Amount: -1
-          Cooldown: 0
-          CooldownStep: 1
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
       ItemsData:
         '0':
-          Type: VANILLA
-          Tag:
+          Provider: vanilla
+          Data:
             Value: '{components:{"minecraft:attribute_modifiers":[{amount:4.0d,id:"minecraft:000be734-29ae-35b0-a598-15ab7cba7710",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-1.8d,id:"minecraft:2b9ec2c2-bf9a-3727-b32d-263c40afbf4b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}],"minecraft:custom_data":{PublicBukkitValues:{"executableitems:ei-id":"FSMPR_exclusive-exotic-item-template-ver3","score:usage":1}},"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"✪
               ",underlined:0b},{bold:1b,color:"red",italic:0b,text:"3 Wersja przykładowego ekskluzywnego przedmiotu klasy egzotycznej"}],text:""},"minecraft:enchantments":{"minecraft:fire_aspect":1,"minecraft:looting":1,"minecraft:unbreaking":3},"minecraft:lore":[{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"✪ ",underlined:0b},{bold:1b,color:"red",italic:0b,text:"Przedmiot klasy egzotycznej "},{bold:0b,color:"red",italic:0b,text:"★★★★★ / "},{color:"red",italic:0b,text:"✦ "},{color:"dark_red",italic:0b,text:"Poziom
               ulepszenia"},{color:"red",italic:0b,text:" 1"}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:1b,text:"－",underlined:0b},{color:"red",italic:0b,strikethrough:0b,text:"[ "},{color:"red",italic:0b,text:"🗡 Statystyki przedmiotu ]"},{color:"red",italic:0b,strikethrough:1b,text:"－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－"}],text:""},"",{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"🗡 ATK ",underlined:0b},{color:"green",italic:0b,text:"5"},{color:"dark_red",italic:0b,text:"
@@ -268,3 +231,27 @@ Rewards:
         Tag:
           Value: '{}'
           DataVersion: 4189
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+CostOptions:
+  key_indev_key:
+    Enabled: true
+    Name: indev_key Key
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4556
+    Entries:
+      '0':
+        Type: key
+        Key: indev_key
+        Amount: 1

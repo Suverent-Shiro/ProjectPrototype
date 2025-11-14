@@ -44,6 +44,11 @@ Database:
     # This option may have different behavior depends on the plugin.
     # By default it's days of inactivity for the plugin users.
     For_Period: 60
+  # This property controls the maximum lifetime of a connection in the pool.
+  # A value of 0 indicates no maximum lifetime (infinite lifetime).
+  # [The minimum allowed value is 30000ms (30 seconds)]
+  # [Default is 1800000 (30 minutes)]
+  Max_Lifetime: 1800000
 UserData:
   Cache:
     # Sets cache lifetime for player's data.

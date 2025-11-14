@@ -36,7 +36,7 @@
 #                                                                                  #
 ####################################################################################
 #
-config-version: 2.0.1.4
+config-version: 2.0.1.5
 # WARNING: Do not change this value as this might end up in a plugin that does not work!!
 #----------------------------------------------Language-------------------------------------------------
 
@@ -345,6 +345,14 @@ click-mappings:
   SELL_ALL: SHIFT_RIGHT
 # These are globally specified mappings, meaning if a section does not override these mappings, it will default to this
 
+# Inventory settings for the /sellgui screen
+sellgui-screen:
+  gui-rows: 6
+#  items:
+#    filler1:
+#      material: GRAY_STAINED_GLASS_PANE
+#      name: " "
+#      slot: 1-9,10,18,19,27,28,36,37,45
 
 #--------------------------------------------NavigationBar----------------------------------------------
 
@@ -571,6 +579,16 @@ allow-lore-items: true
 # When disabled, all sold items will be sold regardless of their item meta(name, lore, enchantments, armor color, potion types, spawner types, recipes, etc...)
 # and will only be matched according the item type
 match-item-meta: true
+
+# Sort the shop items that match each other using a custom order in the list,
+# that way the highest/lowest priced item is prioritized when selling items via /sellall or /sellgui
+#
+# SHOP_LOAD_ORDER = Items will be loaded in the load order of the shop they are located in(Default)
+# DESCENDING_SELL_PRICE = Sort items from HIGH sell prices to LOW sell prices
+# ASCENDING_SELL_PRICE = Sort items from LOW sell prices to HIGH sell prices
+sort-items-by: SHOP_LOAD_ORDER
+# By default, when set to DESCENDING, items that match each other(or duplicate) are prioritized by the highest sell price when selling them
+# For example when having two similar apples in shop, one sold for 20$ and one sold for 5$, players will sell the apple with the highest price when sold via /sellall or /sellgui
 
 # Shop item lore is separated into 7 different 'parts' which can be changed in order.
 # The default order of lore is as follows:

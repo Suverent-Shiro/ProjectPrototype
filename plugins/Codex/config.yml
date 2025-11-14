@@ -6,12 +6,12 @@ update_notify: true
 player_data_save: 300
 
 # Format to display dates when a discovery was found.
-discoveries_date_format: "dd/MM/yyyy"
+discoveries_date_format: dd/MM/yyyy
 
 # Format of the %progress_bar% variable on the lore of category items.
 progress_bar_placeholder:
-  filled_symbol: "&a|"
-  empty_symbol: "&c|"
+  filled_symbol: '&a|'
+  empty_symbol: '&c|'
   amount: 20
 
 # MySQL support credentials.
@@ -31,5 +31,6 @@ mysql_database:
 
 # Don't modify.
 config_version: 2
+use_minimessage: false
 
 

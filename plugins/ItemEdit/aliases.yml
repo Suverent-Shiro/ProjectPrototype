@@ -2131,6 +2131,50 @@ sound:
   item_llama_carpet_unequip: item_llama_carpet_unequip
   entity_happy_ghast_ambient: entity_happy_ghast_ambient
   block_leaf_litter_hit: block_leaf_litter_hit
+  block_shelf_activate: block_shelf_activate
+  entity_copper_golem_step: entity_copper_golem_step
+  entity_copper_golem_item_drop: entity_copper_golem_item_drop
+  entity_copper_golem_weathered_spin: entity_copper_golem_weathered_spin
+  block_shelf_break: block_shelf_break
+  entity_copper_golem_spin: entity_copper_golem_spin
+  entity_copper_golem_weathered_step: entity_copper_golem_weathered_step
+  entity_copper_golem_oxidized_hurt: entity_copper_golem_oxidized_hurt
+  block_copper_chest_oxidized_close: block_copper_chest_oxidized_close
+  block_shelf_place: block_shelf_place
+  entity_copper_golem_weathered_death: entity_copper_golem_weathered_death
+  item_armor_equip_copper: item_armor_equip_copper
+  block_copper_golem_statue_break: block_copper_golem_statue_break
+  entity_copper_golem_spawn: entity_copper_golem_spawn
+  block_copper_golem_statue_place: block_copper_golem_statue_place
+  entity_copper_golem_become_statue: entity_copper_golem_become_statue
+  entity_copper_golem_item_no_drop: entity_copper_golem_item_no_drop
+  block_shelf_deactivate: block_shelf_deactivate
+  block_copper_chest_open: block_copper_chest_open
+  entity_copper_golem_no_item_get: entity_copper_golem_no_item_get
+  entity_copper_golem_hurt: entity_copper_golem_hurt
+  block_shelf_place_item: block_shelf_place_item
+  weather_end_flash: weather_end_flash
+  block_shelf_step: block_shelf_step
+  block_shelf_hit: block_shelf_hit
+  block_shelf_fall: block_shelf_fall
+  entity_copper_golem_oxidized_death: entity_copper_golem_oxidized_death
+  block_copper_chest_weathered_open: block_copper_chest_weathered_open
+  block_copper_chest_weathered_close: block_copper_chest_weathered_close
+  block_shelf_multi_swap: block_shelf_multi_swap
+  block_copper_golem_statue_step: block_copper_golem_statue_step
+  block_shelf_take_item: block_shelf_take_item
+  music_disc_lava_chicken: music_disc_lava_chicken
+  block_copper_chest_close: block_copper_chest_close
+  entity_copper_golem_death: entity_copper_golem_death
+  block_copper_golem_statue_fall: block_copper_golem_statue_fall
+  entity_copper_golem_no_item_no_get: entity_copper_golem_no_item_no_get
+  block_copper_golem_statue_hit: block_copper_golem_statue_hit
+  entity_copper_golem_weathered_hurt: entity_copper_golem_weathered_hurt
+  block_copper_chest_oxidized_open: block_copper_chest_oxidized_open
+  entity_copper_golem_oxidized_step: entity_copper_golem_oxidized_step
+  entity_copper_golem_shear: entity_copper_golem_shear
+  block_shelf_single_swap: block_shelf_single_swap
+  entity_copper_golem_oxidized_spin: entity_copper_golem_oxidized_spin
 itemrarity:
   common: common
   uncommon: uncommon
@@ -2300,6 +2344,8 @@ entitytype:
   happy_ghast: happy_ghast
   lingering_potion: lingering_potion
   splash_potion: splash_potion
+  copper_golem: copper_golem
+  mannequin: mannequin
 animations:
   drink: drink
   eat: eat
@@ -2351,3 +2397,6 @@ entitygroups:
   followable_friendly_mobs: followable_friendly_mobs
   can_wear_horse_armor: can_wear_horse_armor
   can_equip_harness: can_equip_harness
+  cannot_be_pushed_onto_boats: cannot_be_pushed_onto_boats
+  accepts_iron_golem_gift: accepts_iron_golem_gift
+  candidate_for_iron_golem_gift: candidate_for_iron_golem_gift

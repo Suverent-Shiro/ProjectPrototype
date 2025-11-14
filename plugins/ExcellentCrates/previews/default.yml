@@ -12,7 +12,7 @@
 # > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
 #     Slots: '0,4,9,10'
 # > [Type] : String | Defines item click action.
-#     [*] Available types: ['close', 'page_next', 'page_previous', 'open', 'milestones']
+#     [*] Available types: ['close', 'user_skin', 'page_next', 'page_previous', 'open', 'milestones']
 # > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
 #     [*] Works only if [Type] is not set (null).
 #     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
@@ -53,6 +53,8 @@ Reward:
       - '<gray><red>→</red> Your limit: <red>%amount%</red>/<red>%max%</red></gray>'
       Server:
       - '<gray><red>→</red> Server limit: <red>%amount%</red>/<red>%max%</red></gray>'
+    LimitInfo:
+    - '<dark_gray>»</dark_gray><gray> Rolls Available: </gray><yellow>%amount%</yellow>'
 Content:
   black_stained_glass_pane:
     Priority: 0

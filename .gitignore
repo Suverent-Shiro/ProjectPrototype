@@ -1,5 +1,8 @@
-#Old plugin folder
+#additional local plugins folder (Not for github repo)
 plugins_old
+plugins_1.21.8
+plugins_1.21.10
+plugins_1.21.6
 
 #Ignore disabled plugins
 *.disabled
