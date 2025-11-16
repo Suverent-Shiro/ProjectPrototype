@@ -1,3 +1,6 @@
+#EI items
+plugins/ExecutableItems/items/
+
 #additional local plugins folder (Not for github repo)
 plugins_old
 plugins_1.21.8
@@ -8,12 +11,13 @@ plugins_1.21.6
 *.disabled
 *.old
 
-#Ignore userdata, EssentialsX stores users public IP for whatever reason
+#Ignore userdata
 plugins/Essentials/userdata/
 plugins/PlayerKits2/players/
 plugins/Codex/players/
+plugins/CombatLogX/playerdata/
 
-#Other plugin files that store userdate
+#Other plugin files that store userdata
 plugins/AutomaticBroadcast/broadcast-toggles.yml
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
