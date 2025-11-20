@@ -1,6 +1,7 @@
 [*Click for english readme*](https://github.com/Suverent-Shiro/ProjectPrototype/blob/main/README-EN.md)
 
 <img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo" width="200"/>
+
 <!----------------------------------------------------------------------------->
 # ⚡Project: Prototype
 
@@ -17,8 +18,9 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
   <summary><b>Najnowsze stabilne wydanie: Project: Prototype / 3.1</b></summary>
 
   > Data wydania: **06.08.2025**
+  >
+  > [Wydanie 3.1 dla wersji Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
 
-### [Wydanie 3.1 dla wersji Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
 <details>
   <summary>Pluginy zawarte w wydaniu <b>3.1</b> dla wersji 1.21.1</summary>
 
@@ -64,12 +66,13 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 
-[Kliknij, aby przejść do strony pobierania wydania 3.0 (FreedomSMP)](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
+> Data wydania: **05.2024**
+>
+> [Wydanie 3.0 (FreedomSMP) dla wersji Minecraft 1.20.2](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
 
-- Data wydania: **05.2024**
-- Kompatybilna wersja Minecraft: **1.21.1**
-- Rekomendowany silnik serwera Minecraft: **Purpur 2329**
-- Pluginy w wydaniu **3.0 (FreedomSMP)**
+<details>
+  <summary>Pluginy zawarte w wydaniu <b>3.0 (FreedomSMP)</b> dla wersji 1.20.2</summary>
+
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.9 \ *?*
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.0 \ EngineHub
@@ -110,6 +113,7 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
 
 *Nie jestem właścicielem zawartych powyżej pluginów. Są one własnością ich autorów. Pluginy nie są uwzględnione w repozytorium Project: Prototype, znajdują się tutaj tylko ich konfiguracje.*
+</details>
 
 </details>
 

@@ -1,4 +1,5 @@
 <img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo" width="200"/>
+
 <!----------------------------------------------------------------------------->
 # ⚡Project: Prototype
 
@@ -15,8 +16,9 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
   <summary><b>Latest stable release: Project: Prototype / 3.1</b></summary>
 
   > Release date: **06 August 2025**
+  >
+  > [Release 3.1 for Minecraft version 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
 
-### [Release 3.1 for Minecraft version 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
 <details>
   <summary>Plugins included in release <b>3.1</b> for version 1.21.1</summary>
 
@@ -62,12 +64,15 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 
-[Click to go to the download page for release 3.0 (FreedomSMP)](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
 
-- Release date: **May 2024**
-- Compatible Minecraft version: **1.20.4**
-- Recommended Minecraft server engine: **Purpur 2329**
-- Plugins in release **3.0 (FreedomSMP)**
+
+> Release date: **May 2024**
+>
+> [Release 3.0 (FreedomSMP) for Minecraft version 1.20.2](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
+
+<details>
+  <summary>Plugins included in release <b>3.0 (FreedomSMP)</b> for version 1.20.2</summary>
+  
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.9 \ *?*
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.0 \ EngineHub
@@ -109,6 +114,7 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 
 *I do not own the plugins listed above. They are the property of their authors. The plugins are not included in the Project: Prototype repository; only their configurations are here.*
 
+</details>
 </details>
 
 <!----------------------------------------------------------------------------->
