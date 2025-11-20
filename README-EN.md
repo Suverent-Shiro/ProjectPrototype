@@ -1,24 +1,25 @@
+<img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo" width="200"/>
 <!----------------------------------------------------------------------------->
-# Project: Prototype 
+# ⚡Project: Prototype
 
-**Project: Prototype** is a pre-configured Minecraft server configuration. (A kind of template)
+**Project: Prototype** is a pre-configured setup for Minecraft servers (ready-made templates).
 
-**Project: Prototype** was made for easier setting up Minecraft servers for [@Suverent-Shiro](https://github.com/Suverent-Shiro), so the config will not be suited for everyone.
+**Project: Prototype** is designed to simplify the setup of Minecraft servers for [@Suverent-Shiro](https://github.com/Suverent-Shiro), so these configurations may not suit everyone.
 
-This repo is mainly for [@Suverent-Shiro](https://github.com/Suverent-Shiro) and associated with him people.
-*This repo doesn't contain any plugins, only their configs. I do not own any of the plugins, they're owned by their own authors. All plugins and their authors are listed below.*
+This repository is primarily intended for [@Suverent-Shiro](https://github.com/Suverent-Shiro) and people associated with him.
+*This repository does not contain the plugins themselves, only their configurations. I do not own any plugins, they belong to their authors. All plugins and their authors are listed below.*
 <!----------------------------------------------------------------------------->
-## Releases
-<ins>It is recommended to use the newest stable release of Project: Prototype</ins> *Rozwiń po listę pluginów, ich wersji a także kompatybilnej wersji Minecrafta.*
+## 📋Project: Prototype Releases List
+<ins>It is recommended to use the latest stable release of Project: Prototype</ins> *Expand for a list of plugins and their versions.*
 <details>
-  <summary><b>Newest stable release: Project: Prototype / 3.1</b></summary>
+  <summary><b>Latest stable release: Project: Prototype / 3.1</b></summary>
 
-[Download page of release 3.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
+  > Release date: **06 August 2025**
 
-- Release date: **06 August 2025**
-- Compatible Minecraft version: **1.21.1**
-- Recommended Minecraft server engine: **Purpur 2329**
-- Plugins in the release **3.1**
+### [Release 3.1 for Minecraft version 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
+<details>
+  <summary>Plugins included in release <b>3.1</b> for version 1.21.1</summary>
+
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.12 \ *?*
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.8 \ EngineHub
@@ -51,26 +52,22 @@ This repo is mainly for [@Suverent-Shiro](https://github.com/Suverent-Shiro) and
   - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) 1.4.4-SNAPSHOT \ BUTTERFIELD8
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
 
-
-
-*I do not own any of the plugins, they're owned by their own authors. There is no plugins in this repo, you must download them manually.*
-
-  
+*I do not own the plugins listed above. They are the property of their authors. The plugins are not included in the Project: Prototype repository; only their configurations are here.*
 </details>
 
+</details>
 
-<n>
-Older releases
-</n>
+<!----------------------------------------------------------------------------->
+## 📋Older releases (No support)
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 
-[Download page of release 3.0 (FreedomSMP)](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
+[Click to go to the download page for release 3.0 (FreedomSMP)](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
 
 - Release date: **May 2024**
-- Compatible Minecraft version: **1.20.2**
-- Recommended Minecraft server engine: **Purpur**
-- Plugins in the release **3.0 (FreedomSMP)**
+- Compatible Minecraft version: **1.20.4**
+- Recommended Minecraft server engine: **Purpur 2329**
+- Plugins in release **3.0 (FreedomSMP)**
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.9 \ *?*
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.0 \ EngineHub
@@ -110,16 +107,14 @@ Older releases
   - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) 1.4.4-SNAPSHOT \ BUTTERFIELD8
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
 
+*I do not own the plugins listed above. They are the property of their authors. The plugins are not included in the Project: Prototype repository; only their configurations are here.*
 
-
-*I do not own any of the plugins, they're owned by their own authors. There is no plugins in this repo, you must download them manually.*
-
-  
 </details>
 
 <!----------------------------------------------------------------------------->
-## Plugins and their authors
-- List conatining all plugins that are or where used in Project: Prototype
+
+## 📋Plugins included in Project: Prototype and their authors
+- A list containing all plugins that are or have been used in Project: Prototype
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) \ *?*
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) \ EngineHub
@@ -127,7 +122,7 @@ Older releases
   - [Vault](https://www.spigotmc.org/resources/vault.34315/) \ cereal, Sleaker and mung3r
   - [Spark](https://www.spigotmc.org/resources/spark.57242/) \ Luck
   - [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/) \ nisovin and blablubbabc
-  - [SternalBoard](https://www.spigotmc.org/resources/simplescore-animated-scoreboard.23243/) \ xism4, Jonakls
+  - [SternalBoard](https://www.spigotmc.org/resources/sternalboard-simple-animated-scoreboard.89245/) \ xism4, Jonakls
   - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) \ dmulloy2 and comphenix
   - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) \ HelpCat
   - [Orebfuscator](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/) \ Ingrim4, NgLoader, lishid, SydMontague, ProgrammerDan and Aleksey-Terzi
@@ -140,9 +135,9 @@ Older releases
   - [InteractiveChat](https://www.spigotmc.org/resources/interactivechat-show-items-inventory-in-chat-custom-chat-keywords-bungee-velocity-support.75870/) \ loohp
   - [GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-16-1-21-6.62325/) \ Gecolay
   - [EssentialsX](https://essentialsx.net/) \ Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, mdcfe, JRoy and pop4959
-    - EssentialsX Chat 
-    - EssentialsX Spawn 
-    - EssentialsX AntiBuild 
+    - EssentialsX Chat
+    - EssentialsX Spawn
+    - EssentialsX AntiBuild
   - [eShulkerBox](https://www.spigotmc.org/resources/eshulkerbox-let-players-interact-with-shulker-boxes-in-a-better-way-and-comfort.106156/) \ Sweet_Duck
   - [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-5-papi-support-no-dependencies.96927/) \ d0by
   - [CustomDrops](https://modrinth.com/plugin/customdrops) \ OG_Ali
@@ -153,13 +148,12 @@ Older releases
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) \ Pandaaa
   - [WolfyUtilities](https://www.spigotmc.org/resources/wolfyutilities-core-api-1-17-1-1-21-1.64124/) \ WolfyScript
   - [Codex](https://www.spigotmc.org/resources/codex-rpg-discoveries-1-16-5-1-21-6.90371/) \ Ajneb97
-  - ExcellentCrates \ NightExpress
+  - [ExcellentCrates](https://www.spigotmc.org/resources/excellentcrates-%E2%AD%90-advanced-free-crates-plugin.48732/) \ NightExpress
   - [HeadDB](https://github.com/TheSilentPro/HeadDB) \ TheSilentPro (Silent)
   - [SimpleScore](https://www.spigotmc.org/resources/simplescore-animated-scoreboard.23243/) \ R4G3_BABY
   - [SCore](https://github.com/Ssomar-Developement/SCore) \ Ssomar
-  - [ExecutableItems Premium](https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8Fexecutableitems-%E2%AD%90-customize-all-items-add-abilities-%E2%AD%90-ai-items-generation-on-the-discord-%E2%9C%85.83070/updates)  Ssomar
-  - [Codex](https://www.spigotmc.org/resources/codex-rpg-discoveries-1-16-5-1-21-6.90371/) \ Ajneb97
+  - [ExecutableItems Premium](https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8Fexecutableitems-%E2%AD%90-customize-all-items-add-abilities-%E2%AD%90-ai-items-generation-on-the-discord-%E2%9C%85.83070/updates) \ Ssomar
+  - [Codex](https://dev.bukkit.org/projects/worldguard) \ Ajneb97
   - [ODailyQuests](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-21.100990/) \ Ordwen
   - [CustomCrafting](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-17-1-1-20-6-free.55883/) \ WolfyScript
 <!----------------------------------------------------------------------------->
-### You can find dev versions of Project: Prototype in the branch FreedomSMP. Currently release 4.0 is being developed there (This branch is also dedicated for "FreedomSMP: Reborn" project which will use newest Project: Prototye 4)
