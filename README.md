@@ -62,7 +62,7 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 </details>
 
 <!----------------------------------------------------------------------------->
-## 📋Starsze wydania (Brak wsparcia)
+### 📋Starsze wydania (Brak wsparcia)
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 

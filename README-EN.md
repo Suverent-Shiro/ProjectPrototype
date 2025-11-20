@@ -10,7 +10,7 @@
 This repository is primarily intended for [@Suverent-Shiro](https://github.com/Suverent-Shiro) and people associated with him.
 *This repository does not contain the plugins themselves, only their configurations. I do not own any plugins, they belong to their authors. All plugins and their authors are listed below.*
 <!----------------------------------------------------------------------------->
-## 📋Project: Prototype Releases List
+### 📋Project: Prototype Releases List
 <ins>It is recommended to use the latest stable release of Project: Prototype</ins> *Expand for a list of plugins and their versions.*
 <details>
   <summary><b>Latest stable release: Project: Prototype / 3.1</b></summary>
