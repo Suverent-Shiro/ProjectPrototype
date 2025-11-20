@@ -1,4 +1,4 @@
-<img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo" width="200"/>
+<img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo"/>
 
 <!----------------------------------------------------------------------------->
 # ⚡Project: Prototype

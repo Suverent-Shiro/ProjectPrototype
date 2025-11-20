@@ -1,6 +1,6 @@
 [*Click for english readme*](https://github.com/Suverent-Shiro/ProjectPrototype/blob/main/README-EN.md)
 
-<img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo" width="200"/>
+<img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo"/>
 
 <!----------------------------------------------------------------------------->
 # ⚡Project: Prototype
