@@ -22,7 +22,7 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 <details>
   <summary>Plugins included in release <b>3.1</b> for version 1.21.1</summary>
 
-  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.12 \ *?*
+  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.12 \ EngineHub
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.8 \ EngineHub
   - [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) 5.4.1 \ _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD and RK_01
@@ -73,7 +73,7 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 <details>
   <summary>Plugins included in release <b>3.0 (FreedomSMP)</b> for version 1.20.2</summary>
   
-  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.9 \ *?*
+  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.9 \ EngineHub
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.0 \ EngineHub
   - [WolfyUtilities](https://www.spigotmc.org/resources/wolfyutilities-core-api-1-17-1-1-21-1.64124/) 4.16.16.1 \ WolfyScript
@@ -117,11 +117,13 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 </details>
 </details>
 
+> Released older than 3.0 are not available...
+
 <!----------------------------------------------------------------------------->
 
 ## 📋Plugins included in Project: Prototype and their authors
 - A list containing all plugins that are or have been used in Project: Prototype
-  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) \ *?*
+  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) \ EngineHub
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) \ isokissa3
   - [WorldEdit](https://dev.bukkit.org/projects/worldedit) \ EngineHub
   - [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) \ _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD and RK_01
@@ -162,4 +164,7 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
   - [Codex](https://dev.bukkit.org/projects/worldguard) \ Ajneb97
   - [ODailyQuests](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-21.100990/) \ Ordwen
   - [CustomCrafting](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-17-1-1-20-6-free.55883/) \ WolfyScript
+  - [SternalBoard](https://www.spigotmc.org/resources/sternalboard-simple-animated-scoreboard.89245/) \ xIsm4PvP
+  - [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69927/) \ Gypopo
+  - [MythicMobs](https://mythiccraft.io/index.php?resources/mythicmobs.1/) \ MythicCraft
 <!----------------------------------------------------------------------------->
