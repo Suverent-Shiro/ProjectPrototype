@@ -168,4 +168,5 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
   - [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69927/) \ Gypopo
   - [PlayerAuctions](https://www.spigotmc.org/resources/%E2%AD%90-player-auctions-%E2%AD%90-%E2%9E%A2-let-your-players-sell-items-1-7-1-21-10.83073/) \ Olzie-12
   - [MythicMobs](https://mythiccraft.io/index.php?resources/mythicmobs.1/) \ MythicCraft
+  - [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-21-10.57806/) \ NEZNAMY
 <!----------------------------------------------------------------------------->

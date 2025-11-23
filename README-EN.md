@@ -167,4 +167,5 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
   - [SternalBoard](https://www.spigotmc.org/resources/sternalboard-simple-animated-scoreboard.89245/) \ xIsm4PvP
   - [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69927/) \ Gypopo
   - [MythicMobs](https://mythiccraft.io/index.php?resources/mythicmobs.1/) \ MythicCraft
+  - [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-21-10.57806/) \ NEZNAMY
 <!----------------------------------------------------------------------------->
