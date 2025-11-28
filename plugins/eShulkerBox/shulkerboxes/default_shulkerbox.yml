@@ -29,7 +29,7 @@ display-name: "<BOLD><SOLID:D579E9>Custom Shulker Box</BOLD></SOLID>"
 # The lore of the ShulkerBox
 lore:
   - ""
-  - "&7Kliknij aby otworzyć Shulker boxa"
+  - "&7Click to open the ShulkerBox"
   - ""
 
 # Color of the ShulkerBox

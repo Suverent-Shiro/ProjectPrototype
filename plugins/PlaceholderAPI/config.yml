@@ -14,11 +14,12 @@ cloud_sorting: name
 boolean:
   'true': 'yes'
   'false': 'no'
-date_format: MM/dd/yy HH:mm:ss
+date_format: MM.dd.yy HH:mm:ss
 debug: false
 expansions:
   vault:
     formatting:
+      locale: en-US
       thousands: k
       millions: M
       billions: B
@@ -26,7 +27,7 @@ expansions:
       quadrillions: Q
   player:
     ping_value:
-      high: 100
+      high: 80
       medium: 50
     direction:
       north: N
@@ -46,7 +47,7 @@ expansions:
       high: '&a'
       low: '&c'
       medium: '&e'
-    server_name: A Minecraft Server
+    server_name: FreedomSMP
     time:
       locale: en-US
       zone: Etc/UTC
@@ -57,9 +58,11 @@ expansions:
         minute: m
         second: s
   localtime:
-    date_format: dd/MM/yyyy hh:mma
+    date_format: dd.MM.yyyy HH:MM
   math:
     Disable-Warnings: false
     Rounding: half-up
     Decimals: 3
     Debug: false
+  bungee:
+    check_interval: 30

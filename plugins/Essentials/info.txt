@@ -1,9 +1,9 @@
- 
-&8Build: 3.1 / 06.08.2025
-&8&m--------------------------------------------------
-Wszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
-&8&m--------------------------------------------------
-&6Silnik: &5Purpur-2329 [MC-1.21.1]
-&aWersja Minecraft: &f1.21.1
-&8&m--------------------------------------------------
-&6⚡ &3&lProject: &7&lPrototype &c3.1
+&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7" &f&l» &7Informacje o serwerze
+&#37c1e4&m－&#37c1e4[ ☻ Autorzy i kontrybucje ]&#37c1e4&m－－－－－－－－－－－－－－－－－－
+&2Suverent_Shiro &f&l» &#37c1e4Właściciel &#37c1e4&lFreedom&6&lSMP: &e&lReborn
+&#37c1e4&m－&#37c1e4[ 🔧 Architektura serwera ]&#37c1e4&m－－－－－－－－－－－－－－－－－－
+&6❙ ⚡ &fSilnik &l» &5PurpurMC 2522 (DEV-@56ac4de)
+&a❙ 💥 &fWersja &l» &a1.21.10
+&#37c1e4&m－&#37c1e4[ ⚡ Szablon serwera ]&#37c1e4&m－－－－－－－－－－－－－－－－－－－－－
+&6⚡ &3&lProject: &7&lPrototype &cDevelopment
+&8Build: 4.0-devFreedom / 13.11.2025

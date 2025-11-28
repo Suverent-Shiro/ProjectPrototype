@@ -838,7 +838,7 @@ show-zero-baltop: false
 # The format of currency, excluding symbols. See currency-symbol-format-locale for symbol configuration.
 #
 # "#,##0.00" is how the majority of countries display currency.
-#currency-format: "#,##0.00"
+currency-format: "#,##0.00"
 
 # Format currency symbols. Some locales use , and . interchangeably.
 # Some formats do not display properly in-game due to faulty Minecraft font rendering.
@@ -846,7 +846,7 @@ show-zero-baltop: false
 # For 1.234,50 use de-DE
 # For 1,234.50 use en-US
 # For 1'234,50 use fr-ch
-#currency-symbol-format-locale: en-US
+currency-symbol-format-locale: en-US
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -901,13 +901,14 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '&r{DISPLAYNAME} &7&l➡ &r{MESSAGE}'
+  #format: '&r{DISPLAYNAME} &7&l➡ &r{MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
-  #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
-  #  admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
+    default: '&r{DISPLAYNAME} &7&l» &r{MESSAGE}'
+    vip:    '&r{DISPLAYNAME} &6&l» &e{MESSAGE}'
+    admin: '&r{DISPLAYNAME} &4&l» &c{MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
   # Note: Group names are case-sensitive so you must match them up with your permission plugin.
@@ -918,8 +919,9 @@ chat:
   # World aliases allow you to replace the world name with something different in the chat format.
   # If you are using world aliases, make sure to remove the '#' at the start to allow the setting to be read.
   world-aliases:
-  #  plots: "&dP&r"
-  #  creative: "&eC&r"
+        #world: "&aO"
+        #world_nether: "&cN"
+        #world_the_end "&5E"
 
   # Whether players should be placed into shout mode by default.
   shout-default: false

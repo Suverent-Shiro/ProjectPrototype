@@ -17,7 +17,7 @@ language-name: "pl"
 decimal-format: "0.00"
 #The prefix for CombatLogX that is shown in front of all messages.
 #Note to translators: Do not change this message.
-prefix: "<bold><white>[<bold><dark_aqua>Project: <bold><gray>Prototype<bold><white>]<reset>"
+prefix: "<bold><italic><dark_aqua>⚡ </bold><gray>CombatLogX <bold><white>»"
 broadcast:
   #Shown when the plugin is finished loading.
   on-load: "<bold><green>AntyLogOut został pomyślnie załadowany."
@@ -297,7 +297,7 @@ expansion:
       protected: "<red>Ten gracz jest chroniony, nie możesz go jeszcze zaatakować!"
     protection-disabled:
       #Shown when newbie protection is disabled due to the player attacking another player.
-      attacker: "<red>Zaatakowałeś kogoś, twoja ochrona dla nowych graczy została wyłączona."
+      attacker: "<red>Zaatakowałeś kogoś, twoja ochrona dla nowych została wyłączona."
       #Shown when newbie protection expires.
       expired: "<red>Twoja ochrona dla nowych graczy wygasła."
     #Shown for the '/togglepvp check <player>' command.

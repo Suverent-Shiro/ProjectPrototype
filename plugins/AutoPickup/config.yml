@@ -14,7 +14,7 @@ ConfigVersion: 1.4
 # ############################################################################################################
 
 # Message Prefix
-msgPrefix: '&f[&3&lProject: &7Prototype&f]'
+msgPrefix: '&3&o&l⚡ &7AutoPickup &f&l»&r'
 
 # Toggle Message - /auto
 msgAutoPickupEnable: '&7AutoPickup &awłączony&7.'
@@ -35,22 +35,22 @@ msgEnabledJoinMSG: '&7AutoPickup został automatycznie&a włączony&7.'
 doEnabledOnJoinMSG: true
 
 # reload Config Message
-msgReload: '&cReloaded Config'
+msgReload: '&cPrzeładowano konfigruację pluginu'
 
 # Fully Inventory Message
-msgFullInv: '&7Twój ekwipunek jest pełny.'
+msgFullInv: '&7Twój ekwipunek jest pełny!'
 doFullInvMSG: true
 titlebar:
   doTitleBar: false
-  line1: '&cWarning'
-  line2: '&7Inventory is full!'
+  line1: '&cOstrzeżenie'
+  line2: '&7Twój ekwipunek jest pełny!'
 
 # This is most useful for prison servers! -- This setting is not normally recommended
 # This feature voids any extra blocks broken when /auto is enabled and the inventory is full!
 voidOnFullInv: false
 
 # Plase does not have permission
-msgNoperms: '&cYou don''t have permission to use this command'
+msgNoperms: '&cNie masz uprawnień do tej komendy.'
 
 # Require Permissions | Do players require permission to run commands?
 requirePerms:

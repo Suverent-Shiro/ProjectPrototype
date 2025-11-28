@@ -28,16 +28,16 @@ exempted-players:
   - exempted-player2
 
 # The message displayed when the command provided is invalid.
-unknown-command: "&c&l[!] &cUnknown Command."
+unknown-command: "&3&o&l⚡ &7AutoBroadcast &f&l»&r &cNieznana komenda."
 
 # The message displayed when the sender of the command does not have the permission to execute the command.
-no-permission: "&c&l[!] &cYou do not have enough permission to do this."
+no-permission: "&3&o&l⚡ &7AutoBroadcast &f&l»&r &cNie posiadasz uprawnień do tej komendy."
 
 # The message displayed when the configuration of the plugin is reloaded.
-plugin-reload: "&f[&3&lProject: &7Prototype&f] &bPrzeładowano."
+plugin-reload: "&3&o&l⚡ &7AutoBroadcast &f&l»&r &bPrzeładowano konfigurację pluginu."
 
 # The message sent to the sender of the "/automaticbroadcast toggle" (on) command.
-toggle-on-message: "&f[&3&lProject: &7Prototype&f] &aWłączono podpowiedzi."
+toggle-on-message: "&3&o&l⚡ &7AutoBroadcast &f&l»&r &aWłączono podpowiedzi."
 
 # The message sent to the sender of the "/automaticbroadcast toggle" (off) command.
-toggle-off-message: "&f[&3&lProject: &7Prototype&f] &cWyłączono podpowiedzi."
+toggle-off-message: "&3&o&l⚡ &7AutoBroadcast &f&l»&r &cWyłączono podpowiedzi."

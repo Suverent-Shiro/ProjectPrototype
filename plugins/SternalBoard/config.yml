@@ -20,24 +20,23 @@ settings:
   # WORLD - Shows the scoreboard filtering worlds
   # PERMISSION - Shows the scoreboard checking permissions
   # worldguard - Shows the scoreboard checking permissions
-  mode: NORMAL
-  scoreboard-interval-update: 20
+  mode: worldguard
+  scoreboard-interval-update: 10
   scoreboard:
-    title: '&3&lProject: &7Prototype &c3.1'
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
     lines:
-      - '&8&m+--------------------------+'
-      - '&6☀ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
-      - '    &b❙ 📆 &fData: &b%localtime_timezone_Europe/Warsaw%'
-      - '    &a❙ ⌚ &fCzas: &a%world_time_<world>% / %world_timein12_<world>%'    
-      - '    &e❙ 👋 &fGracze online: &e%online%'
-      - '&6⌛ &lꜱᴛᴀᴛʏꜱᴛʏᴋɪ:'
-      - '    &a❙ ☻ &fTy: &r%luckperms_prefix%&f%player%'
-      - '    &b❙ ⌚ &fCzas gry: &b%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
-      - '    &c❙ ☠ &fŚmierci: &c%objective_score_{deaths}%'
-      - '    &4❙ 🗡 &fZabójstwa: &4%objective_score_{kills}%'  
-      - '    &4❙ ❤ &fZdrowie: &4%health%'
-      - '&8&m+--------------------------+'
-      - '&8Build 3.1 / 06.08.2025'
+      - '&8&m+----------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&8&m+----------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'
 
   #Option to disable some scoreboards from worlds
   world-blacklist:
@@ -51,14 +50,15 @@ settings:
 #
 # Supports PlaceholderAPI
 tab-list:
-  enabled: true
+  enabled: false
   update-interval: 20
   header:
-    - "&fNazwa serwera &3&lProject: &7Prototype &cdev"
+    - '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7" &3&lProject: &7Prototype &cDevelopment'
   footer:
     - "&b❙ 📆 &fData: &b%localtime_timezone_Europe/Warsaw%"
-    - "&e❙ 👋 &fGracze online: &e%online%    "
-    - "&7Build 3.1 / 06.08.2025"
+    - "&e❙ 👋 &fGracze online: &e%bungee_total%"
+    - "&8Build: 4.0-devFreedom / 29.08.2025"
+
 #
 # Scoreboard per world configuration
 #
@@ -162,8 +162,107 @@ scoreboard-permission:
 #
 # It will work by searching names for example SPAWN will display an different one
 scoreboard-regions:
-  spawn:
-    title: "&b&lSternal&f6lBoard &d&lSpawn Scoreboard"
+  #Miasto wolności
+  miastowolnosci:
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
     lines:
-      - "&7You are in the &bSpawn."
-      - "&aExplore the world!"
+      - '&8&m+----------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&6🧭 &lʟᴏᴋᴀʟɪᴢᴀᴄᴊᴀ:'
+      - '   &a❙ ☕ &aMiasto Wolności'
+      - '&8&m+----------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'
+  miastowolnosci_plac1:
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
+    lines:
+      - '&8&m+-----------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&6🧭 &lʟᴏᴋᴀʟɪᴢᴀᴄᴊᴀ:'
+      - '   &a❙ ☕ &aMiasto Wolności &f&l» &aPlac Wolności'  
+      - '&8&m+-----------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'
+  miastowolnosci_kawiarnia:
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
+    lines:
+      - '&8&m+---------------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&6🧭 &lʟᴏᴋᴀʟɪᴢᴀᴄᴊᴀ:'
+      - '   &a❙ ☕ &aMiasto Wolności &f&l» &aKawiarnia Wolności'
+      - '&8&m+---------------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'  
+  miastowolnosci_metro:
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
+    lines:
+      - '&8&m+----------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&6🧭 &lʟᴏᴋᴀʟɪᴢᴀᴄᴊᴀ:'
+      - '   &a❙ ☕ &aMiasto Wolności &f&l» &aMetro'
+      - '&8&m+----------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'
+  #Wioska Spawnu
+  wioskaspawnu:
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
+    lines:
+      - '&8&m+----------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&6🧭 &lʟᴏᴋᴀʟɪᴢᴀᴄᴊᴀ:'
+      - '   &e❙ &e☀ &eWioska Spawnu'
+      - '&8&m+----------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'
+  wioskaspawnu_targ:
+    title: '&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7"'
+    lines:
+      - '&8&m+----------------------------+'
+      - '&6⌛ &lᴛᴡᴏᴊᴇ ѕᴛᴀᴛʏѕᴛʏᴋɪ'
+      - '   &a❙ 💰 &fKredyty &l» &a%vault_eco_balance_formatted%'
+      - ''
+      - '   &6❙ ⌚ &fCzas gry &l» &6%statistic_time_played:days%d %statistic_time_played:hours%h %statistic_time_played:minutes%m'
+      - '   &c❙ ☠ &fŚmierci &l» &c%objective_score_{deaths}%'
+      - '   &4❙ 🗡 &fZabójstwa &l» &4%objective_score_{kills}%' 
+      - '&6ℹ &lɪɴꜰᴏʀᴍᴀᴄᴊᴇ:'
+      - '   &a❙ 📆 &fData &l» &a%localtime_timezone_Europe/Warsaw%'   
+      - '   &b❙ 📶 &fPing &l» &b%player_colored_ping%&bms'
+      - '&6🧭 &lʟᴏᴋᴀʟɪᴢᴀᴄᴊᴀ:'
+      - '   &e❙ &e☀ &eWioska Spawnu &f&l» &eTarg'
+      - '&8&m+----------------------------+'
+      - '&8Build: 4.0-devFreedom / 13.11.2025'

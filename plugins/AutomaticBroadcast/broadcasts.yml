@@ -45,13 +45,257 @@ broadcasts:
       #- exempted-player2
 #« »
 
-#Example
-  tip1:
-    messages:
-      - ""
-      - "&#57e437&l« &2&li &#57e437&l» Informacja"
-      - "&6⚡ ᴢᴀꜱɪʟᴀɴᴇ ᴘʀᴢᴇᴢ &3&lProject: &7Prototype &c3.1&6!"
-      - ""
-    click: "/einfo"
-    hover:
-      - "&#57e437&l« &2&li &#57e437&l» &fWszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów."
+#FSMPR Indev tips
+    indev_tip1:
+      messages:
+        - ''
+        - '&b&l💡 Podpowiedź &f&l» &#37c1e4Jest to przykładowa podpowiedź!'
+      hover:
+        - '&b&l💡 &f&l» &#37c1e4&lTo jest taki template to podpowiedzi'
+        - '&#37c1e4&l» &fPrzykład 1.'
+        - '&#37c1e4&l» &fPrzykład 2!'
+        - '&#37c1e4&l» &fPrzykład 3.'
+        - '&#37c1e4&l» &fPiszę to 16 Września 2025 o 08:26PM!'
+    indev_tip2:
+      messages:
+        - ''
+        - '&4&l! Informacja &f&l» &cTen projekt jest we wczesnej fazie rozwoju!'
+        - '&cOznacza to że wszystko na tym serwerze może być obiektem do zmian, bądź także sam projekt może nie doczekać się wydania!'
+      hover:
+        - '&c&l! &f&l» &c&lWidzisz mnie?'
+        - '&c&l» &fJeżeli widzisz tą wiadomość to możesz być beta-testerem!'
+        - '&c&l» &fAlbo może posiadasz jakoś dostęp???'
+
+
+#FSMPR Beta tip
+    beta_1:
+      messages:
+        - ''
+        - '&4&l! Informacja &f&l» &cTen projekt jest we wczesnej fazie rozwoju!'
+        - '&cOznacza to że wszystko na tym serwerze może być obiektem do zmian, bądź także sam projekt może nie doczekać się wydania!'
+      hover:
+        - '&c&l! &f&l» &c&lWidzisz mnie?'
+        - '&c&l» &fJeżeli widzisz tą wiadomość to możesz być beta-testerem!'
+        - '&c&l» &fAlbo może posiadasz jakoś dostęp???'
+    beta_2:
+      messages:
+        - ''
+        - '&4&l! Informacja &f&l» &cZauważyłeś/aś jakieś błędy? Zgłoś je do Shiro!'
+
+
+
+#OLD FreedomSMP
+#Wiki, jak scraftować
+#   tip1:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fNie wiesz jak coś scraftować? Nie wiesz jak czegoś zdobyć?"
+#       - "&fNie martw się! Na serwerze Discord serwera, znajduje się"
+#       - "&fcała wikipedia!"
+#       - ""
+#     #click: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#     hover:
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Co jeszcze tam znajdziesz?"
+#       - "&#37c1e4&l* &fRegulamin serwera."
+#       - "&#37c1e4&l* &fGiveawaye!"
+#       - "&#37c1e4&l* &fSpis craftingów i itemów."
+#       - "&#37c1e4&l* &fSpis miejscówek i krain."
+# #Kupony, quest
+#   tip2:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fPotrzebujesz kuponów? Pamiętaj o questach!"
+#       - "&fZa nie możesz otrzymać dosyć pokaźną sumkę kuponów!"
+#       - ""
+#     click: "/dq"
+#     hover:
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Za co można jeszcze zdobywać kupony?"
+#       - "&#37c1e4&l* &fRobienie questów."
+#       - "&#37c1e4&l* &fHandlowanie z villagerami w miejscówkach!"
+#       - "&#37c1e4&l* &fMożna też wygrać w giveawayu na serwerze Discord."
+# #levele mobow
+#   tip3:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fUdajesz się na wyprawę? Przygotuj się!"
+#       - "Tym dalej jesteś od spawnu, tym cięższe potwory napotkasz"
+#       - "&fna swej drodze."
+#       - ""
+#     #click: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#     #hover:
+#     #  - "&#37c1e4&l« &b&l! &#37c1e4&l» Jakie poziomy mają potwory?"
+#     #  - "&#37c1e4&l* &fW &aoverworldzie &fjest to MAX 50."
+#     #  - "&#37c1e4&l* &fW &cnetherze &fjest to MAX --!"
+# #wiki item stats
+#   tip4:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fNie wiesz co oznacza jakaś statystyka na itemie?"
+#       - "&fWszystkie informacje znajdziesz w wikipedii na serwerze"
+#       - "&fDiscord!"
+#       - ""
+#     #click: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#     hover:
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Co jeszcze tam znajdziesz?"
+#       - "&#37c1e4&l* &fRegulamin serwera."
+#       - "&#37c1e4&l* &fGiveawaye!"
+#       - "&#37c1e4&l* &fSpis craftingów i itemów."
+#       - "&#37c1e4&l* &fSpis miejscówek i krain."
+# #skrzynki
+#   #tip5:
+#   #  messages:
+#   #    - ""
+#   #    - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#   #    - "&fChcesz się pobawić w hazard? &mTak wiem niezłe pytanie&m,"
+#   #    - "&faczkolwiek na serwerze mamy skrzynki! Możesz je otwierać za"
+#   #    - "&fpomocą kluczy które możesz kupić za kupony!"
+#   #    - "&fKlucze także pozyskasz za pomocą questów lub możesz je"
+#   #    - "&fwygrać w giveawayu na serwerze Discord!"
+#   #    - ""
+#     #click: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#   #  hover:
+#   #    - "&#37c1e4&l« &b&l! &#37c1e4&l» Więcej informacji o skrzynkach."
+#   #    - "&#37c1e4&l* &fZnajdziesz je w każdej głównej miejscówce."
+#   #    - "&#37c1e4&l* &fKażda miejscówka posiada swoją unikalną kolekcję, co oznacza też skrzynkę!"
+# #wiki item
+#   tip6:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fNie wiesz do czego służy jakiś item?"
+#       - "&fWszystkie informacje znajdziesz w wikipedii na serwerze" 
+#       - "&fDiscord!"
+#       - ""
+#     #click: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#     hover:
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Co jeszcze tam znajdziesz?"
+#       - "&#37c1e4&l* &fRegulamin serwera."
+#       - "&#37c1e4&l* &fGiveawaye!"
+#       - "&#37c1e4&l* &fSpis craftingów i itemów."
+#       - "&#37c1e4&l* &fSpis miejscówek i krain."
+# #villager kupon
+#   tip7:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fPotrzebujesz kuponów? Pamiętaj o wymienianiu się z"
+#       - "&fvillagerami! Sklepy u villagerów znajdziesz w"
+#       - "&fkażdej miejscówce na świecie!"
+#       - ""
+#     #click: "/quests"
+#     hover:
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Za co można jeszcze zdobywać kupony?"
+#       - "&#37c1e4&l* &fRobienie questów."
+#       - "&#37c1e4&l* &fHandlowanie z villagerami w miejscówkach!"
+#       - "&#37c1e4&l* &fMożna też wygrać w giveawayu na serwerze Discord."
+# #Czy wiesz że na serwerze są odbywane giveawaye? Tak na serio! Aby wziąć udział w giveawayu przejdź na serwer Discord FreedomSMP i znajdź kanał &b#🎉・giveaway&f, może wygrasz coś ciekawego!
+#   tip8:
+#     messages:
+#       - ""
+#       - "&#57e437&l« &2&li &#57e437&l» Informacja"
+#       - "&fCzy wiesz że na serwerze są odbywane giveawaye? Naprawde!"
+#       - "&fAby wziąć udział w giveawayu przejdź na serwer Discord"
+#       - "&#37c1e4Freedom&6SMP &fi znajdź kanał &6#🎉・giveaway&f, może wygrasz coś"
+#       - "&fciekawego!"
+#       - ""
+#     click: "https://discord.com/channels/1184900611767017492/1238462491529445417"
+#     hover:
+#       - "&#57e437&l« &2&li &#57e437&l» Co możesz tam wygrać?"
+#       - "&#57e437&l* &fKupony!"
+#       #- "&#57e437&l* &fKlucze do skrzynek!"
+#       - "&#57e437&l* &fInne specjalne przedmioty!"
+#       - "&#57e437&l* &fI wiele więcej!"
+# #stackowanie kuponów
+#   tip9:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fCzy wiesz że kupony można stackować? (Wow żadna nowość)"
+#       - "&fJednak możesz je zestackować w jeden item! Podejć do"
+#       - "&dkantora kuponów &fi rozmień swoje &a5 &fkuponów na &a1 &fo wartości &a5&f!"
+#       - "&fMożesz to robić także z &a10&f, &a100 &flub nawet &a1000&f!"
+#       - ""
+#     #click: "/quests"
+#     hover:
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Gdzie znajdziesz &dkantor kuponów&f?"
+#       - "&#37c1e4&l* &fW każdej głównej miejscówce."
+# #inne itemy w innych miejscowkach
+#   tip10:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fCzy wiesz że villagerzy w różnych miejscówkach sprzedają"
+#       - "&fróżne przedmioty? &5Elitarny &fsklep w &eWiosce Spawnu"
+#       - "&fmoże zaierać inne przedmioty niż w &aMieście Wolności&f!"
+#       - ""
+#     #click: "/quests"
+#     #hover:
+#     #  - "&#37c1e4&l« &b&l! &#37c1e4&l» Gdzie znajdziesz &dkantor kuponów&f?"
+#     #  - "&#37c1e4&l* &fW każdej głównej miejscówce."
+# #⚡ ᴢᴀꜱɪʟᴀɴᴇ ᴘʀᴢᴇᴢ &3&lProject: &7Prototype &c3.0
+#   tip11:
+#     messages:
+#       - ""
+#       - "&#57e437&l« &2&li &#57e437&l» Informacja"
+#       - "&6⚡ ᴢᴀꜱɪʟᴀɴᴇ ᴘʀᴢᴇᴢ &3&lProject: &7Prototype &c3.0&6!"
+#       - ""
+#     click: "/einfo"
+#     #hover:
+#     #  - "&#57e437&l« &2&li &#57e437&l» Co możesz tam wygrać?"
+#     #  - "&#57e437&l* &fKupony!"
+#     #  - "&#57e437&l* &fKlucze do skrzynek!"
+#     #  - "&#57e437&l* &fInne specjalne przedmioty!"
+#     #  - "&#57e437&l* &fI wiele więcej!"
+# #Miłego grania!
+#   tip12:
+#     messages:
+#       - ""
+#       - "&c&l« &4&l❤ &c&l» Miłego grania!"
+#       - ""
+#     #click: "/einfo"
+#     #hover:
+#     #  - "&#57e437&l« &2&li &#57e437&l» Co możesz tam wygrać?"
+#     #  - "&#57e437&l* &fKupony!"
+#     #  - "&#57e437&l* &fKlucze do skrzynek!"
+#     #  - "&#57e437&l* &fInne specjalne przedmioty!"
+#     #  - "&#57e437&l* &fI wiele więcej!"
+# #daily
+#   tip13:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fPamiętaj o swoich daily questach!"
+#       - "&fSzkoda było by tak wyjść z serwera i wciąż mieć daily nie zrobione co nie?"
+#       - ""
+#     click: "/dq"
+# #kondensowanie
+#   tip14:
+#     messages:
+#       - ""
+#       - "&#37c1e4&l« &b&l! &#37c1e4&l» Podpowiedź"
+#       - "&fNie chce ci się nosić stacków itemów żeby je sprzedać?"
+#       - "&fMożesz je skondensować! Użyj 9 wybranych przedmiotów w"
+#       - "&fcraftingu aby scraftować 1 o wartości 9! To jak ze"
+#       - "&fstackowaniem kuponów! Tylko pamiętaj! Sprzedając"
+#       - "&fskondensowane przedmioty, możesz zarobić mniej! &cDziała"
+#       - "&ctylko na niektórych przedmiotach, najedź na tą"
+#       - "&cwiadomość aby je poznać."
+#       - ""
+#     hover:
+#        - "&#57e437&l« &2&li &#57e437&l» Jakie przedmioty można skondensować?"
+#        - "&#57e437&l* &fMarchewki"
+#        - "&#57e437&l* &fZiemniaki"
+#        - "&#57e437&l* &fBuraki"
+#        - "&#57e437&l* &fTrzcina cukrowa"
+#        - "&#57e437&l* &fKaktusy"
+#        - "&#57e437&l* &fNasiona buraka"
+#        - "&#57e437&l* &fNasiona pszenicy"
+# #
+
+# #
+
+# #

@@ -1,0 +1,31 @@
+errorUPDActivator: '&8[&4عناصر&7قابلة&8للتنفيذ]&c لقد وصلت إلى الحد الأقصى للاستخدامات
+  لـ &e%activator%&c! الحد الأقصى لاستخدامات المنشط يوميًا: &7(&e%max_use_per_day_activator%&7)&4'
+cancelCraft: '&8[&4عناصر&7قابلة&8للتنفيذ] &cلا يمكنك الصنع بهذا العنصر القابل للتنفيذ!'
+requiredItemsQuantity: ' &cx &6'
+timeLeft: '&8[&4عناصر&7قابلة&8للتنفيذ] &cانتظر &e%time% &cقبل استخدام &6%activator%&c!'
+waitProjectile: '&cيجب أن تنتظر حتى يصيب المقذوف شيئًا!'
+pickupLimitMessage: '&8[&4عناصر&7قابلة&8للتنفيذ] &cلا يمكنك امتلاك أكثر من %limit%
+  عناصر قابلة للتنفيذ!'
+invalidOwner: '&8[&4عناصر&7قابلة&8للتنفيذ] &cهذا العنصر يمكن استخدامه فقط من قبل مالكه!'
+requiredEIFirstPart: '&4العناصر القابلة للتنفيذ المطلوبة: '
+requiredEISeparator: '&c | '
+disableWorld: '&8[&4عناصر&7قابلة&8للتنفيذ] &cلا يمكنك استخدام &e%item%&c في هذا العالم!'
+requiredEIQuantity: ' &cx &6'
+noEntityHit: '&8[&4عناصر&7قابلة&8للتنفيذ] &cلم يتم إصابة أي كيان'
+requiredItemsFirstPart: '&4العناصر المطلوبة: '
+receiveItem: '&8[&aعناصر&7قابلة&8للتنفيذ] &aلقد استلمت &a%quantity%x &e%item%'
+noHit: '&8[&4عناصر&7قابلة&8للتنفيذ] &cلم يتم إصابة أي لاعب'
+giveMessage: '&8[&aعناصر&7قابلة&8للتنفيذ] &aلقد أعطيت &e&n%player%&r &a%quantity%x
+  &e%item%'
+fullInventory: '&8[&4عناصر&7قابلة&8للتنفيذ] &cمخزونك ممتلئ، &e%item% &cتم إسقاطه.'
+use: '&7&oالاستخدامات المتبقية: '
+refreshValid: '&2&l[العناصر القابلة للتنفيذ] &aالعنصر(العناصر) القابلة للتنفيذ &e%id%
+  &aفي مخزون اللاعب(اللاعبين) &e%player% &aتمت إعادة ضبطها بنجاح!'
+requiredItemsSeparator: '&c | '
+requirePermission: '&8[&4عناصر&7قابلة&8للتنفيذ] &cليس لديك الإذن لاستخدام &e%item%&c!'
+requiredLevel: '&8[&4عناصر&7قابلة&8للتنفيذ] &cيجب أن تكون على الأقل في المستوى &6&l%level%&c
+  لاستخدام هذا العنصر!'
+errorUPDItem: '&7[&4عناصر&7قابلة للتنفيذ] &cلقد وصلت إلى الحد الأقصى من الاستخدامات
+  لـ &e%item%&c. الحد الأقصى لاستخدامات العنصر يوميًا: &7(&e%max_use_per_day_item%&7)'
+customCommandDamageKillMessage: '%player% دمّر %target% باستخدام %item%'
+noOwner: '&cلا يوجد مالك'

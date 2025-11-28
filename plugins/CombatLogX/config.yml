@@ -5,7 +5,7 @@
 # You should also ensure that this file is saved as UTF-8.
 
 # DO NOT change this value or your config may be corrupted
-generated-by-version: "11.4.0.1.1193"
+generated-by-version: "11.6.0.0.1286"
 
 # Should debug messages be sent to the console?
 # This option should be enabled if you are reporting an error or bug.
@@ -83,7 +83,7 @@ timer:
   # This is the default amount of time that players will be tagged (in seconds).
   # This value will be used if the timer type is GLOBAL or if a permission cannot be detected.
   # Default: 10
-  default-timer: 10
+  default-timer: 20
 
 # Which permission will prevent players from being tagged into combat?
 # You must add this permission manually.
@@ -108,7 +108,7 @@ untag-on-enemy-death: false
 
 # Should CombatLogX attempt to remove any damage cooldown effects from players during login and teleport events?
 # Default: true
-remove-no-damage-cooldown: false
+remove-no-damage-cooldown: true
 
 # How long must players wait between requests?
 # This cooldown is for the `/clx forgive request' command.

@@ -60,6 +60,8 @@ itemedit:
     commands_per_page: 8
   hidetooltip:
     name: ''
+  equipment:
+    name: ''
   food:
     name: ''
   maxstacksize:
@@ -68,9 +70,15 @@ itemedit:
     name: ''
   fireresistent:
     name: ''
+  glider:
+    name: ''
   glow:
     name: ''
   rarity:
+    name: ''
+  itemmodel:
+    name: ''
+  tooltipstyle:
     name: ''
 serveritem:
   give:

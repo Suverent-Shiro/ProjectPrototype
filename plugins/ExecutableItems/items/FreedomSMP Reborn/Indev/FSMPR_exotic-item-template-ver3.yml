@@ -1,0 +1,279 @@
+# The name or display name
+name: §6§l3 Wersja przykładowego przedmiotu klasy egzotycznej
+# The lore of the item
+lore:
+- §6§lPrzedmiot klasy egzotycznej §6☆☆☆☆☆ / §6✦§8 §ePoziom ulepszenia§8 §61
+- §6§m－§6[ §6🗡 Statystyki przedmiotu ]§6§m－－－－－－－－－－－－－－－－－－－－－－
+- ''
+- §4🗡 ATK §a5§4 §6/§4 §c🗡 §cCrit DMG §a6§c §6/§c §c☣ Crit Rate §a30%
+- §b⚡ SPD §aBardzo szybki
+- §9🛡 Trwałość§5 §aDobry
+- ''
+- §6§m－§6[ §6⚗ §6Efekty przedmiotu ]§6§m－－－－－－－－－－－－－－－－－－－－－－－－
+- §x§D§3§7§2§0§B🔥 Aspekt ognia 1 §8- §8ᴘᴏᴅᴘᴀʟᴀѕᴢ ᴘʀᴢᴇᴄɪᴡɴɪᴋᴏᴡ
+- §a✦ Szczęście 1 §8- §8ʟᴇᴘѕᴢᴇ ᴅʀᴏᴘʏ ᴢ ᴍᴏʙᴏᴡ
+- §6§m－§6[ §6❇§6 Specjalna umiejętność przedmiotu ]§6§m－－－－－－－－－－－－－－－
+- ''
+- '§4🌶 Krwiożercza wymiana §8[§b⌚ Czas trwania: Nieskończony§8]'
+- §8ᴀᴋᴛʏᴡᴀᴄᴊᴀ ᴘʀᴀᴡʏᴍ ᴘʀᴢʏᴄɪѕᴋɪᴇᴍ ᴍʏѕᴢʏ
+- ''
+- §6§m－§6[ §6🖊 §6Opis przedmiotu ]§6§m－－－－－－－－－－－－－－－－－－－－－－－－－－
+- §6§oLorem ipsum§7§o dolor sit amet, consectetur adipiscing elit. Nulla augue
+- §7§oneque, viverra maximus enim sed, §c§ohendrerit §7§oplacerat neque.
+- '§7§oPellentesque mi nisl. '
+- ''
+- §6🔰 §6§lKolekcja Spadającej Gwiazdy
+# The material
+material: DIAMOND_SWORD
+# Item Glowing effect
+glow: false
+# Disable the enchant glide effect
+disableEnchantGlide: false
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: false
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: false
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: false
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# The glider
+glider: false
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: false
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: 1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: false
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: false
+# The enchantments of the item
+enchantments:
+  enchantment0:
+    enchantment: Fire_aspect
+    # The level of the enchantment
+    level: 1
+  enchantment1:
+    enchantment: Looting
+    # The level of the enchantment
+    level: 1
+  enchantment2:
+    enchantment: Unbreaking
+    # The level of the enchantment
+    level: 3
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: true
+  # Hide unbreakable
+  hideUnbreakable: true
+  # Hide attributes
+  hideAttributes: true
+  # Hide usage
+  hideUsage: false
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hide armor trim
+  hideArmorTrim: false
+  # Hide additional tooltip
+  hideAdditionalTooltip: true
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # The item can't be used
+  # to craft any item
+  # (Even custom items)
+  cancel-item-craft: true
+  # The item can't be
+  # to deposit in a furnace
+  cancel-deposit-in-furnace: true
+  # The item can't be
+  # enchanted
+  cancel-enchant: true
+  # The item can't be
+  # renamed in an anvil
+  cancel-rename-anvil: true
+  # The item can't be
+  # enchanted in an anvil
+  cancel-enchant-anvil: true
+  # The item can't be
+  # placed in a grind stone
+  cancel-grind-stone: true
+  # The item can't be
+  # placed in a smithing table
+  cancel-smithing-table: true
+  # The item can't be
+  # placed in a crafter
+  cancel-crafter: true
+  # The item can't be
+  # placed in a merchant
+  cancel-merchant: true
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: false
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables: {}
+# The activators / triggers
+activators: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: true
+  # The time to disable blocking
+  # in ticks
+  disableBlockingTime: 0
+  # The damage per attack
+  damagePerAttack: 1
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+attributes:
+  attribute0:
+    attribute: ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 4.0
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: base_attack_damage
+    uuid: 000be734-29ae-35b0-a598-15ab7cba7710
+  attribute1:
+    attribute: ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.8
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: base_attack_speed
+    uuid: 2b9ec2c2-bf9a-3727-b32d-263c40afbf4b
