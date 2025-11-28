@@ -22,7 +22,7 @@ decimal-format: "0.00"
 
 # The prefix for CombatLogX that is shown in front of all messages.
 # Note to translators: Do not change this message.
-prefix: "<white><bold>[<gold>CombatLogX</gold>]</bold></white>"
+prefix: "<bold><italic><dark_aqua>⚡ </bold><gray>CombatLogX <bold><white>»"
 
 broadcast:
   # Shown when the plugin is finished loading.

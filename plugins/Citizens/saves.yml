@@ -30,13 +30,13 @@ npc:
         attributes:
           minecraft:waypoint_transmit_range: 0.0
       location:
-        bodyYaw: 51.264114
+        bodyYaw: 88.59372
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
         x: 2547.5
         y: 64.0
         z: 1624.5
-        yaw: 51.2641
-        pitch: -6.2355
+        yaw: 105.0927
+        pitch: 0.0
     traitnames: scoreboardtrait,spawned,rotationtrait,hologramtrait,skintrait,lookclose,location,inventory,type,attributetrait,chunktickettrait
     navigator:
       speedmodifier: 1.0
@@ -124,12 +124,12 @@ npc:
         attributes:
           minecraft:waypoint_transmit_range: 0.0
       location:
-        bodyYaw: -90.72103
+        bodyYaw: -100.74165
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
         x: 2526.5
         y: 64.0
         z: 1626.5
-        yaw: -90.721
+        yaw: -100.7417
         pitch: 0.0
       scoreboardtrait:
         tags:
@@ -167,13 +167,13 @@ npc:
         attributes:
           minecraft:waypoint_transmit_range: 0.0
       location:
-        bodyYaw: 149.97699
+        bodyYaw: -163.38799
         worldid: 81f2b321-860a-4889-ac33-f8c8c8b3708a
         x: 2531.5
         y: 64.0
         z: 1641.2974
-        yaw: 169.977
-        pitch: 0.0
+        yaw: -163.388
+        pitch: -6.0037
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
