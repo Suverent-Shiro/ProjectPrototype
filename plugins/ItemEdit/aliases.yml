@@ -286,6 +286,15 @@ attribute:
   player_sneaking_speed: player_sneaking_speed
   player_submerged_mining_speed: player_submerged_mining_speed
   player_sweeping_damage_ratio: player_sweeping_damage_ratio
+  spawn_reinforcements: spawn_reinforcements
+  entity_interaction_range: entity_interaction_range
+  sweeping_damage_ratio: sweeping_damage_ratio
+  submerged_mining_speed: submerged_mining_speed
+  sneaking_speed: sneaking_speed
+  mining_efficiency: mining_efficiency
+  block_interaction_range: block_interaction_range
+  block_break_speed: block_break_speed
+  tempt_range: tempt_range
 operation:
   add_number: add_number
   add_scalar: add_scalar
@@ -345,6 +354,7 @@ trim_material:
   lapis: lapis
   amethyst: amethyst
   copper: copper
+  resin: resin
 trim_pattern:
   minecraft:rib: rib
   minecraft:snout: snout
@@ -2004,6 +2014,48 @@ sound:
   ui_toast_out: ui_toast_out
   weather_rain: weather_rain
   weather_rain_above: weather_rain_above
+  block_eyeblossom_close: block_eyeblossom_close
+  block_resin_bricks_fall: block_resin_bricks_fall
+  entity_creaking_death: entity_creaking_death
+  block_spawner_break: block_spawner_break
+  block_resin_bricks_step: block_resin_bricks_step
+  entity_creaking_spawn: entity_creaking_spawn
+  block_creaking_heart_spawn: block_creaking_heart_spawn
+  entity_parrot_imitate_creaking: entity_parrot_imitate_creaking
+  entity_creaking_attack: entity_creaking_attack
+  block_resin_place: block_resin_place
+  entity_creaking_twitch: entity_creaking_twitch
+  block_creaking_heart_hurt: block_creaking_heart_hurt
+  block_eyeblossom_idle: block_eyeblossom_idle
+  block_resin_break: block_resin_break
+  block_spawner_place: block_spawner_place
+  entity_creaking_activate: entity_creaking_activate
+  block_creaking_heart_hit: block_creaking_heart_hit
+  entity_creaking_freeze: entity_creaking_freeze
+  block_resin_bricks_place: block_resin_bricks_place
+  block_creaking_heart_idle: block_creaking_heart_idle
+  block_resin_bricks_break: block_resin_bricks_break
+  ui_hud_bubble_pop: ui_hud_bubble_pop
+  block_pale_hanging_moss_idle: block_pale_hanging_moss_idle
+  entity_creaking_ambient: entity_creaking_ambient
+  block_eyeblossom_close_long: block_eyeblossom_close_long
+  entity_creaking_deactivate: entity_creaking_deactivate
+  block_spawner_hit: block_spawner_hit
+  entity_creaking_step: entity_creaking_step
+  block_spawner_fall: block_spawner_fall
+  block_spawner_step: block_spawner_step
+  block_creaking_heart_step: block_creaking_heart_step
+  entity_creaking_unfreeze: entity_creaking_unfreeze
+  block_resin_fall: block_resin_fall
+  block_resin_step: block_resin_step
+  entity_creaking_sway: entity_creaking_sway
+  block_eyeblossom_open: block_eyeblossom_open
+  block_creaking_heart_break: block_creaking_heart_break
+  block_resin_bricks_hit: block_resin_bricks_hit
+  block_eyeblossom_open_long: block_eyeblossom_open_long
+  block_creaking_heart_place: block_creaking_heart_place
+  item_bundle_insert_fail: item_bundle_insert_fail
+  block_creaking_heart_fall: block_creaking_heart_fall
 itemrarity:
   common: common
   uncommon: uncommon
@@ -2151,6 +2203,27 @@ entitytype:
   lightning_bolt: lightning_bolt
   player: player
   unknown: unknown
+  acacia_boat: acacia_boat
+  acacia_chest_boat: acacia_chest_boat
+  bamboo_raft: bamboo_raft
+  bamboo_chest_raft: bamboo_chest_raft
+  birch_boat: birch_boat
+  birch_chest_boat: birch_chest_boat
+  cherry_boat: cherry_boat
+  cherry_chest_boat: cherry_chest_boat
+  dark_oak_boat: dark_oak_boat
+  dark_oak_chest_boat: dark_oak_chest_boat
+  jungle_boat: jungle_boat
+  jungle_chest_boat: jungle_chest_boat
+  mangrove_boat: mangrove_boat
+  mangrove_chest_boat: mangrove_chest_boat
+  oak_boat: oak_boat
+  oak_chest_boat: oak_chest_boat
+  pale_oak_boat: pale_oak_boat
+  pale_oak_chest_boat: pale_oak_chest_boat
+  spruce_boat: spruce_boat
+  spruce_chest_boat: spruce_chest_boat
+  creaking: creaking
 animations:
   drink: drink
   eat: eat
@@ -2197,3 +2270,4 @@ entitygroups:
   arrows: arrows
   illager_friends: illager_friends
   fall_damage_immune: fall_damage_immune
+  boat: boat

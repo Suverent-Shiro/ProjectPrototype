@@ -63,3 +63,5 @@ expansions:
     Rounding: half-up
     Decimals: 3
     Debug: false
+  bungee:
+    check_interval: 30

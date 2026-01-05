@@ -72,6 +72,14 @@ itemedit:
     name: ''
   rarity:
     name: ''
+  equipment:
+    name: ''
+  glider:
+    name: ''
+  itemmodel:
+    name: ''
+  tooltipstyle:
+    name: ''
 serveritem:
   give:
     name: give

@@ -101,3 +101,25 @@ Profiles:
   # [*] Enabling this setting may get you rate limited from Mojang.
   # [Default is false]
   FetchCustom: false
+  # How often (in seconds) to perform updates for profiles that were put in update queue.
+  #
+  # [Default is 1]
+  UpdateInterval: 1
+  # Amount of profiles to be updated from a queue (see UpdateInterval).
+  # [Default is 1]
+  UpdateAmount: 1
+General:
+  DateTimeFormat: dd/MM/yyyy HH:mm
+Integrations:
+  Economy:
+    # List of economy/currency IDs that will not be handled by the nightcore and it's child plugins.
+    DisabledProviders:
+    - custom_economy
+    - example_currency
+    # Whether to apply PlaceholderAPI placeholders in currency's Format setting.
+    PlaceholderAPI_In_Format: true
+  Items:
+    # List of custom item plugins that will not be handled by the nightcore and it's child plugins.
+    DisabledProviders:
+    - CustomSuperItems
+    - UltimateItemsPlugin
