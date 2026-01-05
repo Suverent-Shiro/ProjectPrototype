@@ -1,3 +1,9 @@
+#Remapper
+plugins/.paper-remapped/
+
+#Annoying
+plugins/AuraSkills/backups/
+
 #EI items
 plugins/ExecutableItems/items/
 

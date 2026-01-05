@@ -10,15 +10,24 @@
 This repository is primarily intended for [@Suverent-Shiro](https://github.com/Suverent-Shiro) and people associated with him.
 *This repository does not contain the plugins themselves, only their configurations. I do not own any plugins, they belong to their authors. All plugins and their authors are listed below.*
 <!----------------------------------------------------------------------------->
+<<<<<<< Updated upstream
 ## 📋Project: Prototype Releases List
 <ins>It is recommended to use the latest stable release of Project: Prototype</ins> *Expand for a list of plugins and their versions.*
+=======
+### 📋Project: Prototype Releases List
+<ins>It is recommended to use the latest stable release of Project: Prototype</ins>
+>>>>>>> Stashed changes
 <details>
   <summary><b>Latest stable release: Project: Prototype / 3.1</b></summary>
 
-  > Release date: **06 August 2025**
-  >
-  > [Release 3.1 for Minecraft version 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
+  > Release date: **06 August 2025**  
+  > Available Minecraft versions: **1.21.1** / **1.21.4** / **1.21.11** (Dev versions)
+  > 
+  > [Release 3.1 for Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)  
+  > [Release 3.1 for Minecraft 1.21.4 (Recomended)](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)  
+  > [Release 3.1 for Minecraft 1.21.11 (Dev version)](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)  
 
+<<<<<<< Updated upstream
 <details>
   <summary>Plugins included in release <b>3.1</b> for version 1.21.1</summary>
 
@@ -56,20 +65,25 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 
 *I do not own the plugins listed above. They are the property of their authors. The plugins are not included in the Project: Prototype repository; only their configurations are here.*
 </details>
+=======
+> Required plugins are listed in [**Lista-EN.md**](https://github.com/Suverent-Shiro/blob/main/Lista-EN.md)
+>>>>>>> Stashed changes
 
 </details>
 
 <!----------------------------------------------------------------------------->
-## 📋Older releases (No support)
+## ⏳Older releases (No support)
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 
 
 
-> Release date: **May 2024**
+> Release date: **May 2024**  
+> Available Minecraft versions: **1.20.2**
 >
-> [Release 3.0 (FreedomSMP) for Minecraft version 1.20.2](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
+> [Release 3.0 (FreedomSMP) for Minecraft 1.20.2](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
 
+<<<<<<< Updated upstream
 <details>
   <summary>Plugins included in release <b>3.0 (FreedomSMP)</b> for version 1.20.2</summary>
   
@@ -113,10 +127,13 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
 
 *I do not own the plugins listed above. They are the property of their authors. The plugins are not included in the Project: Prototype repository; only their configurations are here.*
+=======
+> Required plugins are listed in [**Lista-EN.md**](https://github.com/Suverent-Shiro/blob/main/Lista-EN.md)
+>>>>>>> Stashed changes
 
 </details>
-</details>
 
+<<<<<<< Updated upstream
 <!----------------------------------------------------------------------------->
 
 ## 📋Plugins included in Project: Prototype and their authors
@@ -162,4 +179,23 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
   - [Codex](https://dev.bukkit.org/projects/worldguard) \ Ajneb97
   - [ODailyQuests](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-21.100990/) \ Ordwen
   - [CustomCrafting](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-17-1-1-20-6-free.55883/) \ WolfyScript
+=======
+> Looking for releases older than 3.0? I no longer have any copies of 1.x and 2.x. These releases are considered [lost media](https://en.wikipedia.org/wiki/Lost_media/blob/main/Lista.md).
+
 <!----------------------------------------------------------------------------->
+
+## 📋Plugins included in Project: Prototype and their authors
+All plugins included in Project: Prototype are listed in [lista-EN.md](https://github.com/Suverent-Shiro/ProjectPrototype/blob/main/Lista-EN.md)  
+You will find there lists for each release and also list of all plugins in total.
+
+>>>>>>> Stashed changes
+<!----------------------------------------------------------------------------->
+
+## ❤️ Special thanks
+To all the authors of the plugins included in Project: Prototype.
+
+<!----------------------------------------------------------------------------->
+
+## 🔑 Licence
+Project: Protoype is licensed under MIT License.  
+The plugins themselves are not covered by this license, they are the property of their authors and are also subject to the license granted to them. Project: Prototype only licenses their configurations.

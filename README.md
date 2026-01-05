@@ -17,10 +17,14 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 <details>
   <summary><b>Najnowsze stabilne wydanie: Project: Prototype / 3.1</b></summary>
 
-  > Data wydania: **06.08.2025**
+  > Data wydania: **06.08.2025**  
+  > Dostępne wersje Minecraft: **1.21.1** / **1.21.4** / **1.21.11** (Wersje dev)
   >
-  > [Wydanie 3.1 dla wersji Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)
+  > - [Wydanie 3.1 dla Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)  
+  > - [Wydanie 3.1 dla Minecraft 1.21.4 (Rekomendowane)](https://github.com/Suverent-Shiro)  
+  > - [Wydanie 3.1 dla Minecraft 1.21.11 (Wersja dev)](https://github.com/Suverent-Shiro)
 
+<<<<<<< Updated upstream
 <details>
   <summary>Pluginy zawarte w wydaniu <b>3.1</b> dla wersji 1.21.1</summary>
 
@@ -58,18 +62,27 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 
 *Nie jestem właścicielem zawartych powyżej pluginów. Są one własnością ich autorów. Pluginy nie są uwzględnione w repozytorium Project: Prototype, znajdują się tutaj tylko ich konfiguracje.*
 </details>
+=======
+> Wymagane pluginy dla wydania 3.1 znajdziesz w [**Lista.md**](https://github.com/Suverent-Shiro/blob/main/Lista.md)
+>>>>>>> Stashed changes
 
 </details>
 
 <!----------------------------------------------------------------------------->
+<<<<<<< Updated upstream
 ## 📋Starsze wydania (Brak wsparcia)
+=======
+### ⏳Starsze wydania (Brak wsparcia)
+>>>>>>> Stashed changes
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 
-> Data wydania: **05.2024**
->
-> [Wydanie 3.0 (FreedomSMP) dla wersji Minecraft 1.20.2](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
+  > Data wydania: **05.2024**  
+  > Dostępne wersje Minecraft: **1.20.2**
+  > 
+  > - [Wydanie 3.0 (FreedomSMP) dla Minecraft 1.20.2](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.0-FreedomSMP)
 
+<<<<<<< Updated upstream
 <details>
   <summary>Pluginy zawarte w wydaniu <b>3.0 (FreedomSMP)</b> dla wersji 1.20.2</summary>
 
@@ -162,4 +175,27 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
   - [Codex](https://dev.bukkit.org/projects/worldguard) \ Ajneb97
   - [ODailyQuests](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-21.100990/) \ Ordwen
   - [CustomCrafting](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-17-1-1-20-6-free.55883/) \ WolfyScript
+=======
+> Wymagane pluginy dla wydania 3.0 znajdziesz w [**Lista.md**](https://github.com/Suverent-Shiro)
+
+</details>
+
+> Szukasz starszych wydań niż 3.0? Nie posiadam żadnych kopii wydań 1.x i 2.x. Te wydania są uznane jako [lost media](https://en.wikipedia.org/wiki/Lost_media/blob/main/Lista.md).
+
 <!----------------------------------------------------------------------------->
+
+## 📋Lista wszystkich pluginów zawartych w Project: Prototype
+Wszystkie pluginy zawarte w Project: Prototype znajdziesz w dedykowanej liście [Lista.md](https://github.com/Suverent-Shiro/ProjectPrototype/blob/main/Lista.md)  
+Znajdziesz tam listę pluginów w poszczególnych wydaniach a także ogólną listę.
+
+>>>>>>> Stashed changes
+<!----------------------------------------------------------------------------->
+
+## ❤️ Specjalne podziękowania
+Wszystkim autorom pluginów zawartych w Project: Prototype.
+
+<!----------------------------------------------------------------------------->
+
+## 🔑 Licencja
+Project: Protoype jest licencjonowane na licencji MIT.  
+Pluginy same w sobie nie są objęte tą licencją, są one własnością ich autorów a także podlegają licencją im przyznanym. Project: Prototype licencjonuje jedynie ich konfiguracje.
