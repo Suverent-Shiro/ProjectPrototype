@@ -13,7 +13,7 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 *To repozytorium nie zawiera samych pluginów, tylko ich konfiguracje. Nie jestem właścicielem jakichkolwiek pluginów, należą one do ich autorów. Wszystkie pluginy oraz ich autorzy są wymienieni poniżej.*
 <!----------------------------------------------------------------------------->
 ## 📋Lista wydań Project: Prototype
-<ins>Zaleca się używanie najnowszego stabilnego wydania Project: Prototype</ins> *Rozwiń dla listy pluginów i ich wersji.*
+<ins>Zaleca się używanie najnowszego stabilnego wydania Project: Prototype</ins>
 <details>
   <summary><b>Najnowsze stabilne wydanie: Project: Prototype / 3.1</b></summary>
 
