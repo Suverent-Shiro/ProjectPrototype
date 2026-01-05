@@ -14,22 +14,33 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 <!----------------------------------------------------------------------------->
 ## 📋Lista wydań Project: Prototype
 <ins>Zaleca się używanie najnowszego stabilnego wydania Project: Prototype</ins>
+
 <details>
-  <summary><b>Najnowsze stabilne wydanie: Project: Prototype / 3.1</b></summary>
+  <summary><b>Najnowsze stabilne wydanie: Project: Prototype / 3.1.1</b></summary>
 
-  > Data wydania: **06.08.2025**  
-  > Dostępne wersje Minecraft: **1.21.1** / **1.21.4** / **1.21.11** (Wersje dev)
+  > Data wydania: **05.01.2026**  
+  > Dostępne wersje Minecraft: **1.21.4-1.21.11**
   >
-  > - [Wydanie 3.1 dla Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)  
-  > - [Wydanie 3.1 dla Minecraft 1.21.4 (Rekomendowane)](https://github.com/Suverent-Shiro)  
-  > - [Wydanie 3.1 dla Minecraft 1.21.11 (Wersja dev)](https://github.com/Suverent-Shiro)
+  > - [Wydanie 3.1.1 dla Minecraft 1.21.4-1.21.11](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1.1)  
 
-> Wymagane pluginy dla wydania 3.1 znajdziesz w [**Lista.md**](https://github.com/Suverent-Shiro/blob/main/Lista.md)
+> Wymagane pluginy dla wydania 3.1.1 znajdziesz w [**Lista.md**](https://github.com/Suverent-Shiro/blob/main/Lista.md)
 
 </details>
 
 <!----------------------------------------------------------------------------->
 ### ⏳Starsze wydania (Brak wsparcia)
+<details>
+  <summary><b>Project: Prototype / 3.1</b></summary>
+
+  > Data wydania: **06.08.2025**  
+  > Dostępne wersje Minecraft: **1.21.1**
+  >
+  > - [Wydanie 3.1 dla Minecraft 1.21.1](https://github.com/Suverent-Shiro/ProjectPrototype/releases/tag/3.1_bStats-fix)  
+
+> Wymagane pluginy dla wydania 3.1 znajdziesz w [**Lista.md**](https://github.com/Suverent-Shiro/blob/main/Lista.md)
+
+</details>
+
 <details>
   <summary><b>Project: Prototype / 3.0 (FreedomSMP)</b></summary>
 
