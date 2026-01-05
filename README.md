@@ -42,7 +42,7 @@ To repozytorium jest przeznaczone głównie dla [@Suverent-Shiro](https://github
 
 </details>
 
-> Szukasz starszych wydań niż 3.0? Nie posiadam żadnych kopii wydań 1.x i 2.x. Te wydania są uznane jako [lost media](https://en.wikipedia.org/wiki/Lost_media/blob/main/Lista.md).
+> Szukasz starszych wydań niż 3.0? Nie posiadam żadnych kopii wydań 1.x i 2.x. Te wydania są uznane jako [lost media](https://en.wikipedia.org/wiki/Lost_media).
 
 <!----------------------------------------------------------------------------->
 

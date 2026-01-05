@@ -40,7 +40,7 @@ This repository is primarily intended for [@Suverent-Shiro](https://github.com/S
 
 </details>
 
-> Looking for releases older than 3.0? I no longer have any copies of 1.x and 2.x. These releases are considered [lost media](https://en.wikipedia.org/wiki/Lost_media/blob/main/Lista.md).
+> Looking for releases older than 3.0? I no longer have any copies of 1.x and 2.x. These releases are considered [lost media](https://en.wikipedia.org/wiki/Lost_media).
 
 <!----------------------------------------------------------------------------->
 
