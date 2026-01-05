@@ -63,6 +63,14 @@ Znajdziesz tam listę pluginów w poszczególnych wydaniach a także ogólną li
 
 <!----------------------------------------------------------------------------->
 
+## ⛏️ The Suverent Organization's FreedomSMP
+FreedomSMP był serwerem Minecraft od Shiro który zbudował Project: Prototype 3.0, związku z tym nigdy nie było oficjalnego wydania 3.0 (Jedynie te dla FreedomSMP)
+
+Dedykowane repozytorium dla FreedomSMP nie jest już dostępne, a wydanie 3.0 to cała konfiguracja od FreedomSMP dla wersji 1.20.2 (Istnieje także próba przeportowania FreedomSMP dla nowszych wersji Minecrafta. Obecne próby przeportowania znajdziesz w gałęzi FSMP_port)
+
+
+<!----------------------------------------------------------------------------->
+
 ## ❤️ Specjalne podziękowania
 Wszystkim autorom pluginów zawartych w Project: Prototype.
 
