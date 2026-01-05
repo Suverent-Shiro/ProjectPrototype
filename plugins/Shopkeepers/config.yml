@@ -1,9 +1,8 @@
-config-version: 6
+config-version: 9
 debug: false
 debug-options: []
 enable-metrics: true
 language: en-default
-file-encoding: UTF-8
 save-instantly: true
 convert-player-items: false
 convert-all-player-items: true
@@ -17,8 +16,9 @@ register-world-guard-allow-shop-flag: true
 enable-towny-restrictions: false
 disable-inventory-verification: false
 shop-creation-item:
-  type: VILLAGER_SPAWN_EGG
-  display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Shopkeeper"}],"text":""}'
+  id: minecraft:villager_spawn_egg
+  components:
+    minecraft:custom_name: '{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Shopkeeper",underlined:0b}],text:""}'
 prevent-shop-creation-item-regular-usage: true
 invert-shop-type-and-object-type-selection: false
 deleting-player-shop-returns-creation-item: false
@@ -127,40 +127,40 @@ enable-hanging-sign-shops: true
 name-regex: '[A-Za-z0-9&§ ]{3,25}'
 naming-of-player-shops-via-item: false
 allow-renaming-of-player-npc-shops: false
-selling-empty-trade-result-item: GRAY_STAINED_GLASS_PANE
-selling-empty-trade-item1: GRAY_STAINED_GLASS_PANE
-selling-empty-trade-item2: GRAY_STAINED_GLASS_PANE
-selling-empty-item1: BARRIER
-selling-empty-item2: BARRIER
-buying-empty-trade-result-item: GRAY_STAINED_GLASS_PANE
-buying-empty-trade-item1: GRAY_STAINED_GLASS_PANE
-buying-empty-trade-item2: AIR
-buying-empty-result-item: BARRIER
-buying-empty-item2: AIR
-trading-empty-trade-result-item: GRAY_STAINED_GLASS_PANE
-trading-empty-trade-item1: GRAY_STAINED_GLASS_PANE
-trading-empty-trade-item2: GRAY_STAINED_GLASS_PANE
-trading-empty-result-item: BARRIER
-trading-empty-item1: BARRIER
-trading-empty-item2: BARRIER
-book-empty-trade-result-item: GRAY_STAINED_GLASS_PANE
-book-empty-trade-item1: GRAY_STAINED_GLASS_PANE
-book-empty-trade-item2: GRAY_STAINED_GLASS_PANE
-book-empty-item1: BARRIER
-book-empty-item2: BARRIER
+selling-empty-trade-result-item: minecraft:gray_stained_glass_pane
+selling-empty-trade-item1: minecraft:gray_stained_glass_pane
+selling-empty-trade-item2: minecraft:gray_stained_glass_pane
+selling-empty-item1: minecraft:barrier
+selling-empty-item2: minecraft:barrier
+buying-empty-trade-result-item: minecraft:gray_stained_glass_pane
+buying-empty-trade-item1: minecraft:gray_stained_glass_pane
+buying-empty-trade-item2: minecraft:air
+buying-empty-result-item: minecraft:barrier
+buying-empty-item2: minecraft:air
+trading-empty-trade-result-item: minecraft:gray_stained_glass_pane
+trading-empty-trade-item1: minecraft:gray_stained_glass_pane
+trading-empty-trade-item2: minecraft:gray_stained_glass_pane
+trading-empty-result-item: minecraft:barrier
+trading-empty-item1: minecraft:barrier
+trading-empty-item2: minecraft:barrier
+book-empty-trade-result-item: minecraft:gray_stained_glass_pane
+book-empty-trade-item1: minecraft:gray_stained_glass_pane
+book-empty-trade-item2: minecraft:gray_stained_glass_pane
+book-empty-item1: minecraft:barrier
+book-empty-item2: minecraft:barrier
 max-trades-pages: 5
-previous-page-item: WRITABLE_BOOK
-next-page-item: WRITABLE_BOOK
-current-page-item: WRITABLE_BOOK
-trade-setup-item: PAPER
-placeholder-item: PAPER
-name-item: NAME_TAG
+previous-page-item: minecraft:writable_book
+next-page-item: minecraft:writable_book
+current-page-item: minecraft:writable_book
+trade-setup-item: minecraft:paper
+placeholder-item: minecraft:paper
+name-item: minecraft:name_tag
 enable-moving-of-player-shops: true
-move-item: ENDER_PEARL
+move-item: minecraft:ender_pearl
 enable-container-option-on-player-shop: true
-container-item: CHEST
-trade-notifications-item: BELL
-delete-item: BONE
+container-item: minecraft:chest
+trade-notifications-item: minecraft:bell
+delete-item: minecraft:bone
 disable-other-villagers: false
 block-villager-spawns: false
 disable-zombie-villager-curing: false
@@ -170,7 +170,7 @@ block-wandering-trader-spawns: false
 hire-wandering-traders: false
 edit-regular-villagers: false
 edit-regular-wandering-traders: false
-hire-item: EMERALD
+hire-item: minecraft:emerald
 hire-other-villagers-costs: 1
 hire-require-creation-permission: true
 prevent-trading-with-own-shop: true
@@ -183,11 +183,11 @@ simulate-wandering-trader-trading-sounds: true
 simulate-wandering-trader-ambient-sounds: false
 simulate-trading-sounds-only-for-the-trading-player: true
 trade-succeeded-sound:
-  sound: UI_BUTTON_CLICK
+  sound: minecraft:ui.button.click
   pitch: 2.0
   volume: 0.3
 trade-failed-sound:
-  sound: BLOCK_BARREL_CLOSE
+  sound: minecraft:block.barrel.close
   pitch: 2.0
   volume: 0.5
 tax-rate: 0
@@ -196,15 +196,21 @@ notify-players-about-trades: false
 trade-notification-sound: ''
 notify-shop-owners-about-trades: true
 shop-owner-trade-notification-sound:
-  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  sound: minecraft:entity.experience_orb.pickup
   volume: 0.25
 trade-log-merge-duration-ticks: 300
 trade-log-next-merge-timeout-ticks: 100
-log-trades-to-csv: false
 log-item-metadata: false
-currency-item: EMERALD
-high-currency-item: EMERALD_BLOCK
+currency-item: minecraft:emerald
+high-currency-item: minecraft:emerald_block
 high-currency-value: 9
 high-currency-min-cost: 20
 add-shop-creation-item-tag: false
 identify-shop-creation-item-by-tag: false
+trade-log-storage: DISABLED
+data-version: 4671
+check-spawn-location-interaction-result: false
+slime-max-size: 5
+magma-cube-max-size: 5
+enable-glowing-sign-text: true
+enable-all-equipment-editor-slots: false

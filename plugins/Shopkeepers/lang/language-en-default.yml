@@ -52,6 +52,11 @@ button-name: "&aSet shop name"
 button-name-lore:
 - Lets you rename
 - your shopkeeper
+button-equipment: "&aEquipment"
+button-equipment-lore:
+- "Assign equipment."
+- "Note: Not all mobs support"
+- "the same equipment slots."
 button-move: "&aMove shopkeeper"
 button-move-lore:
 - Lets you move
@@ -112,10 +117,6 @@ button-horse-style: "&aChoose horse style"
 button-horse-style-lore:
 - "Changes the coat pattern"
 - "of the horse"
-button-horse-saddle: "&aToggle horse saddle"
-button-horse-saddle-lore:
-- "Toggles the saddle"
-- "of the horse"
 button-horse-armor: "&aChoose horse armor"
 button-horse-armor-lore:
 - "Changes the armor"
@@ -142,6 +143,9 @@ button-fox-sleeping: "&aToggle sleeping pose"
 button-fox-sleeping-lore:
 - "Toggles the fox's"
 - "sleeping pose"
+button-cow-variant: "&aChoose cow variant"
+button-cow-variant-lore:
+- "Changes the cow's look"
 button-mooshroom-variant: "&aChoose mooshroom variant"
 button-mooshroom-variant-lore:
 - "Changes the look"
@@ -152,9 +156,12 @@ button-panda-variant-lore:
 button-parrot-variant: "&aChoose parrot variant"
 button-parrot-variant-lore:
 - "Changes the parrot's look"
-button-pig-saddle: "&aToggle pig saddle"
-button-pig-saddle-lore:
-- "Toggles the pig's saddle"
+button-pig-variant: "&aChoose pig variant"
+button-pig-variant-lore:
+- "Changes the pig's look"
+button-chicken-variant: "&aChoose chicken variant"
+button-chicken-variant-lore:
+- "Changes the chicken's look"
 button-sheep-color: "&aChoose sheep color"
 button-sheep-color-lore:
 - "Changes the sheep's"
@@ -232,12 +239,79 @@ button-puffer-fish-puff-state-lore:
 - "Changes the puff state"
 - "of the puffer fish."
 - "Currently: &e{puffState}"
+button-salmon-variant: "&aChoose variant"
+button-salmon-variant-lore:
+- "Changes the size"
+- "of the salmon."
 button-frog-variant: "&aChoose frog variant"
 button-frog-variant-lore:
 - "Changes the frog's look"
 button-wolf-variant: "&aChoose wolf variant"
 button-wolf-variant-lore:
 - "Changes the wolf's look"
+button-saddle: "&aToggle saddle"
+button-saddle-lore:
+- "Toggles the mob's saddle"
+button-copper-golem-weather-state: "&aChoose oxidation level"
+button-copper-golem-weather-state-lore:
+- "Changes the copper golem's"
+- "oxidation level"
+button-armor-stand-base-plate: "&aToggle base plate"
+button-armor-stand-base-plate-lore:
+- "Toggles the base plate"
+- "of the armor stand"
+button-armor-stand-show-arms: "&aToggle arms"
+button-armor-stand-show-arms-lore:
+- "Toggles the arms"
+- "of the armor stand"
+button-armor-stand-small: "&aToggle size"
+button-armor-stand-small-lore:
+- "Toggles the size"
+- "of the armor stand"
+button-mannequin-main-hand: "&aToggle main hand"
+button-mannequin-main-hand-lore:
+- "Toggles the main hand"
+- "of the mannequin"
+button-mannequin-pose: "&aToggle pose"
+button-mannequin-pose-lore:
+- "Toggles the pose"
+- "of the mannequin"
+button-mannequin-profile: "&aChange skin"
+button-mannequin-profile-lore:
+- "Changes the skin"
+- "of the mannequin"
+button-nautilus-armor: "&aChoose armor"
+button-nautilus-armor-lore:
+- "Changes the armor"
+- "of the nautilus"
+button-zombie-nautilus-variant: "&aChoose variant"
+button-zombie-nautilus-variant-lore:
+- "Changes the look of"
+- "the zombie nautilus."
+
+mannequin-enter-profile: |-
+  &aPlease enter in chat the name or id of the player whose profile you want to apply to the mannequin.
+  &a  Enter a dash (-) to clear the current profile.
+  &a  Enter an exclamation mark (!) to keep the current profile.
+mannequin-enter-profile-canceled: "&7Canceled: The mannequin's profile was not changed."
+mannequin-profile-set: "&aThe mannequin's profile has been set to '&e{profileName}&a'!"
+mannequin-profile-cleared: "&aThe mannequin's profile has been cleared!"
+mannequin-profile-invalid: "&cFailed to fetch the profile for '&e{input}&c'!"
+
+equipment-editor-title: "Equipment Editor"
+equipment-slot-lore:
+- "Place an item to equip it."
+- "Right-click to clear"
+- "the equipment slot."
+
+equipment-slot-mainhand: "&aMainhand"
+equipment-slot-offhand: "&aOffhand"
+equipment-slot-feet: "&aFeet"
+equipment-slot-legs: "&aLegs"
+equipment-slot-chest: "&aChest"
+equipment-slot-head: "&aHead"
+equipment-slot-body: "&aBody"
+equipment-slot-saddle: "&aSaddle"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -306,7 +380,7 @@ currency-items-given: "&aPlayer &e{player}&a has received &6{amount}x&a currency
 currency-items-received: "&aYou have received &6{amount}x&a currency item '&e{currency}&a'!"
 must-hold-item-in-main-hand: "&7You must hold an item in your main hand."
 currency-item-set-to-main-hand-item: "&aThe currency item '&e{currencyId}&a' has been set to the &eitem in your main hand&a!"
-items-converted: "&aConverted &e{count}&a item stack(s)!"
+items-updated: "&aUpdated &e{count}&a item(s)!"
 unknown-book-author: "Unknown"
 
 trade-perm-set: "&aThe shop's trading permission has been set to '&e{perm}&a'!"
@@ -554,6 +628,12 @@ villager-name-invalid: "&aThat name is not valid!"
 
 no-shops-found: "&7No shops were found."
 
+teleport-virtual-shopkeeper: "&7Cannot teleport to a virtual shopkeeper!"
+teleport-shopkeeper-world-not-loaded: "&7Cannot teleport to a shopkeeper in an unloaded world!"
+teleport-no-safe-location-found: "&7Could not find a safe location to teleport to!"
+teleport-failed: "&7The teleport failed!"
+teleport-success: "&aPlayer '&e{player}&a' was teleported to shopkeeper '&e{shop}&a'!"
+
 list-admin-shops-header: "&9There are &e{shopsCount} &9admin shops: &e(Page {page} of {maxPage})"
 list-all-shops-header: "&9There are &e{shopsCount} &9shops in total: &e(Page {page} of {maxPage})"
 list-player-shops-header: "&9Player '&e{player}&9' has &e{shopsCount} &9shops: &e(Page {page} of {maxPage})"
@@ -621,6 +701,25 @@ snapshot-removed-all: "&aAll &e{snapshotsCount} &asnapshots of shop &e{shop_id}&
 snapshot-restore-failed: "&cFailed to restore snapshot: &e({id}) &2{name} &8(&7{timestamp}&8)"
 snapshot-restored: "&aSnapshot restored: &e({id}) &2{name} &8(&7{timestamp}&8)"
 
+history-header: "&9Trades of {players}&9 with {shops}&9: &e{tradesCount} &e(Page {page} of {maxPage})"
+history-header-all-players: "&eall players"
+history-header-specific-player: "&e{player}"
+history-header-all-shops: "&eall shops"
+history-header-admin-shops: "all &eadmin shops"
+history-header-player-shops: "all &eplayer shops"
+history-header-all-owned-shops: "shops owned by &e{owner}"
+history-header-specific-shop: 'shop &e"{shop}"'
+history-header-specific-owned-shop: 'shop &e"{shop}"&9 owned by &e{owner}'
+
+history-disabled: "&7The trading history is disabled."
+history-no-trades-found: "&7No trades found."
+
+history-entry-one-item: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(&f{timeAgo} ago&7)"
+history-entry-two-items: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(&f{timeAgo} ago&7)"
+history-entry-player-shop: "&e{owner}"
+history-entry-admin-shop: "&eAdmin Shop"
+history-entry-trade-count: "&7 (&6{count}x&7)"
+
 no-permission: "&cYou don't have the permission to do that."
 
 command-unknown: "&cUnknown command '&e{command}&c'!"
@@ -635,11 +734,20 @@ command-shop-object-type-argument-invalid: "&cUnknown shop object type '&e{argum
 command-shopkeeper-argument-invalid: "&cNo shopkeeper found for '&e{argument}&c'."
 command-shopkeeper-argument-no-admin-shop: "&cShopkeeper '&e{argument}&c' is no admin shopkeeper."
 command-shopkeeper-argument-no-player-shop: "&cShopkeeper '&e{argument}&c' is no player shopkeeper."
+command-shopkeeper-argument-no-access: "&cYou do not have access to shopkeeper '&e{argument}&c'."
 command-entity-argument-no-villager: "&cEntity '&e{argument}&c' is no regular villager."
 
-ambiguous-player-name: "&cThere are multiple matches for the name '&e{name}&c'!"
+ambiguous-player-name: "&cThere are multiple players for the name '&e{name}&c'!"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
 ambiguous-player-name-more: "&c  - ...."
+
+ambiguous-shopkeeper-name: "&cThere are multiple shopkeepers for the name '&e{name}&c'!"
+ambiguous-shopkeeper-name-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-shopkeeper-name-more: "&c  - ...."
+
+ambiguous-target-shopkeeper: "&cThere are multiple shopkeepers being targeted!"
+ambiguous-target-shopkeeper-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-target-shopkeeper-more: "&c  - ...."
 
 command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
 command-help-usage-format: "&e{usage}"
@@ -651,15 +759,17 @@ command-description-reload: "Reloads this plugin."
 command-description-debug: "Toggles debug mode on and off."
 command-description-notify: "Turns trade notifications for you on or off."
 command-description-list: "Lists all shops of a specific player, or all admin shops."
+command-description-history: "Shows the trading history."
 command-description-remove: "Removes a specific shop."
 command-description-remove-all: "Removes all shops of a specific player, all players, or all admin shops."
 command-description-give: "Gives shop creation item(s) to the specified player."
 command-description-give-currency: "Gives currency item(s) to the specified player."
 command-description-set-currency: "Changes the currency item to the item held in hand."
-command-description-convert-items: "Converts the held (or all) items to conform to Spigot's data format."
+command-description-update-items: "Updates third-party items (if they support it)."
 command-description-remote: "Remotely opens a shop (Optionally: For another player)."
 command-description-remote-edit: "Remotely edits a shop."
 command-description-transfer: "Transfers the ownership of a shop."
+command-description-teleport: "Teleports to a shop."
 command-description-settradeperm: "Sets, removes (-) or displays (?) the trading permission."
 command-description-settradedcommand: "Sets, removes (-) or displays (?) the traded command of the held item."
 command-description-setforhire: "Sets one of your shops for sale."

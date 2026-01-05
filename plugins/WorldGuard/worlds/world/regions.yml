@@ -14,23 +14,71 @@ regions:
         min: {x: -33, y: -64, z: -203}
         max: {x: 302, y: 319, z: 75}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, invincible: allow,
-            use: allow, greeting: §fWitaj w §e§lWiosce Spawnu§f!, leaf-decay: deny,
-            snow-fall: deny, firework-damage: deny, coral-fade: deny, mob-damage: deny,
-            ravager-grief: deny, scoreboard: wioskaspawnu, use-anvil: deny, mushroom-growth: deny,
-            respawn-anchors: deny, lightning: deny, wither-damage: deny, ice-form: deny,
-            chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny,
-            crop-growth: deny, entry: allow, creeper-explosion: deny, vine-growth: deny,
-            damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, farewell: §fOpuszczasz §e§lWioskę Spawnu§f!,
-            frosted-ice-form: deny, mycelium-spread: deny, block-trampling: deny,
-            ice-melt: deny, interact: allow, vehicle-destroy: allow, chest-access: deny,
-            ride: allow, fire-spread: deny, enderdragon-block-damage: deny, sleep: deny,
-            sculk-growth: deny, vehicle-place: allow, snowman-trails: deny, rock-growth: deny,
-            entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny, pistons: allow,
-            enderpearl: deny, item-drop: allow, soil-dry: deny, exp-drops: deny, copper-fade: deny,
-            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: deny,
-            frosted-ice-melt: deny, lava-flow: allow, grass-growth: deny}
+        flags:
+            other-explosion: deny
+            lava-fire: deny
+            water-flow: allow
+            invincible: allow
+            use: allow
+            greeting: §fWitaj w §e§lWiosce Spawnu§f!
+            snow-fall: deny
+            leaf-decay: deny
+            firework-damage: deny
+            coral-fade: deny
+            mob-damage: deny
+            scoreboard: [wioskaspawnu]
+            ravager-grief: deny
+            use-anvil: deny
+            mushroom-growth: deny
+            respawn-anchors: deny
+            lightning: deny
+            wither-damage: deny
+            ice-form: deny
+            chorus-fruit-teleport: deny
+            enderman-grief: deny
+            pvp: deny
+            mob-spawning: deny
+            crop-growth: deny
+            entry: allow
+            creeper-explosion: deny
+            vine-growth: deny
+            damage-animals: deny
+            snow-melt: deny
+            tnt: deny
+            ghast-fireball: deny
+            entity-item-frame-destroy: deny
+            farewell: §fOpuszczasz §e§lWioskę Spawnu§f!
+            frosted-ice-form: deny
+            mycelium-spread: deny
+            ice-melt: deny
+            block-trampling: deny
+            interact: allow
+            vehicle-destroy: allow
+            chest-access: deny
+            ride: allow
+            fire-spread: deny
+            enderdragon-block-damage: deny
+            sleep: deny
+            sculk-growth: deny
+            vehicle-place: allow
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            lighter: deny
+            use-dripleaf: deny
+            pistons: allow
+            enderpearl: deny
+            item-drop: allow
+            soil-dry: deny
+            exp-drops: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-pickup: allow
+            item-frame-rotation: deny
+            potion-splash: deny
+            frosted-ice-melt: deny
+            lava-flow: allow
+            grass-growth: deny
         owners: {}
         type: cuboid
         priority: 1
@@ -39,20 +87,20 @@ regions:
         max: {x: 271, y: 319, z: 1452}
         members: {}
         flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, use: deny,
-            leaf-decay: deny, snow-fall: deny, firework-damage: deny, coral-fade: deny,
+            snow-fall: deny, leaf-decay: deny, firework-damage: deny, coral-fade: deny,
             mob-damage: deny, ravager-grief: deny, use-anvil: deny, mushroom-growth: deny,
             respawn-anchors: deny, lightning: allow, wither-damage: deny, ice-form: allow,
             enderman-grief: deny, pvp: deny, mob-spawning: deny, crop-growth: deny,
-            creeper-explosion: deny, vine-growth: deny, damage-animals: deny, notify-enter: true,
-            snow-melt: deny, tnt: deny, ghast-fireball: deny, entity-item-frame-destroy: deny,
-            frosted-ice-form: allow, mycelium-spread: deny, block-trampling: deny,
-            ice-melt: allow, interact: deny, vehicle-destroy: allow, chest-access: deny,
-            ride: allow, fire-spread: deny, enderdragon-block-damage: deny, sleep: deny,
-            sculk-growth: deny, vehicle-place: allow, snowman-trails: deny, rock-growth: deny,
-            entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny, pistons: deny,
-            item-drop: allow, soil-dry: deny, exp-drops: deny, copper-fade: deny,
-            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: deny,
-            frosted-ice-melt: allow, lava-flow: allow, grass-growth: deny, notify-leave: true}
+            creeper-explosion: deny, vine-growth: deny, damage-animals: deny, snow-melt: deny,
+            notify-enter: true, tnt: deny, ghast-fireball: deny, entity-item-frame-destroy: deny,
+            frosted-ice-form: allow, mycelium-spread: deny, ice-melt: allow, block-trampling: deny,
+            interact: deny, vehicle-destroy: allow, chest-access: deny, ride: allow,
+            fire-spread: deny, enderdragon-block-damage: deny, sleep: deny, sculk-growth: deny,
+            vehicle-place: allow, snowman-trails: deny, rock-growth: deny, entity-painting-destroy: deny,
+            lighter: deny, use-dripleaf: deny, pistons: deny, item-drop: allow, soil-dry: deny,
+            exp-drops: deny, copper-fade: deny, fall-damage: deny, item-pickup: allow,
+            item-frame-rotation: deny, potion-splash: deny, frosted-ice-melt: allow,
+            lava-flow: allow, grass-growth: deny, notify-leave: true}
         owners: {}
         type: cuboid
         priority: 1
@@ -91,23 +139,71 @@ regions:
         min: {x: -613, y: -64, z: -165}
         max: {x: -454, y: 319, z: -22}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, invincible: allow,
-            use: allow, greeting: §fWitaj w §6§lZaschłej osadzie, leaf-decay: deny,
-            snow-fall: deny, firework-damage: deny, coral-fade: deny, mob-damage: deny,
-            ravager-grief: deny, scoreboard: zaschlaosada, use-anvil: deny, mushroom-growth: deny,
-            respawn-anchors: deny, lightning: deny, wither-damage: deny, ice-form: deny,
-            chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny,
-            crop-growth: deny, entry: allow, creeper-explosion: deny, vine-growth: deny,
-            damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, farewell: §fOpuszczasz §6§lZaschłą osadę,
-            frosted-ice-form: deny, mycelium-spread: deny, block-trampling: deny,
-            ice-melt: deny, interact: allow, vehicle-destroy: allow, chest-access: deny,
-            ride: allow, fire-spread: deny, enderdragon-block-damage: deny, sleep: deny,
-            sculk-growth: deny, vehicle-place: allow, snowman-trails: deny, rock-growth: deny,
-            entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny, pistons: allow,
-            enderpearl: deny, item-drop: allow, soil-dry: deny, exp-drops: deny, copper-fade: deny,
-            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: deny,
-            frosted-ice-melt: deny, lava-flow: allow, grass-growth: deny}
+        flags:
+            other-explosion: deny
+            lava-fire: deny
+            water-flow: allow
+            invincible: allow
+            use: allow
+            greeting: §fWitaj w §6§lZaschłej osadzie
+            snow-fall: deny
+            leaf-decay: deny
+            firework-damage: deny
+            coral-fade: deny
+            mob-damage: deny
+            scoreboard: [zaschlaosada]
+            ravager-grief: deny
+            use-anvil: deny
+            mushroom-growth: deny
+            respawn-anchors: deny
+            lightning: deny
+            wither-damage: deny
+            ice-form: deny
+            chorus-fruit-teleport: deny
+            enderman-grief: deny
+            pvp: deny
+            mob-spawning: deny
+            crop-growth: deny
+            entry: allow
+            creeper-explosion: deny
+            vine-growth: deny
+            damage-animals: deny
+            snow-melt: deny
+            tnt: deny
+            ghast-fireball: deny
+            entity-item-frame-destroy: deny
+            farewell: §fOpuszczasz §6§lZaschłą osadę
+            frosted-ice-form: deny
+            mycelium-spread: deny
+            ice-melt: deny
+            block-trampling: deny
+            interact: allow
+            vehicle-destroy: allow
+            chest-access: deny
+            ride: allow
+            fire-spread: deny
+            enderdragon-block-damage: deny
+            sleep: deny
+            sculk-growth: deny
+            vehicle-place: allow
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            lighter: deny
+            use-dripleaf: deny
+            pistons: allow
+            enderpearl: deny
+            item-drop: allow
+            soil-dry: deny
+            exp-drops: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-pickup: allow
+            item-frame-rotation: deny
+            potion-splash: deny
+            frosted-ice-melt: deny
+            lava-flow: allow
+            grass-growth: deny
         owners: {}
         type: cuboid
         priority: 1
@@ -115,23 +211,71 @@ regions:
         min: {x: 528, y: -64, z: -185}
         max: {x: 604, y: 319, z: -112}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, invincible: allow,
-            use: allow, greeting: §fWitaj w §9§lSpawnowej Podwodnej Stacji Laboratoryjnej§f!,
-            leaf-decay: deny, snow-fall: deny, firework-damage: deny, coral-fade: deny,
-            mob-damage: deny, ravager-grief: deny, scoreboard: spsl, use-anvil: deny,
-            mushroom-growth: deny, respawn-anchors: deny, lightning: deny, wither-damage: deny,
-            ice-form: deny, chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny,
-            mob-spawning: deny, crop-growth: deny, entry: allow, creeper-explosion: deny,
-            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, farewell: §fOpuszczasz §9§lSpawnową Podwodną
-                Stację Laboratoryjną§f!, frosted-ice-form: deny, mycelium-spread: deny,
-            block-trampling: deny, ice-melt: deny, interact: allow, vehicle-destroy: allow,
-            chest-access: deny, ride: allow, fire-spread: deny, enderdragon-block-damage: deny,
-            sleep: deny, sculk-growth: deny, vehicle-place: allow, snowman-trails: deny,
-            rock-growth: deny, entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny,
-            pistons: allow, enderpearl: deny, item-drop: allow, soil-dry: deny, exp-drops: deny,
-            copper-fade: deny, fall-damage: deny, item-pickup: allow, item-frame-rotation: deny,
-            potion-splash: deny, frosted-ice-melt: deny, lava-flow: allow, grass-growth: deny}
+        flags:
+            other-explosion: deny
+            lava-fire: deny
+            water-flow: allow
+            invincible: allow
+            use: allow
+            greeting: §fWitaj w §9§lSpawnowej Podwodnej Stacji Laboratoryjnej§f!
+            snow-fall: deny
+            leaf-decay: deny
+            firework-damage: deny
+            coral-fade: deny
+            mob-damage: deny
+            scoreboard: [spsl]
+            ravager-grief: deny
+            use-anvil: deny
+            mushroom-growth: deny
+            respawn-anchors: deny
+            lightning: deny
+            wither-damage: deny
+            ice-form: deny
+            chorus-fruit-teleport: deny
+            enderman-grief: deny
+            pvp: deny
+            mob-spawning: deny
+            crop-growth: deny
+            entry: allow
+            creeper-explosion: deny
+            vine-growth: deny
+            damage-animals: deny
+            snow-melt: deny
+            tnt: deny
+            ghast-fireball: deny
+            entity-item-frame-destroy: deny
+            farewell: §fOpuszczasz §9§lSpawnową Podwodną Stację Laboratoryjną§f!
+            frosted-ice-form: deny
+            mycelium-spread: deny
+            ice-melt: deny
+            block-trampling: deny
+            interact: allow
+            vehicle-destroy: allow
+            chest-access: deny
+            ride: allow
+            fire-spread: deny
+            enderdragon-block-damage: deny
+            sleep: deny
+            sculk-growth: deny
+            vehicle-place: allow
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            lighter: deny
+            use-dripleaf: deny
+            pistons: allow
+            enderpearl: deny
+            item-drop: allow
+            soil-dry: deny
+            exp-drops: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-pickup: allow
+            item-frame-rotation: deny
+            potion-splash: deny
+            frosted-ice-melt: deny
+            lava-flow: allow
+            grass-growth: deny
         owners: {}
         type: cuboid
         priority: 1
@@ -140,22 +284,21 @@ regions:
         max: {x: 116, y: 44, z: -23}
         members: {}
         flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, use: deny,
-            greeting: §fWchodzisz do §cDungeonu, leaf-decay: deny, snow-fall: allow,
+            greeting: §fWchodzisz do §cDungeonu, snow-fall: allow, leaf-decay: deny,
             firework-damage: allow, coral-fade: deny, keep-inventory: true, mob-damage: allow,
-            ravager-grief: deny, scoreboard: dungeon-wioska-spawnu, use-anvil: deny,
-            mushroom-growth: deny, respawn-anchors: deny, lightning: allow, wither-damage: deny,
-            ice-form: allow, chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny,
-            crop-growth: deny, natural-hunger-drain: allow, creeper-explosion: deny,
-            vine-growth: deny, damage-animals: allow, mob-combat: allow, snow-melt: allow,
-            tnt: deny, ghast-fireball: deny, entity-item-frame-destroy: deny, farewell: §fOpuszczasz
-                §cDungeon, natural-health-regen: allow, frosted-ice-form: allow, mycelium-spread: deny,
-            block-trampling: deny, ice-melt: allow, interact: deny, vehicle-destroy: deny,
-            chest-access: deny, ride: deny, fire-spread: deny, enderdragon-block-damage: deny,
-            sleep: deny, sculk-growth: deny, vehicle-place: deny, snowman-trails: deny,
-            rock-growth: deny, keep-exp: true, entity-painting-destroy: deny, lighter: deny,
-            use-dripleaf: deny, enderpearl: allow, item-drop: allow, soil-dry: deny,
-            exp-drops: allow, copper-fade: deny, fall-damage: allow, item-pickup: allow,
-            item-frame-rotation: deny, potion-splash: allow, frosted-ice-melt: allow,
+            ravager-grief: deny, use-anvil: deny, mushroom-growth: deny, respawn-anchors: deny,
+            lightning: allow, wither-damage: deny, ice-form: allow, chorus-fruit-teleport: deny,
+            enderman-grief: deny, pvp: deny, natural-hunger-drain: allow, crop-growth: deny,
+            creeper-explosion: deny, vine-growth: deny, damage-animals: allow, snow-melt: allow,
+            mob-combat: allow, tnt: deny, ghast-fireball: deny, entity-item-frame-destroy: deny,
+            farewell: §fOpuszczasz §cDungeon, natural-health-regen: allow, frosted-ice-form: allow,
+            mycelium-spread: deny, ice-melt: allow, block-trampling: deny, interact: deny,
+            vehicle-destroy: deny, chest-access: deny, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, sculk-growth: deny, vehicle-place: deny,
+            snowman-trails: deny, rock-growth: deny, keep-exp: true, entity-painting-destroy: deny,
+            lighter: deny, use-dripleaf: deny, enderpearl: allow, item-drop: allow,
+            soil-dry: deny, exp-drops: allow, copper-fade: deny, fall-damage: allow,
+            item-pickup: allow, item-frame-rotation: deny, potion-splash: allow, frosted-ice-melt: allow,
             lava-flow: allow, grass-growth: deny}
         owners: {}
         type: cuboid
@@ -173,23 +316,71 @@ regions:
         min: {x: 113, y: -64, z: 577}
         max: {x: 483, y: 319, z: 827}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, invincible: allow,
-            use: allow, greeting: §fWitaj w §8§lKamiennym Wybrzeżu, leaf-decay: deny,
-            snow-fall: deny, firework-damage: deny, coral-fade: deny, mob-damage: deny,
-            ravager-grief: deny, scoreboard: kamiennewybrzeze, use-anvil: deny, mushroom-growth: deny,
-            respawn-anchors: deny, lightning: deny, wither-damage: deny, ice-form: deny,
-            chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny,
-            crop-growth: deny, entry: allow, creeper-explosion: deny, vine-growth: deny,
-            damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, farewell: §fOpuszczasz §8§lKamienne Wybrzeże,
-            frosted-ice-form: deny, mycelium-spread: deny, block-trampling: deny,
-            ice-melt: deny, interact: allow, vehicle-destroy: allow, chest-access: deny,
-            ride: allow, fire-spread: deny, enderdragon-block-damage: deny, sleep: deny,
-            sculk-growth: deny, vehicle-place: allow, snowman-trails: deny, rock-growth: deny,
-            entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny, pistons: allow,
-            enderpearl: deny, item-drop: allow, soil-dry: deny, exp-drops: deny, copper-fade: deny,
-            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: deny,
-            frosted-ice-melt: deny, lava-flow: allow, grass-growth: deny}
+        flags:
+            other-explosion: deny
+            lava-fire: deny
+            water-flow: allow
+            invincible: allow
+            use: allow
+            greeting: §fWitaj w §8§lKamiennym Wybrzeżu
+            snow-fall: deny
+            leaf-decay: deny
+            firework-damage: deny
+            coral-fade: deny
+            mob-damage: deny
+            scoreboard: [kamiennewybrzeze]
+            ravager-grief: deny
+            use-anvil: deny
+            mushroom-growth: deny
+            respawn-anchors: deny
+            lightning: deny
+            wither-damage: deny
+            ice-form: deny
+            chorus-fruit-teleport: deny
+            enderman-grief: deny
+            pvp: deny
+            mob-spawning: deny
+            crop-growth: deny
+            entry: allow
+            creeper-explosion: deny
+            vine-growth: deny
+            damage-animals: deny
+            snow-melt: deny
+            tnt: deny
+            ghast-fireball: deny
+            entity-item-frame-destroy: deny
+            farewell: §fOpuszczasz §8§lKamienne Wybrzeże
+            frosted-ice-form: deny
+            mycelium-spread: deny
+            ice-melt: deny
+            block-trampling: deny
+            interact: allow
+            vehicle-destroy: allow
+            chest-access: deny
+            ride: allow
+            fire-spread: deny
+            enderdragon-block-damage: deny
+            sleep: deny
+            sculk-growth: deny
+            vehicle-place: allow
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            lighter: deny
+            use-dripleaf: deny
+            pistons: allow
+            enderpearl: deny
+            item-drop: allow
+            soil-dry: deny
+            exp-drops: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-pickup: allow
+            item-frame-rotation: deny
+            potion-splash: deny
+            frosted-ice-melt: deny
+            lava-flow: allow
+            grass-growth: deny
         owners: {}
         type: cuboid
         priority: 1
@@ -206,23 +397,71 @@ regions:
         min: {x: 2218, y: -64, z: 1442}
         max: {x: 2818, y: 319, z: 1929}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, invincible: allow,
-            use: allow, greeting: §fWitaj w §a§lMieście Wolności§f!, leaf-decay: deny,
-            snow-fall: deny, firework-damage: deny, coral-fade: deny, mob-damage: deny,
-            ravager-grief: deny, scoreboard: miastowolnosci, use-anvil: deny, mushroom-growth: deny,
-            respawn-anchors: deny, lightning: deny, wither-damage: deny, ice-form: deny,
-            chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny,
-            crop-growth: deny, entry: allow, creeper-explosion: deny, vine-growth: deny,
-            damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, farewell: §fOpuszczasz §a§lMiasto Wolności§f!,
-            frosted-ice-form: deny, mycelium-spread: deny, block-trampling: deny,
-            ice-melt: deny, interact: allow, vehicle-destroy: allow, chest-access: deny,
-            ride: allow, fire-spread: deny, enderdragon-block-damage: deny, sleep: deny,
-            sculk-growth: deny, vehicle-place: allow, snowman-trails: deny, rock-growth: deny,
-            entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny, pistons: allow,
-            enderpearl: deny, item-drop: allow, soil-dry: deny, exp-drops: deny, copper-fade: deny,
-            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: deny,
-            frosted-ice-melt: deny, lava-flow: allow, grass-growth: deny}
+        flags:
+            other-explosion: deny
+            lava-fire: deny
+            water-flow: allow
+            invincible: allow
+            use: allow
+            greeting: §fWitaj w §a§lMieście Wolności§f!
+            snow-fall: deny
+            leaf-decay: deny
+            firework-damage: deny
+            coral-fade: deny
+            mob-damage: deny
+            scoreboard: [miastowolnosci]
+            ravager-grief: deny
+            use-anvil: deny
+            mushroom-growth: deny
+            respawn-anchors: deny
+            lightning: deny
+            wither-damage: deny
+            ice-form: deny
+            chorus-fruit-teleport: deny
+            enderman-grief: deny
+            pvp: deny
+            mob-spawning: deny
+            crop-growth: deny
+            entry: allow
+            creeper-explosion: deny
+            vine-growth: deny
+            damage-animals: deny
+            snow-melt: deny
+            tnt: deny
+            ghast-fireball: deny
+            entity-item-frame-destroy: deny
+            farewell: §fOpuszczasz §a§lMiasto Wolności§f!
+            frosted-ice-form: deny
+            mycelium-spread: deny
+            ice-melt: deny
+            block-trampling: deny
+            interact: allow
+            vehicle-destroy: allow
+            chest-access: deny
+            ride: allow
+            fire-spread: deny
+            enderdragon-block-damage: deny
+            sleep: deny
+            sculk-growth: deny
+            vehicle-place: allow
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            lighter: deny
+            use-dripleaf: deny
+            pistons: allow
+            enderpearl: deny
+            item-drop: allow
+            soil-dry: deny
+            exp-drops: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-pickup: allow
+            item-frame-rotation: deny
+            potion-splash: deny
+            frosted-ice-melt: deny
+            lava-flow: allow
+            grass-growth: deny
         owners: {}
         type: cuboid
         priority: 1
@@ -257,23 +496,71 @@ regions:
         min: {x: -707, y: -64, z: 331}
         max: {x: -602, y: 319, z: 441}
         members: {}
-        flags: {other-explosion: deny, lava-fire: deny, water-flow: allow, invincible: allow,
-            use: allow, greeting: §fWitaj w §e§lZłotej osadzie§f!, leaf-decay: deny,
-            snow-fall: deny, firework-damage: deny, coral-fade: deny, mob-damage: deny,
-            ravager-grief: deny, scoreboard: zlotaosada, use-anvil: deny, mushroom-growth: deny,
-            respawn-anchors: deny, lightning: deny, wither-damage: deny, ice-form: deny,
-            chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny,
-            crop-growth: deny, entry: allow, creeper-explosion: deny, vine-growth: deny,
-            damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, farewell: §fOpuszczasz §e§lZłotą osadę§f!,
-            frosted-ice-form: deny, mycelium-spread: deny, block-trampling: deny,
-            ice-melt: deny, interact: allow, vehicle-destroy: allow, chest-access: deny,
-            ride: allow, fire-spread: deny, enderdragon-block-damage: deny, sleep: deny,
-            sculk-growth: deny, vehicle-place: allow, snowman-trails: deny, rock-growth: deny,
-            entity-painting-destroy: deny, lighter: deny, use-dripleaf: deny, pistons: allow,
-            enderpearl: deny, item-drop: allow, soil-dry: deny, exp-drops: deny, copper-fade: deny,
-            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: deny,
-            frosted-ice-melt: deny, lava-flow: allow, grass-growth: deny}
+        flags:
+            other-explosion: deny
+            lava-fire: deny
+            water-flow: allow
+            invincible: allow
+            use: allow
+            greeting: §fWitaj w §e§lZłotej osadzie§f!
+            snow-fall: deny
+            leaf-decay: deny
+            firework-damage: deny
+            coral-fade: deny
+            mob-damage: deny
+            scoreboard: [zlotaosada]
+            ravager-grief: deny
+            use-anvil: deny
+            mushroom-growth: deny
+            respawn-anchors: deny
+            lightning: deny
+            wither-damage: deny
+            ice-form: deny
+            chorus-fruit-teleport: deny
+            enderman-grief: deny
+            pvp: deny
+            mob-spawning: deny
+            crop-growth: deny
+            entry: allow
+            creeper-explosion: deny
+            vine-growth: deny
+            damage-animals: deny
+            snow-melt: deny
+            tnt: deny
+            ghast-fireball: deny
+            entity-item-frame-destroy: deny
+            farewell: §fOpuszczasz §e§lZłotą osadę§f!
+            frosted-ice-form: deny
+            mycelium-spread: deny
+            ice-melt: deny
+            block-trampling: deny
+            interact: allow
+            vehicle-destroy: allow
+            chest-access: deny
+            ride: allow
+            fire-spread: deny
+            enderdragon-block-damage: deny
+            sleep: deny
+            sculk-growth: deny
+            vehicle-place: allow
+            snowman-trails: deny
+            rock-growth: deny
+            entity-painting-destroy: deny
+            lighter: deny
+            use-dripleaf: deny
+            pistons: allow
+            enderpearl: deny
+            item-drop: allow
+            soil-dry: deny
+            exp-drops: deny
+            copper-fade: deny
+            fall-damage: deny
+            item-pickup: allow
+            item-frame-rotation: deny
+            potion-splash: deny
+            frosted-ice-melt: deny
+            lava-flow: allow
+            grass-growth: deny
         owners: {}
         type: cuboid
         priority: 1

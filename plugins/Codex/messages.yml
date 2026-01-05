@@ -31,3 +31,8 @@ inventoryDoesNotExists: '&cThe inventory &7%inventory% &cdoesn''t exists.'
 playerOpenInventory: '&aInventory &7%inventory% &aopened for &e%player%&a!'
 commandHelpNoValidPage: '&cThat page doesn''t exists.'
 clickLockedDiscoveryCommand: '&cYou haven''t unlocked this discovery yet.'
+clickActionsCooldown: '&cYou must wait &7%time% &cbefore using this item again.'
+seconds: s
+minutes: m
+hours: h
+days: d

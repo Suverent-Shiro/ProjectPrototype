@@ -1,0 +1,8 @@
+info dotyczące próby przeportowania FreedomSMP na nowsze wersje mc.
+
+Testowana wersja: 1.21.11
+    Nie działają:   
+        - CustomCrafting
+        - WolfyUtilities (lib od CustomCrafting)
+    Do manualnego naprawienia:
+        - SimpleScore (Po poprawkach działa)

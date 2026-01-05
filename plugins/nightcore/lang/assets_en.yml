@@ -1615,3 +1615,54 @@ Enchantment:
   thorns: Thorns
   unbreaking: Unbreaking
   vanishing_curse: Curse of Vanishing
+DamageType:
+  mace_smash: Mace Smash
+  stalagmite: Stalagmite
+  falling_anvil: Falling Anvil
+  thrown: Thrown
+  drown: Drown
+  thorns: Thorns
+  sweet_berry_bush: Sweet Berry Bush
+  spear: Spear
+  freeze: Freeze
+  dry_out: Dry Out
+  fly_into_wall: Fly Into Wall
+  bad_respawn_point: Bad Respawn Point
+  outside_border: Outside Border
+  wither_skull: Wither Skull
+  in_wall: In Wall
+  campfire: Campfire
+  lava: Lava
+  dragon_breath: Dragon Breath
+  ender_pearl: Ender Pearl
+  sting: Sting
+  arrow: Arrow
+  in_fire: In Fire
+  unattributed_fireball: Unattributed Fireball
+  wind_charge: Wind Charge
+  fireball: Fireball
+  falling_stalactite: Falling Stalactite
+  player_attack: Player Attack
+  player_explosion: Player Explosion
+  cramming: Cramming
+  generic: Generic
+  starve: Starve
+  cactus: Cactus
+  spit: Spit
+  fall: Fall
+  sonic_boom: Sonic Boom
+  out_of_world: Out Of World
+  mob_attack: Mob Attack
+  explosion: Explosion
+  generic_kill: Generic Kill
+  wither: Wither
+  on_fire: On Fire
+  lightning_bolt: Lightning Bolt
+  hot_floor: Hot Floor
+  indirect_magic: Indirect Magic
+  mob_projectile: Mob Projectile
+  magic: Magic
+  fireworks: Fireworks
+  mob_attack_no_aggro: Mob Attack No Aggro
+  falling_block: Falling Block
+  trident: Trident

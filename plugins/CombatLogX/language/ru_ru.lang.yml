@@ -11,13 +11,13 @@
 ## More information about MiniMessage can be found here:
 ## https://docs.adventure.kyori.net/minimessage/format.html
 #The language code for this file.
-language-name: "ru_ru"
+language-name: "rus_RU"
 #The format for decimal numbers.
 #The United States uses the number and two decimal places
-decimal-format: "0.00"
+decimal-format: "0,00"
 #The prefix for CombatLogX that is shown in front of all messages.
 #Note to translators: Do not change this message.
-prefix: "<white><bold>[<gold>CombatLogX</gold>]</bold></white>"
+prefix: "<gold><bold>CombatLogX</bold></gold>"
 broadcast:
   #Shown when the plugin is finished loading.
   on-load: "<green><bold>CombatLogX был успешно загружен.</bold></green>"
@@ -34,7 +34,7 @@ placeholder:
   unknown-enemy: "Неизвестно"
   status:
     #Shown when the player is in combat.
-    fighting: "<red>Бой</red>"
+    fighting: "<red>В бою</red>"
     in-combat: "<green>Да</green>"
     #Shown when the player is not in combat
     idle: "<green>Бездействует</green>"
@@ -46,6 +46,12 @@ placeholder:
   pvp-status:
     enabled: "<green>ВКЛ.</green>"
     disabled: "<red>ВЫКЛ.</red>"
+#You can also change the location of these messages.
+#Example:
+#combat-timer:
+#expire:
+#type: ACTION_BAR
+#content: "<message here>"
 combat-timer:
   #Sent to a player when they escape from combat due to the timer running out.
   expire: "<green>Вы вышли из боя.</green>"
@@ -55,9 +61,9 @@ combat-timer:
   self-death: "<green>Вы вышли из боя, потому что умерли.</green>"
 error:
   #Shown when the console tries to execute a command made for players.
-  player-only: "<red>Только игроки могут выполнить эту команду.</red>"
+  player-only: "<red>Только игроки могут использовать эту команду</red>"
   #Shown when a player tries to execute a command made for the server console.
-  console-only: "<red>Эта команда может быть выполнена только консолью.</red>"
+  console-only: "<red>Эта команда может быть использована только в консоли.</red>"
   #Shown when a command that requires a player has invalid input.
   invalid-target: "<red><gray>{target}</gray> не в сети или не существует.</red>"
   #Shown when a command that requires a number has invalid input.
@@ -106,13 +112,13 @@ command:
     #Shown as the command output for '/combatlogx tag <player>' when the plugin failed to tag a player.
     tag-failure: "<red><gray>{target}</gray> не может быть введен в бой. (Имеет права обхода?)</red>"
     #Shown as the command output for '/combatlogx untag <player>'.
-    untag-player: "<green>Вывод игрока <gray>{target}</gray> из боя прошел успешно.</green>"
+    untag-player: "<gray>{target}</gray><green> успешно выведен из боя."
     #Shown as the command output for '/combatlogx toggle bossbar'.
     toggle-bossbar: "<gray><bold>Боссбар:</bold></gray> {status}"
     #Shown as the command output for '/combatlogx toggle actionbar'.
     toggle-actionbar: "<gray><bold>Панель действий:</bold></gray> {status}"
     #Shown as the command output for '/combatlogx toggle scoreboard'.
-    toggle-scoreboard: "<gray><bold>Табло:</bold></gray> {status}"
+    toggle-scoreboard: "<gray><bold>Скорборд:</bold></gray> {status}"
     #Shown as the command output for '/combatlogx about <expansion>'.
     expansion-information:
       - ""
