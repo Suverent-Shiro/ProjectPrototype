@@ -1,6 +1,7 @@
  
-&8Build: 3.2_mc1.21.4 / 05.01.2026
+&8Build: 3.1.1 / 05.01.2026
 &8&m--------------------------------------------------
-Wszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
+&fWszystkie pluginy i inne materiały wykożystane w szablonie są własnością ich autorów.
+&eProject: Prototype jest licencjonowane licencją MIT.
 &8&m--------------------------------------------------
-&6⚡ &3&lProject: &7&lPrototype &c3.2
+&6⚡ &3&lProject: &7&lPrototype &c3.1.1

@@ -44,6 +44,7 @@ enchant:
   density: density
   breach: breach
   wind_burst: wind_burst
+  lunge: lunge
 banner_pattern:
   square_bottom_left: bottom_left_corner
   square_bottom_right: bottom_right_corner
@@ -140,6 +141,7 @@ potion_effect:
   oozing: oozing
   wind_charged: wind_charged
   infested: infested
+  breath_of_the_nautilus: breath_of_the_nautilus
 color:
   white: white
   orange: orange
@@ -241,6 +243,7 @@ equip_slot:
   chest: chest
   head: head
   body: body
+  saddle: saddle
 attribute:
   generic_max_health: max_health
   generic_follow_range: follow_range
@@ -295,6 +298,9 @@ attribute:
   block_interaction_range: block_interaction_range
   block_break_speed: block_break_speed
   tempt_range: tempt_range
+  camera_distance: camera_distance
+  waypoint_transmit_range: waypoint_transmit_range
+  waypoint_receive_range: waypoint_receive_range
 operation:
   add_number: add_number
   add_scalar: add_scalar
@@ -2056,6 +2062,197 @@ sound:
   block_creaking_heart_place: block_creaking_heart_place
   item_bundle_insert_fail: item_bundle_insert_fail
   block_creaking_heart_fall: block_creaking_heart_fall
+  block_leaf_litter_fall: block_leaf_litter_fall
+  entity_ghastling_death: entity_ghastling_death
+  entity_ghastling_spawn: entity_ghastling_spawn
+  entity_wolf_puglin_whine: entity_wolf_puglin_whine
+  block_shelf_activate: block_shelf_activate
+  entity_wolf_angry_death: entity_wolf_angry_death
+  entity_copper_golem_step: entity_copper_golem_step
+  entity_copper_golem_item_drop: entity_copper_golem_item_drop
+  entity_copper_golem_weathered_spin: entity_copper_golem_weathered_spin
+  entity_happy_ghast_harness_goggles_down: entity_happy_ghast_harness_goggles_down
+  entity_wolf_sad_hurt: entity_wolf_sad_hurt
+  block_dried_ghast_place: block_dried_ghast_place
+  block_shelf_break: block_shelf_break
+  entity_wolf_cute_growl: entity_wolf_cute_growl
+  item_lead_untied: item_lead_untied
+  entity_copper_golem_spin: entity_copper_golem_spin
+  entity_copper_golem_weathered_step: entity_copper_golem_weathered_step
+  item_lead_tied: item_lead_tied
+  entity_copper_golem_oxidized_hurt: entity_copper_golem_oxidized_hurt
+  block_copper_chest_oxidized_close: block_copper_chest_oxidized_close
+  entity_happy_ghast_riding: entity_happy_ghast_riding
+  block_shelf_place: block_shelf_place
+  item_lead_break: item_lead_break
+  entity_happy_ghast_harness_goggles_up: entity_happy_ghast_harness_goggles_up
+  entity_wolf_big_pant: entity_wolf_big_pant
+  entity_copper_golem_weathered_death: entity_copper_golem_weathered_death
+  entity_wolf_cute_pant: entity_wolf_cute_pant
+  item_armor_equip_copper: item_armor_equip_copper
+  block_iron_hit: block_iron_hit
+  block_copper_golem_statue_break: block_copper_golem_statue_break
+  entity_copper_golem_spawn: entity_copper_golem_spawn
+  entity_wolf_sad_whine: entity_wolf_sad_whine
+  block_dried_ghast_break: block_dried_ghast_break
+  entity_wolf_big_ambient: entity_wolf_big_ambient
+  entity_wolf_angry_ambient: entity_wolf_angry_ambient
+  block_copper_golem_statue_place: block_copper_golem_statue_place
+  entity_copper_golem_become_statue: entity_copper_golem_become_statue
+  entity_copper_golem_item_no_drop: entity_copper_golem_item_no_drop
+  block_cactus_flower_place: block_cactus_flower_place
+  block_dried_ghast_ambient: block_dried_ghast_ambient
+  block_cactus_flower_break: block_cactus_flower_break
+  block_shelf_deactivate: block_shelf_deactivate
+  block_copper_chest_open: block_copper_chest_open
+  block_dried_ghast_step: block_dried_ghast_step
+  entity_ghastling_ambient: entity_ghastling_ambient
+  entity_wolf_sad_ambient: entity_wolf_sad_ambient
+  item_horse_armor_unequip: item_horse_armor_unequip
+  item_saddle_unequip: item_saddle_unequip
+  entity_copper_golem_no_item_get: entity_copper_golem_no_item_get
+  entity_wolf_puglin_death: entity_wolf_puglin_death
+  entity_copper_golem_hurt: entity_copper_golem_hurt
+  entity_wolf_puglin_hurt: entity_wolf_puglin_hurt
+  entity_wolf_grumpy_whine: entity_wolf_grumpy_whine
+  entity_wolf_big_whine: entity_wolf_big_whine
+  entity_happy_ghast_equip: entity_happy_ghast_equip
+  entity_wolf_grumpy_hurt: entity_wolf_grumpy_hurt
+  block_shelf_place_item: block_shelf_place_item
+  entity_ghastling_hurt: entity_ghastling_hurt
+  block_dried_ghast_place_in_water: block_dried_ghast_place_in_water
+  block_dried_ghast_ambient_water: block_dried_ghast_ambient_water
+  weather_end_flash: weather_end_flash
+  block_shelf_step: block_shelf_step
+  entity_wolf_angry_hurt: entity_wolf_angry_hurt
+  block_iron_fall: block_iron_fall
+  block_shelf_hit: block_shelf_hit
+  entity_wolf_big_death: entity_wolf_big_death
+  block_dried_ghast_fall: block_dried_ghast_fall
+  block_shelf_fall: block_shelf_fall
+  entity_wolf_grumpy_ambient: entity_wolf_grumpy_ambient
+  block_iron_step: block_iron_step
+  entity_copper_golem_oxidized_death: entity_copper_golem_oxidized_death
+  entity_happy_ghast_death: entity_happy_ghast_death
+  block_copper_chest_weathered_open: block_copper_chest_weathered_open
+  block_sand_idle: block_sand_idle
+  entity_wolf_cute_whine: entity_wolf_cute_whine
+  entity_wolf_grumpy_death: entity_wolf_grumpy_death
+  block_dried_ghast_transition: block_dried_ghast_transition
+  block_deadbush_idle: block_deadbush_idle
+  block_copper_chest_weathered_close: block_copper_chest_weathered_close
+  entity_wolf_sad_pant: entity_wolf_sad_pant
+  entity_happy_ghast_unequip: entity_happy_ghast_unequip
+  entity_happy_ghast_hurt: entity_happy_ghast_hurt
+  block_shelf_multi_swap: block_shelf_multi_swap
+  block_copper_golem_statue_step: block_copper_golem_statue_step
+  entity_wolf_big_hurt: entity_wolf_big_hurt
+  entity_wolf_puglin_growl: entity_wolf_puglin_growl
+  entity_wolf_sad_growl: entity_wolf_sad_growl
+  entity_wolf_angry_whine: entity_wolf_angry_whine
+  entity_wolf_puglin_ambient: entity_wolf_puglin_ambient
+  entity_wolf_cute_hurt: entity_wolf_cute_hurt
+  block_shelf_take_item: block_shelf_take_item
+  music_disc_lava_chicken: music_disc_lava_chicken
+  block_copper_chest_close: block_copper_chest_close
+  entity_wolf_puglin_pant: entity_wolf_puglin_pant
+  block_firefly_bush_idle: block_firefly_bush_idle
+  block_leaf_litter_break: block_leaf_litter_break
+  entity_wolf_cute_ambient: entity_wolf_cute_ambient
+  entity_copper_golem_death: entity_copper_golem_death
+  block_copper_golem_statue_fall: block_copper_golem_statue_fall
+  item_shears_snip: item_shears_snip
+  block_iron_break: block_iron_break
+  music_disc_tears: music_disc_tears
+  entity_wolf_big_growl: entity_wolf_big_growl
+  block_iron_place: block_iron_place
+  entity_wolf_angry_growl: entity_wolf_angry_growl
+  entity_wolf_grumpy_growl: entity_wolf_grumpy_growl
+  entity_copper_golem_no_item_no_get: entity_copper_golem_no_item_no_get
+  block_leaf_litter_place: block_leaf_litter_place
+  block_copper_golem_statue_hit: block_copper_golem_statue_hit
+  entity_copper_golem_weathered_hurt: entity_copper_golem_weathered_hurt
+  block_copper_chest_oxidized_open: block_copper_chest_oxidized_open
+  entity_copper_golem_oxidized_step: entity_copper_golem_oxidized_step
+  entity_copper_golem_shear: entity_copper_golem_shear
+  entity_wolf_cute_death: entity_wolf_cute_death
+  entity_wolf_angry_pant: entity_wolf_angry_pant
+  entity_wolf_sad_death: entity_wolf_sad_death
+  entity_wolf_grumpy_pant: entity_wolf_grumpy_pant
+  block_leaf_litter_step: block_leaf_litter_step
+  block_dry_grass_ambient: block_dry_grass_ambient
+  block_shelf_single_swap: block_shelf_single_swap
+  item_llama_carpet_unequip: item_llama_carpet_unequip
+  entity_happy_ghast_ambient: entity_happy_ghast_ambient
+  entity_copper_golem_oxidized_spin: entity_copper_golem_oxidized_spin
+  block_leaf_litter_hit: block_leaf_litter_hit
+  entity_parrot_imitate_camel_husk: entity_parrot_imitate_camel_husk
+  entity_zombie_nautilus_hurt_land: entity_zombie_nautilus_hurt_land
+  entity_nautilus_hurt_land: entity_nautilus_hurt_land
+  entity_camel_husk_stand: entity_camel_husk_stand
+  entity_nautilus_dash_ready_land: entity_nautilus_dash_ready_land
+  entity_nautilus_swim: entity_nautilus_swim
+  entity_nautilus_eat: entity_nautilus_eat
+  entity_parched_hurt: entity_parched_hurt
+  item_spear_hit: item_spear_hit
+  entity_baby_nautilus_ambient_land: entity_baby_nautilus_ambient_land
+  entity_zombie_nautilus_swim: entity_zombie_nautilus_swim
+  entity_nautilus_dash: entity_nautilus_dash
+  entity_camel_husk_hurt: entity_camel_husk_hurt
+  entity_zombie_horse_angry: entity_zombie_horse_angry
+  entity_baby_nautilus_swim: entity_baby_nautilus_swim
+  item_spear_attack: item_spear_attack
+  entity_zombie_nautilus_death: entity_zombie_nautilus_death
+  entity_zombie_nautilus_eat: entity_zombie_nautilus_eat
+  entity_camel_husk_saddle: entity_camel_husk_saddle
+  entity_baby_nautilus_ambient: entity_baby_nautilus_ambient
+  item_armor_unequip_nautilus: item_armor_unequip_nautilus
+  entity_camel_husk_death: entity_camel_husk_death
+  entity_nautilus_dash_land: entity_nautilus_dash_land
+  entity_baby_nautilus_death: entity_baby_nautilus_death
+  entity_zombie_nautilus_death_land: entity_zombie_nautilus_death_land
+  entity_nautilus_ambient: entity_nautilus_ambient
+  item_spear_lunge_3: item_spear_lunge_3
+  item_spear_lunge_2: item_spear_lunge_2
+  item_spear_lunge_1: item_spear_lunge_1
+  entity_baby_nautilus_eat: entity_baby_nautilus_eat
+  item_nautilus_saddle_underwater_equip: item_nautilus_saddle_underwater_equip
+  entity_nautilus_hurt: entity_nautilus_hurt
+  entity_camel_husk_dash: entity_camel_husk_dash
+  entity_zombie_nautilus_ambient: entity_zombie_nautilus_ambient
+  entity_camel_husk_step_sand: entity_camel_husk_step_sand
+  entity_zombie_nautilus_dash: entity_zombie_nautilus_dash
+  entity_nautilus_dash_ready: entity_nautilus_dash_ready
+  entity_baby_nautilus_death_land: entity_baby_nautilus_death_land
+  entity_nautilus_ambient_land: entity_nautilus_ambient_land
+  entity_zombie_nautilus_hurt: entity_zombie_nautilus_hurt
+  item_spear_wood_hit: item_spear_wood_hit
+  entity_baby_nautilus_hurt_land: entity_baby_nautilus_hurt_land
+  entity_parched_step: entity_parched_step
+  entity_camel_husk_eat: entity_camel_husk_eat
+  entity_zombie_nautilus_dash_land: entity_zombie_nautilus_dash_land
+  entity_baby_nautilus_hurt: entity_baby_nautilus_hurt
+  entity_nautilus_riding: entity_nautilus_riding
+  item_spear_wood_attack: item_spear_wood_attack
+  entity_camel_husk_sit: entity_camel_husk_sit
+  item_nautilus_saddle_equip: item_nautilus_saddle_equip
+  entity_parrot_imitate_zombie_horse: entity_parrot_imitate_zombie_horse
+  entity_camel_husk_ambient: entity_camel_husk_ambient
+  entity_nautilus_death: entity_nautilus_death
+  entity_camel_husk_dash_ready: entity_camel_husk_dash_ready
+  entity_nautilus_death_land: entity_nautilus_death_land
+  item_armor_equip_nautilus: item_armor_equip_nautilus
+  entity_parched_death: entity_parched_death
+  entity_camel_husk_step: entity_camel_husk_step
+  entity_parrot_imitate_parched: entity_parrot_imitate_parched
+  entity_parrot_imitate_zombie_nautilus: entity_parrot_imitate_zombie_nautilus
+  entity_zombie_nautilus_dash_ready_land: entity_zombie_nautilus_dash_ready_land
+  item_spear_use: item_spear_use
+  entity_zombie_horse_eat: entity_zombie_horse_eat
+  item_spear_wood_use: item_spear_wood_use
+  entity_zombie_nautilus_ambient_land: entity_zombie_nautilus_ambient_land
+  entity_zombie_nautilus_dash_ready: entity_zombie_nautilus_dash_ready
+  entity_parched_ambient: entity_parched_ambient
 itemrarity:
   common: common
   uncommon: uncommon
@@ -2224,6 +2421,15 @@ entitytype:
   spruce_boat: spruce_boat
   spruce_chest_boat: spruce_chest_boat
   creaking: creaking
+  copper_golem: copper_golem
+  happy_ghast: happy_ghast
+  lingering_potion: lingering_potion
+  mannequin: mannequin
+  splash_potion: splash_potion
+  camel_husk: camel_husk
+  nautilus: nautilus
+  parched: parched
+  zombie_nautilus: zombie_nautilus
 animations:
   drink: drink
   eat: eat
@@ -2271,3 +2477,14 @@ entitygroups:
   illager_friends: illager_friends
   fall_damage_immune: fall_damage_immune
   boat: boat
+  can_wear_horse_armor: can_wear_horse_armor
+  accepts_iron_golem_gift: accepts_iron_golem_gift
+  followable_friendly_mobs: followable_friendly_mobs
+  can_equip_saddle: can_equip_saddle
+  can_equip_harness: can_equip_harness
+  candidate_for_iron_golem_gift: candidate_for_iron_golem_gift
+  cannot_be_pushed_onto_boats: cannot_be_pushed_onto_boats
+  burn_in_daylight: burn_in_daylight
+  can_wear_nautilus_armor: can_wear_nautilus_armor
+  nautilus_hostiles: nautilus_hostiles
+  can_float_while_ridden: can_float_while_ridden
