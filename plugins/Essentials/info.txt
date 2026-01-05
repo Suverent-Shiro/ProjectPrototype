@@ -1,9 +1,9 @@
-&7"&#37c1e4&lFreedom&6&lSMP: &e&lReborn&7" &f&l» &7Informacje o serwerze
-&#37c1e4&m－&#37c1e4[ ☻ Autorzy i kontrybucje ]&#37c1e4&m－－－－－－－－－－－－－－－－－－
-&2Suverent_Shiro &f&l» &#37c1e4Właściciel &#37c1e4&lFreedom&6&lSMP: &e&lReborn
-&#37c1e4&m－&#37c1e4[ 🔧 Architektura serwera ]&#37c1e4&m－－－－－－－－－－－－－－－－－－
-&6❙ ⚡ &fSilnik &l» &5PurpurMC 2522 (DEV-@56ac4de)
-&a❙ 💥 &fWersja &l» &a1.21.10
-&#37c1e4&m－&#37c1e4[ ⚡ Szablon serwera ]&#37c1e4&m－－－－－－－－－－－－－－－－－－－－－
-&6⚡ &3&lProject: &7&lPrototype &cDevelopment
-&8Build: 4.0-devFreedom / 13.11.2025
+ 
+&7The Suverent Organization's &#37c1e4&lFreedom&a&lSMP &f[&3&lProject: &7&lPrototype &c3.0&f]
+&8&m-------------------------------------------
+&3&lProject: &7&lPrototype &fjest projektem &7Organizacji Suverenckiej&f. Pluginy i wszystkie materiały wykożystane w szablonie są własnością ich autorów.
+&8&m-------------------------------------------
+&6Silnik: &5Purpur-2095 [MC-1.20.2]
+&aWersja Minecraft: &f1.20.2
+&8&m-------------------------------------------
+&6⚡ &3&lProject: &7&lPrototype &c3.0 &f- Zmodyfikowana wersja dla serwera &#37c1e4&lFreedom&a&lSMP

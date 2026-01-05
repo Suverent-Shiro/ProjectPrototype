@@ -17,7 +17,7 @@ language-name: "pl"
 decimal-format: "0.00"
 #The prefix for CombatLogX that is shown in front of all messages.
 #Note to translators: Do not change this message.
-prefix: "<bold><italic><dark_aqua>⚡ </bold><gray>CombatLogX <bold><white>»"
+prefix: "<bold><white>[<bold><dark_aqua>Project: <bold><gray>Prototype<bold><white>]<reset>"
 broadcast:
   #Shown when the plugin is finished loading.
   on-load: "<bold><green>AntyLogOut został pomyślnie załadowany."

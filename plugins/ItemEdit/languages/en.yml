@@ -9,29 +9,12 @@ blocked-by-lore-line-limit: '&4[&cItemEdit&4] &cYou can''t add more lore lines o
 blocked-by-lore-length-limit: '&4[&cItemEdit&4] &cYou can''t set lines longer than %limit% chars'
 blocked-by-rename-length-limit: '&4[&cItemEdit&4] &cYou can''t set names longer than %limit% chars'
 itemedit:
-  help:
-    header: "&9&lItemEdit - Help"
-    header-sub: "&9&lItemEdit %sub% - Help"
-    footer: "%prev_clickable% &9&lHelp [%page%/%max_page%] %next_clickable%"
-    next_text: " &d&l>&m> >&r "
-    prev_text: " &d&l&m< <&d&l< "
-    next_void: " &8&l>&m> >&r "
-    prev_void: " &8&l&m< <&8&l< "
-    next_hover: "&6&lGo to page %target%"
-    prev_hover: "&6&lGo to page %target%"
-    description:
-      - '&6&lShows help'
-      - ''
-      - '&e[page] &bhelp page'
-      - '&e[subcommand] &bhelp for subcommand'
-    params: '[page/subcommand]'
+  help-header: '&9&lItemEdit - Help'
   rename:
     description:
       - '&6&lSet item''s name'
       - ''
-      - '&b&lTip: &btype &e-clear &bto revert name to default'
-      - '&b&lTip: &btype &e-copy &bto copy the name'
-      - '&b&lTip: &btype &e-paste &bto paste previously copied value'
+      - '&b&lTip: &btype &eclear &bto revert name to default'
     params: '<name>'
   lore:
     description:
@@ -49,15 +32,15 @@ itemedit:
       - '&eReplace <replaced> <replacer> &b- replace all occurrences'
     params: '<add/set/remove...> [...]'
     set:
-      params: '<line> <text>'
+      params: 'set <line> <text>'
       description:
         - '&6&lSet or replace text on selected line'
     remove:
-      params: '<line>'
+      params: 'remove <line>'
       description:
         - '&6&lRemove selected line'
     insert:
-      params: '<line> <text>'
+      params: 'insert <line> <text>'
       description:
         - '&6&lAdd text on selected line'
     copy:
@@ -73,7 +56,7 @@ itemedit:
       feedback: '&9[&fItemEdit&9] &aLore pasted'
       no-copy: '&4[&cItemEdit&4] &cCopy a lore first'
     replace:
-      params: '<replaced> <replacer>'
+      params: 'replace <replaced> <replacer>'
       description:
         - '&6&lReplace all occurrences on the lore'
         - ''
@@ -149,10 +132,10 @@ itemedit:
       - ''
       - '&bWorks on leather armor and firework stars, on servers'
       - '&b 1.11+ works on any Potion and Tipped arrows too!'
-      - '&e[red (0-255)] [green (0-255)] [blue (0-255)] &bare the amount of each color to combine'
+      - '&e<red> <green> <blue> &bare the amount of each color to combine'
       - '&bEach color is an int value between 0 and 255'
       - '&bIf you are confused google "&eRGB color picker&b"'
-    params: '[red (0-255)] [green (0-255)] [blue (0-255)]'
+    params: '<red> <green> <blue>'
   enchant:
     wrong-enchant: '&4[&cItemEdit&4] &cWrong Enchant Value! &4[&6hover here&4]'
     description:
@@ -194,18 +177,18 @@ itemedit:
       - '&eReset &b- remove all effects'
     params: '<add/remove/reset> [...]'
     add:
-      params: '<effect> <duration> [level] [particles] [ambient] [icon]'
+      params: 'add <effect> <duration> [level] [particles] [ambient] [icon]'
       description:
         - '&6&lAdds/Override selected effect'
         - ''
         - '&e<effect> &beffect type'
-        - '&e<duration> &bduration in seconds'
+        - '&e<duration> &bduration in seconds, &e0 &bfor instant effects'
         - '&e[level] &bUp to 127, by default &e1'
         - '&e[particles] &bShould show particles? &etrue&b/&efalse'
         - '&e[ambient] &bParticles should have ambient flag? &etrue&b/&efalse'
         - '&e[icon] &bShow icon on top-right corner? &etrue&b/&efalse &b(for 1.13+ only)'
     remove:
-      params: '<effect>'
+      params: 'remove <effect>'
       description:
         - '&6&lRemove selected effect'
   banner:
@@ -215,19 +198,19 @@ itemedit:
     description:
       - '&6&lEdit banner'
     set:
-      params: '<type> <color> <line>'
+      params: 'set <type> <color> <line>'
       description:
         - '&6&lReplace the pattern on selected line'
     add:
-      params: '<type> <color>'
+      params: 'add <type> <color>'
       description:
         - '&6&lAdd a pattern'
     remove:
-      params: '<line>'
+      params: 'remove <line>'
       description:
         - '&6&lRemove pattern on selected line'
     color:
-      params: '<line> <color>'
+      params: 'color <line> <color>'
       description:
         - '&6&lChange pattern color on selected line'
   fireworkpower:
@@ -262,7 +245,7 @@ itemedit:
       - '&eRemove <attribute/slot> &b- removes some modifiers'
     params: '<add/remove> [...]'
     add:
-      params: '<attribute> <amount> [operation] [slot]'
+      params: 'add <attribute> <amount> [operation] [slot]'
       description:
         - '&6&lAdd attribute modifier'
         - ''
@@ -272,7 +255,7 @@ itemedit:
         - '&e[slot] &bapply this modifier only when item is on selected'
         - '&e       equipment slot or any equipment slot if not selected'
     remove:
-      params: '<attribute/slot>'
+      params: 'remove <attribute/slot>'
       description:
         - '&6&lRemove modifiers'
         - ''
@@ -290,19 +273,19 @@ itemedit:
       - '&ebodycolor <color> &b- body color of fish'
     params: '[...]'
     pattern:
-      params: '<type>'
+      params: 'pattern <type>'
       description:
         - '&6&lSet tropical fish pattern type'
         - ''
         - '&e<type> &bpattern type of the fish'
     patterncolor:
-      params: '<color>'
+      params: 'patterncolor <color>'
       description:
         - '&6&lSet tropical fish pattern color'
         - ''
         - '&e<color> &bpattern color of the fish'
     bodycolor:
-      params: '<color>'
+      params: 'bodycolor <color>'
       description:
         - '&6&lSet tropical fish body color'
         - ''
@@ -323,17 +306,6 @@ itemedit:
       - '&bUsed for texture packs'
       - '&e<value> &bpositive int of target data model'
     params: '<value>'
-  itemmodel:
-    description:
-      - '&6&lEdit item model'
-      - ''
-      - '&e<namespaced key> &bkey to set for texture reference'
-      - '&bExample: /ie itemmodel &eiron_sword'
-      - '&bExample: /ie itemmodel &eminecraft:iron_sword'
-      - ''
-      - '&e<namespace>&b:&e<id> &bwill reference model:'
-      - '  /assets/&e<namespace>&b/models/item/&e<id>'
-    params: '<namespaced key>'
   axolotlvariant:
     wrong-type: '&4[&cItemEdit&4] &cItem must be a axolotl bucket'
     wrong-axolotl: '&4[&cItemEdit&4] &cWrong Axolotl Value! &4[&6hover here&4]'
@@ -451,12 +423,10 @@ itemedit:
   food:
     help-header: '&9&lItemEdit Food - Help'
     wrong-effect: '&4[&cItemEdit&4] &cWrong Effect Value! &4[&6hover here&4]'
-    wrong-animation: '&4[&cItemEdit&4] &cWrong Animation Value! &4[&6hover here&4]'
-    wrong-sound: '&4[&cItemEdit&4] &cWrong Sound Value! &4[&6hover here&4]'
     description:
       - '&6&lSets food property of the item'
       - ''
-      - '&bN.B. your drinkable items cannot be eaten'
+      - '&bN.B. you drinkable items cannot be eaten'
       - '&bTip: type &e/ie food&b for more info'
     params: '[...]'
     clear:
@@ -474,31 +444,6 @@ itemedit:
         - '&bUsually food require hunger to be eaten,'
         - '&bsetting true will mimic golden apple behavior'
       params: '[true/false]'
-    consumeparticles:
-      description:
-        - '&6&lSets whenever the item show particles when eaten'
-        - '&bOnly for &c1.21.2+'
-        - ''
-        - '&e[true/false] &bThe value to set, by default toggle'
-      params: '[true/false]'
-    animation:
-      description:
-        - '&6&lSets eat animation'
-        - '&bOnly for &c1.21.2+'
-        - ''
-        - '&e<animation> &bThe value to set, by default toggle'
-        - ''
-        - '&bSome animations are shown only on first person view,'
-        - '&bsome animations are shown only on third person view,'
-        - '&bsome animations are shown on both first and third person view'
-      params: '<animation>'
-    sound:
-      description:
-        - '&6&lSets eat sound'
-        - '&bOnly for &c1.21.2+'
-        - ''
-        - '&e<sound> &bThe value to set'
-      params: '<sound>'
     eatticks:
       description:
         - '&6&lSets the time required to eat the item'
@@ -555,18 +500,17 @@ itemedit:
         - '&6&lRemove effects from the item'
       params: ''
     info:
-      not_food: "&9[&fItemEdit&9] &bItem has no food property or has default property"
+      not_food: "&9[&fItemEdit&9] &aItem has no food property or has default property"
       message:
-        - '&9[&fItemEdit&9] &2&lItem Food Property'
-        - '&aEat time: &e%eatseconds%&a s &8(&7%eatticks%&8 ticks)'
-        - '&aRestore Hunger: &e%nutrition% &8| &aSaturation: &e%saturation%&a '
-        - '&aAnimation: &e%animation% &8| &aSound: &e%sound% &8| &aParticles: &e%consumeparticles%'
-        - '&aEatable when full: &e%canalwayseat% &8| &aWhen eaten obtain: &e%convertto%'
-      apply_effect_prefix:
-        - '&2&lContains &e&l%effects%&2&l possible potion effects:'
-      apply_effect:
-        - '&a%index%. Type: &e&b%type% &8| &aLv: &e%level% &8| &aDuration: &e%duration_s%&a s &8(&7%duration_ticks%&8 ticks)'
-        - '&a   Particles: &e%hasparticle% &8| &aAmbient: &e%isambient% &8| &aIcon: &e%hasicon% &8| &aChance: &e%chance_perc%&a%'
+        - '&9[&fItemEdit&9] &2&bItem Food Property'
+        - '&aItem can be eaten in &e%eatseconds%&a s &8(&7%eatticks%&8 ticks)'
+        - '&aRestore &e%nutrition%&a hunger, &e%saturation%&a saturation'
+        - '&aEatable with full hunger bar? &e%canalwayseat%'
+        - '&aWhen eaten returns an item? &e%convertto%'
+        - '&aItem contains a total of &e%effects%&a possible effects'
+      effect:
+        - '&a%index%. Type: &e&b%type%&a   Lv: &e%level%&a   For: &e%duration_s%&a s &8(&7%duration_ticks%&8 ticks)'
+        - '&a   Particles: &e%hasparticle%&a  Ambient: &e%isambient%&a  Icon: &e%hasicon%&a  Chance: &e%chance_perc%&a%'
       description:
         - '&6&lDescribe current food info for item'
       params: ''
@@ -582,139 +526,6 @@ itemedit:
         - '&bMimic bucket milk behavior where a bucket is'
         - '&breturned when milk is consumed'
       params: '[type/serveritem id]'
-  glider:
-    description:
-      - '&6&lSet Glider state'
-      - ''
-      - '&bGlider item should allow gliding like on elytras'
-      - '&e[true/false] &bset glider value, by default toggle'
-    params: '[true/false]'
-  tooltipstyle:
-    description:
-      - '&6&lEdit item tooltip style'
-      - ''
-      - '&e<style> &bkey to set for texture reference'
-      - '&b  style is composed by <namespace>:<id>'
-      - '&bExample: /ie tooltipstyle &emy_style'
-      - '&bExample: /ie tooltipstyle &eminecraft:my_style'
-      - '&bwhere minecraft is the <namespace> and'
-      - '&bmy_style is the <id>'
-      - '&bwhen set, this item can use custom sprites for'
-      - '&bits tooltip background and frame.'
-      - '&b<namespace>:tooltip/<id>_background'
-      - '&band <namespace>:tooltip/<id>_frame'
-    params: '<style/clear>'
-  equipment:
-    wrong-boolean: '&4[&cItemEdit&4] &cWrong Boolean Value! &4[&6hover here&4]'
-    wrong-sound: '&4[&cItemEdit&4] &cWrong Sound Value! &4[&6hover here&4]'
-    wrong-slot: '&4[&cItemEdit&4] &cWrong Equipment Value! &4[&6hover here&4]'
-    wrong-entitytype: '&4[&cItemEdit&4] &cWrong EntityType Value! &4[&6hover here&4]'
-    wrong-entitygroup: '&4[&cItemEdit&4] &cWrong EntityGroup Value! &4[&6hover here&4]'
-    description:
-      - '&6&lSets equipment property of the item'
-      - ''
-      - '&bTip: type &e/ie equipment&b for more info'
-    params: '<slot/...>'
-    help-header: '&9&lItemEdit Equipment - Help'
-    slot:
-      description:
-        - '&6&lSets equippable slot'
-        - ''
-        - '&e<slot> &bwhere the item can be equipped'
-      params: "<slot>"
-      feedback: "&aEquipment Slot is now &e%value%"
-    swappable:
-      description:
-        - '&6&lSets the item swappable'
-        - ''
-        - '&e[true/false] &btrue for the item to be swappable'
-      params: "[true/false]"
-      feedback: "&aSwappable property is now &e%value%"
-    allowedentities:
-      invalid-type: '&4[&cItemEdit&4] &cThe value &6%value% &cis neither a valid entity nor a valid group of entities'
-      description:
-        - '&6&lSets entity types allowed to wear this equipment'
-        - ''
-        - '&e[entity] &bwhich entity type'
-        - '&e[group] &bwhich entity group'
-        - ''
-        - '&bAll selected types are added'
-      params: "[entity/group] [entity/group] ..."
-      feedback: "&aAllowed entity types are now: &e%value%"
-      feedback-reset: "&aAllowed entity types have been reset"
-    equipsound:
-      description:
-        - '&6&lSets equipping sound'
-        - ''
-        - '&e[sound] &bwhich sound should be made'
-      params: "[sound]"
-      feedback: "&aEquip sound property is now &e%value%"
-      feedback-reset: "&aEquip sound property has been reset to default"
-    equiponinteract:
-      description:
-        - '&6&lSets equip on interaction'
-        - ''
-        - '&e[true/false] &btrue to equip with interaction'
-      params: "[true/false]"
-      feedback: "&aEquip on interact property is now &e%value%"
-    shearsound:
-      description:
-        - '&6&lSets sound when item is removed by shear'
-        - ''
-        - '&e[sound] &bwhich sound should be made'
-        - '&bwhen it''s removed by shear, like pumpkin'
-        - '&bfor snowman'
-      params: "[sound]"
-      feedback: "&aShear sound is now &e%value%"
-      feedback-reset: "&aShear sound property has been reset to default"
-    canshear:
-      unsupported-version: '&4[&cItemEdit&4] &cYou server version (&6%value%&c) doesn''t support this feature'
-      description:
-        - '&6&lSets equip on interaction'
-        - ''
-        - '&e[true/false] &btrue be able to shear the'
-        - '&bequipment from and entity, like pumpkin'
-        - '&bfor snowman'
-      params: "[true/false]"
-      feedback: "&aCan shear property is now &e%value%"
-    dispensable:
-      description:
-        - '&6&lSets dispensable'
-        - ''
-        - '&e[true/false] &btrue to equip with dispenser'
-      params: "[true/false]"
-      feedback: "&aDispensable property is now &e%value%"
-    damageonhurt:
-      description:
-        - '&6&lSets damageable'
-        - ''
-        - '&e[true/false] &btrue to reduce durability with damage'
-        - ''
-        - '&bN.B. only item with max stack size of 1 can be damaged'
-        - '&b  use &e/ie maxstacksize 1'
-        - '&bTip: remember to set item max durability with'
-        - '  &e/ie maxdurability <amount>'
-      params: "[true/false]"
-      feedback: "&aDamage on hurt property is now &e%value%"
-      warning-maxstacksize: '&4[&cItemEdit&4] &cItem max stack size must be &61 &cto be damageable &4[&6click to fix&4]'
-    cameraoverlay:
-      description:
-      - '&6&lSets camera overlay'
-      - ''
-      - '&e[namespacedkey] &bwhich overlay you want'
-      - '&bOverlays are set on texturepacks, the only vanilla'
-      - '&boverlay is the minecraft:misc/pumpkinblur'
-      params: "[namespacedkey]"
-      feedback: "&aCamera overlay has been updated"
-      feedback-reset: "&aCamera overlay has been removed"
-      invalid-namespacedkey: "&cNamespacedkey &6%value% &c is invalid"
-    clear:
-      description:
-        - '&6&lCompletely remove equipment property on item'
-        - ''
-        - '&bOr restore defaults if item is a vanilla equipment'
-      params: ""
-      feedback: "&aEquipment properties have been reset to default"
 serveritem:
   help-header: '&9&lServerItem - Help'
   give:

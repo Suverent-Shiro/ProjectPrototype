@@ -7,23 +7,23 @@
 # ======================================================
 player_interface:
   size: 27
-  inventory_name: "&9&l⛏ &bDzienne zadania"
+  inventory_name: "&4&l⛏ &cDaily questy"
   # disable the status of the quest if you want to handle it manually by placeholders
   disable_status: false
   # the 3 following lines will not be used if disable_status is set to true
   status: "&ePostęp:"
-  progress: "&eW trakcie... (&a%progress%&e/&c%required%&e)"
-  achieved: "&aUkończono!"
+  progress: "&eW trakcie (&a%progress%&e/&c%required%&e)"
+  achieved: "&aWykonano!"
   # if you want to glow the item when the quest is achieved
   glowing_if_achieved: true
   complete_get_type: "&eKliknij aby ukończyć te zadanie!"
   player_head:
     enabled: true
     slot: 5
-    item_name: "&bPostęp dziennych zadań"
+    item_name: "&bTwoje questy"
     item_description:
-      - "&eUkończone zadania: &b%achieved%&e/&64"
-      - "&eNastępne zadania: &c%drawIn%"
+      - "&eUkończone questy: &b%achieved%&e/&64"
+      - "&eNastępne questy: &c%drawIn%"
 
   # ========================================================
   # Available types : FILL, PLAYER_COMMAND, CONSOLE_COMMAND
@@ -39,16 +39,9 @@ player_interface:
     0:
       type: CLOSE
       item:
-        material: BARRIER
+        material: REDSTONE_BLOCK
         name: "&cZamknij"
-        lore:
-          - "&9Wykonuj &b4&9 dzienne zadania aby zdobywać nagrody!"
-          - ""
-          - "&9Za ukończenie wszystkich &b4 &9dziennych zadań w dniu otrzymasz"
-          - "&6Token dziennych zadań &9które możesz rozmieniać na dalsze nagrody!"
-          - ""
-          - "&6§oToken dziennych zadań &7&omożna rozmienić u NPC we wszystkich głównych"
-          - "&7&omiejscówkach."
+        lore: []
         slot: 27
     2:
       type: FILL
@@ -156,16 +149,7 @@ player_interface:
         material: GRAY_STAINED_GLASS_PANE
         slot: 26
     23:
-      type: PLAYER_COMMAND
+      type: FILL
       item:
-        material: MAP
-        name: "&bCo to jest?"
-        lore: 
-          - "&9Wykonuj &b4&9 dzienne zadania aby zdobywać nagrody!"
-          - ""
-          - "&9Za ukończenie wszystkich &b4 &9dziennych zadań w dniu otrzymasz"
-          - "&6Token dziennych zadań &9które możesz rozmieniać na dalsze nagrody!"
-          - ""
-          - "&6§oToken dziennych zadań &7&omożna rozmienić u NPC we wszystkich głównych"
-          - "&7&omiejscówkach."
+        material: GRAY_STAINED_GLASS_PANE
         slot: 19

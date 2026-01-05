@@ -55,31 +55,6 @@ itemedit:
     name: ''
   type:
     name: ''
-  help:
-    name: help
-    commands_per_page: 8
-  hidetooltip:
-    name: ''
-  equipment:
-    name: ''
-  food:
-    name: ''
-  maxstacksize:
-    name: ''
-  maxdurability:
-    name: ''
-  fireresistent:
-    name: ''
-  glider:
-    name: ''
-  glow:
-    name: ''
-  rarity:
-    name: ''
-  itemmodel:
-    name: ''
-  tooltipstyle:
-    name: ''
 serveritem:
   give:
     name: give

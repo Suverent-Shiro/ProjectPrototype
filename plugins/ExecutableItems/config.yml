@@ -32,10 +32,3 @@ logs:
   spawned: true
 config_12_04_2024: true
 silentGive: false
-texturesPackUrl: ''
-selfHostPack: true
-enableTexturesPack: true
-updateOldItems: false
-itemCheckWithNBTAPI: false
-muteModification: false
-debugOnlyRun: false
