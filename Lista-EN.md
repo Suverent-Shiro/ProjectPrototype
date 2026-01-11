@@ -12,7 +12,7 @@
 <!----------------------------------------------------------------------------->
 
 ## Project: Prototype 3.2
-Release 3.2 jest dostępne na wersje **1.21.4**-**1.21.11**
+Release 3.2 is available for versions **1.21.4**-**1.21.11**
 > Minecraft 1.21.4-1.21.10
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.13 \ EngineHub
   - [WorldGuardExtraFlagsPlus](https://github.com/tins-dev/WorldGuardExtraFlagsPlus) 4.3.5 \ tins-dev
@@ -82,7 +82,7 @@ Release 3.2 jest dostępne na wersje **1.21.4**-**1.21.11**
 <!----------------------------------------------------------------------------->
 
 ## Project: Prototype 3.1
-Release 3.1 is available for versions **1.21.1** / **1.21.4** / **1.21.11**
+Release 3.1 is available for versions **1.21.1**
 > Minecraft 1.21.1
   - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.12 \ EngineHub
   - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
@@ -116,77 +116,6 @@ Release 3.1 is available for versions **1.21.1** / **1.21.4** / **1.21.11**
   - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) 1.4.4-SNAPSHOT \ BUTTERFIELD8
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
 
-*I am not the owner of the plugins listed above. They are owned by their respective authors. The plugins are not included in the Project: Prototype repository, only their configurations are provided here.*
-
-> Minecraft 1.21.4
-  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.12 \ EngineHub
-  - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
-  - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.8 \ EngineHub
-  - [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) 5.4.1 \ FormallyMyles
-  - [Vault](https://www.spigotmc.org/resources/vault.34315/) 1.7.3-b131 \ Sleaker
-  - [Spark](https://www.spigotmc.org/resources/spark.57242/) 1.10.139 \ Luck
-  - [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/) 2.23.10 \ blablubbabc
-  - [SternalBoard](https://www.spigotmc.org/resources/sternalboard-simple-animated-scoreboard.89245/) 2.3.2 \ xIsm4PvP
-  - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) 5.3.0 \ dmulloy2
-  - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) 2.11.6 \ HelpCat
-  - [Orebfuscator](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/) 5.5.4 \ ingrim4
-  - [nightcore](https://github.com/nulli0n/nightcore-spigot/releases) 2.7.12.4 \ NightExpress
-  - [NBTAPI](https://www.spigotmc.org/resources/nbt-api.7939/) 2.15.1 \ tr7zw
-  - [LuckPerms](https://luckperms.net/) 5.5.10 \ Luck
-  - [LevelledMobs](https://www.spigotmc.org/resources/levelledmobs.74304/) 4.3.2.1 b125 \ stumper66
-  - [ItemEdit](https://www.spigotmc.org/resources/itemedit-1-8-x-1-21-x.40993/) 3.7.4 \ emanon
-  - [InvSee++](https://modrinth.com/plugin/invsee++) 0.30.7 \ Jannyboy11
-  - [InteractiveChat](https://www.spigotmc.org/resources/interactivechat-show-items-inventory-in-chat-custom-chat-keywords-bungee-velocity-support.75870/) 4.3.2.0 \ loohp
-  - [GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-16-1-21-6.62325/) 2.4.3 \ Gecolay
-  - [EssentialsX](https://essentialsx.net/) 2.22.0 \ broccolai, Chew, darbyjack, DoNotSpamPls, drtshock, Evidentsinger14, Ichbinjoe, JRoy, kashike, LaxWasHere, mbax, pop4959, SupaHam, triagonal
-    - EssentialsX Chat 2.22.0
-    - EssentialsX Spawn 2.22.0
-    - EssentialsX AntiBuild 2.22.0
-  - [eShulkerBox](https://www.spigotmc.org/resources/eshulkerbox-let-players-interact-with-shulker-boxes-in-a-better-way-and-comfort.106156/) 0.8.1 \ Sweet_Duck
-  - [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-5-papi-support-no-dependencies.96927/) 2.9.6 \ d0by
-  - [CustomDrops](https://modrinth.com/plugin/customdrops) 1.4.3-BETA \ OG_Ali
-  - [CoreProtect](https://www.spigotmc.org/resources/coreprotect.8631/) 22.4 \ Intelli
-  - [CombatLogX](https://www.spigotmc.org/resources/combatlogx.31689/) 11.6.0.0.1286 \ SirBlobman
-  - BlueSlimeCore 2.9.7.482 \ SirBlobman (*This plugin is included together with CombatLogX*)
-  - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) 1.4.4-SNAPSHOT \ BUTTERFIELD8
-  - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
-
-*I am not the owner of the plugins listed above. They are owned by their respective authors. The plugins are not included in the Project: Prototype repository, only their configurations are provided here.*
-
-> Minecraft 1.21.11
-  - [WorldGuard](https://dev.bukkit.org/projects/worldguard) 7.0.12 \ EngineHub
-  - [WorldGuardExtraFlags](https://www.spigotmc.org/resources/worldguard-extra-flags.4823/) 4.2.3 \ isokissa3
-  - [WorldEdit](https://dev.bukkit.org/projects/worldedit) 7.3.8 \ EngineHub
-  - [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) 5.4.1 \ FormallyMyles
-  - [Vault](https://www.spigotmc.org/resources/vault.34315/) 1.7.3-b131 \ Sleaker
-  - [Spark](https://www.spigotmc.org/resources/spark.57242/) 1.10.139 \ Luck
-  - [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/) 2.23.10 \ blablubbabc
-  - [SternalBoard](https://www.spigotmc.org/resources/sternalboard-simple-animated-scoreboard.89245/) 2.3.2 \ xIsm4PvP
-  - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) 5.3.0 \ dmulloy2
-  - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) 2.11.6 \ HelpCat
-  - [Orebfuscator](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/) 5.5.4 \ ingrim4
-  - [nightcore](https://github.com/nulli0n/nightcore-spigot/releases) 2.7.12.4 \ NightExpress
-  - [NBTAPI](https://www.spigotmc.org/resources/nbt-api.7939/) 2.15.1 \ tr7zw
-  - [LuckPerms](https://luckperms.net/) 5.5.10 \ Luck
-  - [LevelledMobs](https://www.spigotmc.org/resources/levelledmobs.74304/) 4.3.2.1 b125 \ stumper66
-  - [ItemEdit](https://www.spigotmc.org/resources/itemedit-1-8-x-1-21-x.40993/) 3.7.4 \ emanon
-  - [InvSee++](https://modrinth.com/plugin/invsee++) 0.30.7 \ Jannyboy11
-  - [InteractiveChat](https://www.spigotmc.org/resources/interactivechat-show-items-inventory-in-chat-custom-chat-keywords-bungee-velocity-support.75870/) 4.3.2.0 \ loohp
-  - [GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-16-1-21-6.62325/) 2.4.3 \ Gecolay
-  - [EssentialsX](https://essentialsx.net/) 2.22.0 \ broccolai, Chew, darbyjack, DoNotSpamPls, drtshock, Evidentsinger14, Ichbinjoe, JRoy, kashike, LaxWasHere, mbax, pop4959, SupaHam, triagonal
-    - EssentialsX Chat 2.22.0
-    - EssentialsX Spawn 2.22.0
-    - EssentialsX AntiBuild 2.22.0
-  - [eShulkerBox](https://www.spigotmc.org/resources/eshulkerbox-let-players-interact-with-shulker-boxes-in-a-better-way-and-comfort.106156/) 0.8.1 \ Sweet_Duck
-  - [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-5-papi-support-no-dependencies.96927/) 2.9.6 \ d0by
-  - [CustomDrops](https://modrinth.com/plugin/customdrops) 1.4.3-BETA \ OG_Ali
-  - [CoreProtect](https://www.spigotmc.org/resources/coreprotect.8631/) 22.4 \ Intelli
-  - [CombatLogX](https://www.spigotmc.org/resources/combatlogx.31689/) 11.6.0.0.1286 \ SirBlobman
-  - BlueSlimeCore 2.9.7.482 \ SirBlobman (*This plugin is included together with CombatLogX*)
-  - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) 1.4.4-SNAPSHOT \ BUTTERFIELD8
-  - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
-
-*Nie jestem właścicielem zawartych powyżej pluginów. Są one własnością ich autorów. Pluginy nie są uwzględnione w repozytorium Project: Prototype, znajdują się tutaj tylko ich konfiguracje.*
 
 <!----------------------------------------------------------------------------->
 
@@ -241,4 +170,4 @@ Release 3.0 is available for version **1.20.2**
 
 <!----------------------------------------------------------------------------->
 
-> This list contains the complete list of plugins included in all releases of Project: Prototype. It also includes plugins that are no longer present in newer releases.
+> *I am not the owner of the plugins listed above. They are owned by their respective authors. The plugins are not included in the Project: Prototype repository, only their configurations are provided here.*
