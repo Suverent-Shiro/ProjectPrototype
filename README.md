@@ -2,6 +2,11 @@
 
 <img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo"/>
 
+> [!IMPORTANT]
+> Wraz z 07.05.2026 Project: Prototype zostaje porzucone.
+>
+> Te repozytorium zostało zarchiwizowane i nie będzie już aktualizowane.
+
 <!----------------------------------------------------------------------------->
 # ⚡Project: Prototype
 

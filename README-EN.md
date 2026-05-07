@@ -1,5 +1,10 @@
 <img src=".github/ProjectPrototypeLogo.png" alt="Project Prototype Logo"/>
 
+> [!IMPORTANT]
+> Since 07 May 2026 Project: Prototype was abandoned.
+>
+> This repo will be archived and will not be updated.
+
 <!----------------------------------------------------------------------------->
 # ⚡Project: Prototype
 
